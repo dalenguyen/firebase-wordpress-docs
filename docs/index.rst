@@ -7,10 +7,10 @@ This is a guilde to `Integrate Firebase PRO: <https://firebase.dalenguyen.me/>` 
    :maxdepth: 2
    :caption: Contents:
 
-    introduction
-    firebase-wordpress-integration
-    retrive-data-from-firestore
-    work-with-firebase-custom-claims
+   introduction
+   firebase-wordpress-integration
+   retrive-data-from-firestore
+   work-with-firebase-custom-claims
 
 
 Indices and tables
