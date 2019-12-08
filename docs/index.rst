@@ -1,7 +1,7 @@
 Complete Guide to Firebase WordPress Integration
 ==========================================================
 
-This is a guilde to `Integrate Firebase PRO: <https://firebase.dalenguyen.me/>` - a plugin that helps to integrate Firebase to WordPress.
+This is a guilde to `Integrate Firebase PRO: <https://firebase.dalenguyen.me/>`_ a plugin that helps to integrate Firebase to WordPress.
 
 .. toctree::
    :maxdepth: 2
