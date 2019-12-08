@@ -32,7 +32,8 @@ If you are using PRO version, there is another folder named **firebase-wordpress
 
 Before deploying any functions, you should create a token for security purpose. 
 
-.. code-bock:: bash 
+.. code-block:: bash
+
     // Generate random token
     node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
 
@@ -45,6 +46,7 @@ Before deploying any functions, you should create a token for security purpose.
 Start deploying firebase functions
 
 .. code-block:: bash
+
     cd functions
     yarn deploy
     // OR 
@@ -53,6 +55,7 @@ Start deploying firebase functions
 The deployment result should look like this
 
 .. code-block:: bash 
+
     ✔  functions: Finished running predeploy script.
     i  functions: ensuring necessary APIs are enabled...
     ✔  functions: all necessary APIs are enabled
@@ -76,4 +79,3 @@ After that, you should update your Firebase setting with the token and firebase 
     :align: center
 
     Firebase setting
-
