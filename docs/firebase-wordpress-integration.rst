@@ -21,6 +21,59 @@ After you activate the plugin, you need to enter the Firebase credential in the 
     :scale: 70%
     :align: center
 
-    General Configuration
+    General configuration
 
 After that, you can create login form, show data, show logout button… on WordPress frontend.
+
+Firebase Functions Deployment (PRO version only)
+----------------------------------
+
+If you are using PRO version, there is another folder named **firebase-wordpress-functions**. If you want to manage database, Firebase users and custom functions, you should deploy the functions together with the plugin. Make sure that you have Nodejs installed on your machine. 
+
+Before deploying any functions, you should create a token for security purpose. 
+
+.. code-bock:: bash 
+    // Generate random token
+    node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
+
+    // Set your token to firebase configuration
+    firebase functions:config:set api.token=your-secret-key
+
+    // Check your api token
+    firebase functions:config:get api.token
+
+Start deploying firebase functions
+
+.. code-block:: bash
+    cd functions
+    yarn deploy
+    // OR 
+    npm run deploy 
+
+The deployment result should look like this
+
+.. code-block:: bash 
+    ✔  functions: Finished running predeploy script.
+    i  functions: ensuring necessary APIs are enabled...
+    ✔  functions: all necessary APIs are enabled
+    i  functions: preparing functions directory for uploading...
+    i  functions: packaged functions (103.29 KB) for uploading
+    ✔  functions: functions folder uploaded successfully
+    i  functions: updating Node.js 10 (Beta) function api-user(us-central1)...
+    i  functions: updating Node.js 10 (Beta) function api-database(us-central1)...
+    ✔  functions[api-user(us-central1)]: Successful update operation. 
+    ✔  functions[api-database(us-central1)]: Successful update operation. 
+
+    ✔  Deploy complete!
+
+    Project Console: https://console.firebase.google.com/project/your-project-name/overview
+    ✨  Done in 77.56s.
+
+After that, you should update your Firebase setting with the token and firebase functions url (e.g. *https://us-central1-project-name.cloudfunctions.net*)
+
+.. figure:: images/firebase-setting.png
+    :scale: 70%
+    :align: center
+
+    Firebase setting
+
