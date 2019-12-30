@@ -11,13 +11,7 @@ If you are interested in making this plugin better, please take part in this sur
 
    introduction
    firebase-wordpress-integration
+   work-with-firebaseui-web
    retrive-data-from-firestore
    work-with-firebase-custom-claims
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   change-log
