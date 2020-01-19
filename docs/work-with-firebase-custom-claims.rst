@@ -3,6 +3,28 @@ How to Work With Firebase Custom Claims in WordPress
 
 We already knew how to get and display data to WordPress. What if you want to display data to the user who is admin (through custom claims of course), and display something else to the others or just show nothing.
 
+Using shortcode to display custom data
+----------------------------------
+
+Since version 0.5.6, I added a shortcode that helps to display data if users log in and have the right custom claims.
+
+.. code-block:: php
+
+    [firebase_show_with_claims 
+        class='your-class-name' 
+        claims='admin' 
+        message='Custom message'
+    ]
+        HTML Data With Tags
+    [/firebase_show_with_claims]
+
++ class='your-class-name': custom class that you can add style to the element
++ claims='admin': user's claims
++ message='Custom message': this message will show to invalid user
+
+Using custom code to display custom data
+----------------------------------
+
 This is the original code to retrieve and display data.
 
 .. code-block:: javascript
@@ -91,5 +113,3 @@ The **showFirestoreDatabase()** function will display data on WordPress. Now, we
 After checking the user's custom claims, and make sure that it's admin. Then we will call showFirestoreDatabase() function.
 
 This tutorial doesn't limit to retrieve data from Firestore, you can put any functions or features after checking the custom claims.
-
-In the next update, I will update the plugin to support custom claims through shortcodes.
