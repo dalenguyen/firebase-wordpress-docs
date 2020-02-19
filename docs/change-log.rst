@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.5.7 ] - 16-02-2020
+----------------------------------
+
+- Updated firebase scripts to v7.8.2
+- Hide greetings when signing out
+
+## [ 0.5.6 ] - 21-12-2019
+----------------------------------
+ 
+- Display data with claims
+
 ## [ 0.5.5 ] - 21-12-2019
 ----------------------------------
 
