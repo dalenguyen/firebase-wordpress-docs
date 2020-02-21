@@ -14,4 +14,5 @@ If you are interested in making this plugin better, please take part in this sur
    work-with-firebaseui-web
    retreive-data-from-firestore
    work-with-firebase-custom-claims
+   roadmap
    change-log

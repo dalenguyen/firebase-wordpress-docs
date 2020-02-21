@@ -88,6 +88,7 @@ Before deploying any functions, you should create a token for security purpose.
 Install packages and build functions. I'm using Yarn, you can use npm if you want.
 
 .. code-block:: bash
+
     cd functions/
     yarn OR npm install
     yarn build OR npm run build
