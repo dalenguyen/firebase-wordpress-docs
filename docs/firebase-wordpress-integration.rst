@@ -53,10 +53,24 @@ After you activate the plugin, you need to enter the Firebase credentials in the
 
 After that, you can create login form, show data, show logout button… on WordPress frontend.
 
-Firebase Functions Deployment (PRO version only)
+Firebase Cloud Functions Deployment (PRO version only)
 ----------------------------------
 
 If you are using PRO version, there is another folder named **firebase-wordpress-functions**. If you want to manage database, Firebase users and custom functions, you should deploy the functions together with the plugin. Make sure that you have Nodejs installed on your machine. 
+
+In order to deploy cloud functions, you need to have `Nodejs <https://nodejs.org/en/>`_ installed on your machine. 
+
+Then install `firebase-tools <https://firebase.google.com/docs/cli>`_ packaged
+
+.. code-block:: bash
+
+    npm install -g firebase-tools
+
+SignIn and test firebase cli
+
+.. code-block:: bash
+
+    firebase login
 
 Before deploying any functions, you should create a token for security purpose. 
 
@@ -71,14 +85,23 @@ Before deploying any functions, you should create a token for security purpose.
     // Check your api token
     firebase functions:config:get api.token
 
+Install packages and build functions. I'm using Yarn, you can use npm if you want.
+
+.. code-block:: bash
+    cd functions/
+    yarn OR npm install
+    yarn build OR npm run build
+
+The code will go to *functions* folder. Install packages with yarn / npm and start building functions.
+
 Start deploying firebase functions
 
 .. code-block:: bash
 
     cd functions
-    yarn deploy
+    yarn deploy --project your-project-name
     // OR 
-    npm run deploy 
+    npm run deploy --project your-project-name
 
 The deployment result should look like this
 
