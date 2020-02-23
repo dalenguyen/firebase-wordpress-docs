@@ -72,18 +72,21 @@ SignIn and test firebase cli
 
     firebase login
 
-Before deploying any functions, you should create a token for security purpose. 
+Since version 0.5.8, before deploying any functions, you should create two tokens for security purpose. One for Wordpress dashboard usage, the other is for Wordress frontend.
 
 .. code-block:: bash
 
     // Generate random token
     node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
 
-    // Set your token to firebase configuration
-    firebase functions:config:set api.token=your-secret-key
+    // Set your token to firebase configuration (dashboard token)
+    firebase functions:config:set api.dashboard_token=your-secret-key --project project-name
+
+    // Set your token to firebase configuration (frontend token)
+    firebase functions:config:set api.frontend_token=your-secret-key --project project-name
 
     // Check your api token
-    firebase functions:config:get api.token
+    firebase functions:config:get api --project project-name
 
 Install packages and build functions. I'm using Yarn, you can use npm if you want.
 

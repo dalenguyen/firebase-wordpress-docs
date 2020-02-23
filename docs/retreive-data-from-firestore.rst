@@ -7,6 +7,24 @@ In this tutorial, I will show you how to retrieve the database from your Firesto
 - Update the firebase configuration on the Firebase dashboard
 - Make sure that Firebase security rules allow you to access the document with or without logging in
 
+The plugin support getting one document and display on the frontend as a table with the shortcode. 
+
+.. code-block:: php
+
+    // Get document id '1' from 'users' collection from realtime database
+    [realtime class='your-class-name' collection_name='users' document_name='1']
+
+    // Get document id '1' from 'users' collection from firestore
+    [firestore class='your-class-name' collection_name='users' document_name='1']
+
+.. figure:: images/database/show-database-from-shortcode.png
+    :scale: 70%
+    :align: center
+
+    Display data from firebase
+
+If the default shortcode doesn't suite your needs, you can create a custom one. Please follow the guide below.
+
 Step 1: Create a custom shortcode
 ----------------------------------
 
