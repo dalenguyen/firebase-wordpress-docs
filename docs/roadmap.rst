@@ -3,7 +3,6 @@ Roadmap
 
 Here is the of the feature that I will add for the next release.
 
-- Create new document to Realtime database or Firestore on WordPress frontend (ETA: End of Feb 2020)
 - Integrate Storage management on Dashboard
 - Signin to WordPress with Firebase Credentials
 

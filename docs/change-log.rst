@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.5.8 ] - 20-02-2020
+----------------------------------
+
+- Breaking change for getting database: you need to update wordpress firebase functions to 0.5.8.
+- Added create data for Realtime database & firestore with Contact Form 7
+- Added warning for missing [firebaseui_web] globally
+- Moved environment variables to one source
+
 ## [ 0.5.7 ] - 16-02-2020
 ----------------------------------
 
