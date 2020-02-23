@@ -94,9 +94,8 @@ Install packages and build functions. I'm using Yarn, you can use npm if you wan
 
     cd functions/
     yarn OR npm install
-    yarn build OR npm run build
 
-The code will go to *functions* folder. Install packages with yarn / npm and start building functions.
+The code will go to *functions* folder, then installs packages with yarn / npm.
 
 Start deploying firebase functions
 
@@ -127,7 +126,7 @@ The deployment result should look like this
     Project Console: https://console.firebase.google.com/project/your-project-name/overview
     ✨  Done in 77.56s.
 
-After that, you should update your Firebase setting with the token and firebase functions url (e.g. *https://us-central1-project-name.cloudfunctions.net*)
+After that, you should update your Firebase setting with the dashboad token and frontend token and firebase functions url (e.g. *https://us-central1-project-name.cloudfunctions.net*)
 
 .. figure:: images/firebase-setting.png
     :scale: 70%
