@@ -22,7 +22,7 @@ copyright = '2020, Dale Nguyen'
 author = 'Dale Nguyen'
 
 # The short X.Y version
-version = 'v0.5.8'
+version = 'v0.6.0'
 
 # -- General configuration ---------------------------------------------------
 

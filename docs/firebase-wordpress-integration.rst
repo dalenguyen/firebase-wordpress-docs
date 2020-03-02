@@ -72,7 +72,7 @@ SignIn and test firebase cli
 
     firebase login
 
-Since version 0.5.8, before deploying any functions, you should create two tokens for security purpose. One for Wordpress dashboard usage, the other is for Wordress frontend.
+Since version 0.6.0, before deploying any functions, you should create two tokens for security purpose. One for Wordpress dashboard usage, the other is for Wordress frontend.
 
 .. code-block:: bash
 

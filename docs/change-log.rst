@@ -3,6 +3,12 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.6.0 ] - 01-03-2020
+----------------------------------
+
+- Update firebase scripts from 7.8.2 to 7.9.3
+- Added send cloud message to a topic feature
+
 ## [ 0.5.8 ] - 20-02-2020
 ----------------------------------
 
