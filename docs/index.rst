@@ -11,7 +11,9 @@ If you are interested in making this plugin better, please take part in this sur
 
    introduction
    firebase-wordpress-integration
+   shortcode-list
    work-with-firebaseui-web
+   wordpress-user-integration
    firebase-cloud-message
    save-data-realtime-firestore
    retreive-data-from-firestore
