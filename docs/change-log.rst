@@ -3,16 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
-## [ 0.7.0 ] - 08-03-2020
-----------------------------------
+## [ 0.7.0 ] - 13-03-2020
 
 - Styled add new user button
 - Created and log in Firebase Users to WordPress
 - Redirect login page feature
 - Added Rest API for creating new Users (Subscriber)
+- Updated FirebaseUI Web to 4.5.0
+- Bring Firebase Menu to the front
+- Prevent normal user to see dashboard token when they log in
+- Updated about page
+- Show realtime & firestore data based on security rules
 
 ## [ 0.6.0 ] - 01-03-2020
-----------------------------------
 
 - Update firebase scripts from 7.8.2 to 7.9.3
 - Added send cloud message to a topic feature

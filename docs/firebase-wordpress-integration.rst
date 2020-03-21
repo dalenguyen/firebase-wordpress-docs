@@ -43,7 +43,7 @@ Installation Process
 
 After you have downloaded the plugin, you can use default installation process in order to install the plugin. Otherwise, you can always manually upload the plugin to your plugin folder through FTP client.
 
-After you activate the plugin, you need to enter the Firebase credentials in the **Settings > Firebase**.
+After you activate the plugin, you need to enter the Firebase credentials in the **Dashboard > Firebase**.
 
 .. figure:: images/general.png
     :scale: 70%

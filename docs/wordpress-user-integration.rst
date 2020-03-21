@@ -1,4 +1,4 @@
-WordPress User Integration (Not Realease Yet)
+WordPress User Integration
 =============
 
 This feature is available since **v0.7.0**. There are a lots of tasks that needs to be done in order to make the integration much better for WordPress and Firebase Users because they are in two separate systems.
@@ -12,15 +12,19 @@ At this stage, it helps to authenticate to WordPress dashboard with a subscriber
 How to Login to WP Dashboard with Firebase Users
 ----------------------------------
 
-This flow will utilize FirebaseUI Web workflow in order to authenticate users. In order to that, you have to log in to WordPress Dashboard, then **Settings > Firebase > Auth**.
+**Note:** Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with admin rights). 
 
-.. figure:: images/auth/firebase-auth-settings-for-wordpress.png
+In case of logging out without assign another user with admin rights, you can rename the plugin folder, and login as usual.
+
+This flow will utilize FirebaseUI Web workflow in order to authenticate users. In order to that, you have to log in to WordPress Dashboard, then **Dashboard > Firebase > Auth**.
+
+.. figure:: images/auth/wp-login-with-firebase.png
     :scale: 70%
     :align: center
 
     Firebase Auth Settings
 
-Check **"Allow Login to WP Dashboard"** and enter you **Login Url**. It could be your homepage or a separate page just for logging in. From now, everytime users navigate to https://your-webiste.com/wp-login, it will redirect to your new login page.
+Check **Allow Login to WP Dashboard** and enter you **Login Url**. It could be your homepage or a separate page just for logging in. From now, everytime users navigate to https://your-webiste.com/wp-admin, it will redirect to your new login page.
 
 This page will contain the shortcode for logging in.
 
