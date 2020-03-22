@@ -80,13 +80,13 @@ Since version 0.6.0, before deploying any functions, you should create two token
     node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
 
     // Set your token to firebase configuration (dashboard token)
-    firebase functions:config:set api.dashboard_token=your-secret-key --project project-name
+    firebase functions:config:set api.dashboard_token=your-secret-key --project project-id
 
     // Set your token to firebase configuration (frontend token)
-    firebase functions:config:set api.frontend_token=your-secret-key --project project-name
+    firebase functions:config:set api.frontend_token=your-secret-key --project project-id
 
     // Check your api token
-    firebase functions:config:get api --project project-name
+    firebase functions:config:get api --project project-id
 
 Install packages and build functions. I'm using Yarn, you can use npm if you want.
 
@@ -102,9 +102,9 @@ Start deploying firebase functions
 .. code-block:: bash
 
     cd functions
-    yarn deploy --project your-project-name
+    yarn deploy --project project-id
     // OR 
-    npm run deploy --project your-project-name
+    npm run deploy --project project-id
 
 The deployment result should look like this
 
@@ -123,10 +123,10 @@ The deployment result should look like this
 
     ✔  Deploy complete!
 
-    Project Console: https://console.firebase.google.com/project/your-project-name/overview
+    Project Console: https://console.firebase.google.com/project/project-id/overview
     ✨  Done in 77.56s.
 
-After that, you should update your Firebase setting with the dashboad token and frontend token and firebase functions url (e.g. *https://us-central1-project-name.cloudfunctions.net*)
+After that, you should update your Firebase setting with the dashboad token and frontend token and firebase functions url (e.g. *https://us-central1-project-id.cloudfunctions.net*)
 
 .. figure:: images/firebase-setting.png
     :scale: 70%
