@@ -7,7 +7,7 @@ How To Enable FirebaseUI Web (User Authentication)
 
 .. role:: red
 
-This feature will help to you register, login and logout on WordPress with your Firebase Users. :red:`However, this won't let your users login to WordPress Dashboard`.
+This feature will help to you register, login and logout on WordPress with your Firebase Users. :red:`However, this won't let your users login to WordPress Dashboard. If you want to sync the Users between two systems, please read the WordPress User Integration section in this guide`.
 
 Before showing the `FirebaseUI Web <https://github.com/firebase/firebaseui-web>`_ on your WordPress, you need to enable sign-in options in *Firebase > Authentication*
 

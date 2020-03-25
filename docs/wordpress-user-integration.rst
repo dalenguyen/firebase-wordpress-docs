@@ -7,12 +7,12 @@ This feature solves the authentication problem. This is an example from one of m
 
 And this plugin can help you to achieve just that.
 
-At this stage, it helps to authenticate to WordPress dashboard with a subscriber role. *However, if users change password either in Firebase or WordPress, the authenticate doesn't really work, because the password is different now*. I will update the changing password synchronization in the next version.
+At this stage, it helps to authenticate to WordPress dashboard with a subscriber or customer role (WooCommerce). And the password change will be dominated by Firebase Users. User cannot change password when logging into WordPress dashboard. They have to use *forgot password* feature in Firebase in order to create a new password. And if the password is different in both systems, the next time user logs in through FirebaseUI Web shortcode, it will change the password in WordPress automatically.
 
 How to Login to WP Dashboard with Firebase Users
 ----------------------------------
 
-**Note:** Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with admin rights). 
+**Important:** Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with **admin** rights). 
 
 In case of logging out without assign another user with admin rights, you can rename the plugin folder, and login as usual.
 

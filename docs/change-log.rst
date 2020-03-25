@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.8.0 ] - 24-03-2020
+----------------------------------
+
+Logout of everything when clicking signout buttons
+Added warning before deleting a Firebase user
+Added user role (Customer) for WooCommerce sites
+Prevent user to change password when login through firebase is active
+User password will be dominated by Firebase procedure
+
+Dependency: cloud functions: v0.7.0
+
 ## [ 0.7.0 ] - 13-03-2020
 ----------------------------------
 

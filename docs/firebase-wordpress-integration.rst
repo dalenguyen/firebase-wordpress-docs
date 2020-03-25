@@ -14,7 +14,7 @@ Prepare Firebase Credentials
 ----------------------------------
 Before using the plugin, we need have the credentials from Firebase Console. You can get it by logging into https://console.firebase.google.com. 
 
-After signning in, you can navigate to Project Overview > Project Settings.
+After signning in, you can navigate to **Project Overview > Project Settings**.
 
 .. figure:: images/firebase-project-settings.png
     :scale: 70%
