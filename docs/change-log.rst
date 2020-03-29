@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.9.1 ] - 29-03-2020
+----------------------------------
+
+- Fixed ArrayType when saving data to Realtime/Firestore
+- Fixed WP post type is null when sync data to Firebase
+- Removed notice warning for post types
+
+Dependency: cloud functions: v0.8.0
+
 ## [ 0.9.0 ] - 28-03-2020
 ----------------------------------
 

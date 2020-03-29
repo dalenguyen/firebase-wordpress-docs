@@ -104,7 +104,7 @@ Start deploying firebase functions
     cd functions
     yarn deploy --project project-id
     // OR 
-    npm run deploy --project project-id
+    firebase deploy --only functions --project project-id
 
 The deployment result should look like this
 
