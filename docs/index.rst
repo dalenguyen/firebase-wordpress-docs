@@ -1,4 +1,4 @@
-Complete Guide to Firebase WordPress Integration (v0.8.0)
+Complete Guide to Firebase WordPress Integration (v0.9.0)
 ==========================================================
 
 This is a guilde to `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_, a plugin that helps to integrate Firebase to WordPress.
@@ -16,6 +16,7 @@ If you are interested in making this plugin better, please take part in this sur
    shortcode-list
    work-with-firebaseui-web
    wordpress-user-integration
+   wordpress-to-firebase
    firebase-cloud-message
    save-data-realtime-firestore
    retreive-data-from-firestore

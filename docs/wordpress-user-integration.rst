@@ -9,7 +9,7 @@ And this plugin can help you to achieve just that.
 
 At this stage, it helps to authenticate to WordPress dashboard with a subscriber or customer role (WooCommerce). And the password change will be dominated by Firebase Users. User cannot change password when logging into WordPress dashboard. They have to use *forgot password* feature in Firebase in order to create a new password. And if the password is different in both systems, the next time user logs in through FirebaseUI Web shortcode, it will change the password in WordPress automatically.
 
-How to Login to WP Dashboard with Firebase Users
+Login to WP Dashboard with Firebase Users
 ----------------------------------
 
 **Important:** Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with **admin** rights). 
@@ -42,3 +42,19 @@ This page will contain the shortcode for logging in.
 After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically.
 
 When users log out from dashboard, that means they will also be logged out to Firebase.
+
+Create a new WordPress User through API
+----------------------------------
+
+The Integrate Firebase PRO has its own Restful API endpoints that help to create a new WordPress user.
+In this scenario, when you have a mobile app, and you want to duplicate user in WordPress, you can call the API to create a new User after user register on your app.
+
+.. code-block:: php
+
+    Endpoint: POST https://example.com/firebase/v2/users/register
+
+    Example payload: {
+        username: 'dale',
+        email: 'dale@dalenguyen.me',
+        password: 'the-password'
+    }

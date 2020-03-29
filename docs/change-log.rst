@@ -3,14 +3,23 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.9.0 ] - 28-03-2020
+----------------------------------
+
+- Fixed save data to realtime / firestore token error
+- Added document id option when saving data
+- Added trigger for syncing post and page to Firebase
+
+Dependency: cloud functions: v0.8.0
+
 ## [ 0.8.0 ] - 24-03-2020
 ----------------------------------
 
-Logout of everything when clicking signout buttons
-Added warning before deleting a Firebase user
-Added user role (Customer) for WooCommerce sites
-Prevent user to change password when login through firebase is active
-User password will be dominated by Firebase procedure
+- Logout of everything when clicking signout buttons
+- Added warning before deleting a Firebase user
+- Added user role (Customer) for WooCommerce sites
+- Prevent user to change password when login through firebase is active
+- User password will be dominated by Firebase procedure
 
 Dependency: cloud functions: v0.7.0
 
