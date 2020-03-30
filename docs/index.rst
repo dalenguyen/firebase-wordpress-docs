@@ -15,6 +15,7 @@ If you are interested in making this plugin better, please take part in this sur
    firebase-wordpress-integration
    shortcode-list
    work-with-firebaseui-web
+   firebase-users-managment
    wordpress-user-integration
    wordpress-to-firebase
    firebase-cloud-message
