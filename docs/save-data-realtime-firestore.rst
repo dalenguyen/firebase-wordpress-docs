@@ -13,6 +13,19 @@ If you decide to create your own custom form, remember to add "if-create-data-fo
 
     Custom Create Form
 
+Prerequisite
+----------------------------------
+
+Before saving data to the Firebase, we need to add the public collections to the Firebase environment. Without this step, your data won't be saved.
+
+In order to add the public collections, you can open the terminal and run this 
+
+.. code-block:: bash
+
+    firebase functions:config:set public.collections="users" --project project-id
+
+This will allow WordPress frontend to write data to **users** collection. Remeber that it's case sensitive.
+
 Example of creating new form and writing data to Firestore
 ----------------------------------
 
@@ -43,6 +56,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
     [hidden collectionName "users"]
     [hidden databaseType "firestore"]
     [hidden arrayType "hobbies,food"]
+    [hidden dateType "dateOfBirth"]
 
     [text* firstName placeholder "First Name"]
     [text* lastName placeholder "Last Name"]

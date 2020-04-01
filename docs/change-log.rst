@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.10.0 ] - 01-04-2020
+----------------------------------
+
+- Added date type for saving data to Firebase
+- Increase time wait for error in form submit to Firebase
+
+Dependency: cloud functions: v0.9.0
+
 ## [ 0.9.1 ] - 29-03-2020
 ----------------------------------
 
