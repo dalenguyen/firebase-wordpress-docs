@@ -24,7 +24,7 @@ In order to add the public collections, you can open the terminal and run this
 
     firebase functions:config:set public.collections="users" --project project-id
 
-This will allow WordPress frontend to write data to **users** collection. Remeber that it's case sensitive.
+**__NOTE__**: This will allow WordPress public frontend to write data to **users** collection. Remeber that it's case sensitive. It should only be used for public collection such as **Contact**. Please don't use this approach for private or secured collection. If you don't want public to write data to this collection. You can set the post as private and add new data after you log in to WordPress.
 
 Example of creating new form and writing data to Firestore
 ----------------------------------
@@ -47,13 +47,16 @@ Sample of data that I will use to update to Firestore
 
 From that you can create a sample form in Contact tab. The hidden fields are important. 
 
-[hidden collectionName "users"]  -> collection name is users
-[hidden databaseType "firestore"] -> data will be saved in firestore
-[hidden arrayType "hobbies,food"] -> array data should be added to arrayType field
++ [hidden collectionName "users"]  -> collection name is users.
++ [hidden documentId "1"] -> it will override the document id 1. This field is optional.
++ [hidden databaseType "firestore"] -> data will be saved in firestore.
++ [hidden arrayType "hobbies,food"] -> array data should be added to arrayType field. This field is optional.
++ [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
 
 .. code-block:: bash
 
     [hidden collectionName "users"]
+    [hidden documentId "1"]
     [hidden databaseType "firestore"]
     [hidden arrayType "hobbies,food"]
     [hidden dateType "dateOfBirth"]

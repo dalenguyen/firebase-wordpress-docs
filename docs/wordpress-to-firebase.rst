@@ -39,4 +39,4 @@ After you save, the post will be added to Firestore. The document id of the post
 
     New post in firestore
 
-When you update the current post, it will override the data in the firestore to make sure that it always updated.    
+When you update the current post, it will override the data in the firestore to make sure that it always updated.

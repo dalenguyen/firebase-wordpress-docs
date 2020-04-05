@@ -22,6 +22,7 @@ If you are interested in making this plugin better, please take part in this sur
    save-data-realtime-firestore
    retreive-data-from-firestore
    work-with-firebase-custom-claims
+   usecases
    troubleshooting
    roadmap
    change-log
