@@ -3,6 +3,21 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.11.1 ] - 07-04-2020
+----------------------------------
+
+- Showed warning if base domain is not set
+- Check for undefined in order to pass error check
+- Updated options for plugin deletion
+
+## [ 0.11.0 ] - 02-04-2020
+----------------------------------
+
+- Used wait for element rather than setTimeOut
+- Added logout event to all logout links
+- Added post thumbnail and author name to Firebase Sync
+- Updated Firebase script from 7.9.3 to 7.13.1
+
 ## [ 0.10.0 ] - 01-04-2020
 ----------------------------------
 
