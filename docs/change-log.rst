@@ -3,6 +3,11 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.12.0 ] - 08-04-2020
+----------------------------------
+
+- Added filter feature for Users #29
+
 ## [ 0.11.1 ] - 07-04-2020
 ----------------------------------
 
