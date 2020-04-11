@@ -3,6 +3,13 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.13.0 ] - 11-04-2020
+----------------------------------
+
+- Added table structure for Users tab
+- Make email uneditable for search purpose
+- Functions (0.11.0): increased get users limit (> 1000 users)
+
 ## [ 0.12.0 ] - 08-04-2020
 ----------------------------------
 

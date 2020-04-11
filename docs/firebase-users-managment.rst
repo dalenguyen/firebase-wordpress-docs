@@ -57,5 +57,5 @@ When you delete a user, there will a prompt to confirm if you want to delete it 
 
     Delete a Firebase User
 
-**Note**: the limit now is 1000 users. I will try to make it better in the next release. 
+**Note**: the limit was 1000 users. Since version 0.13.0, you can retrieve all users.
 
