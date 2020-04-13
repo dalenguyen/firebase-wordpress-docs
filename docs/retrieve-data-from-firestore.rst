@@ -1,4 +1,4 @@
-How to Retrieve Data from Firestore and Display on WordPress
+Retrieve Data from Firestore and Display on WordPress
 =============
 
 In this tutorial, I will show you how to retrieve the database from your Firestore and display it on the WordPress website. Before that, make sure you have:

@@ -54,10 +54,36 @@ Content
 Realtime Database & Firestore
 ----------------------------------
 
+**Realime collection**
+
+Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
+
 .. code-block:: php
 
-    // show realtime data basing on collection name & document id
+    // show realtime collection data basing on collection name & display fields
+    [realtime_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
+
+**Realime Document**
+
+Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
+
+.. code-block:: php
+
+    // show realtime document data basing on collection name & document id
     [realtime class='your-class-name' collection_name='string' document_name='string']
+
+**Firestore collection**
+
+Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
+
+.. code-block:: php
+
+    // show firestore collection data basing on collection name & display fields
+    [firestore_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
+
+**Firestore Document**
+
+Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 
 .. code-block:: php
 
@@ -66,6 +92,8 @@ Realtime Database & Firestore
 
 Custom Claims (User's roles)
 ----------------------------------
+
+Demo: https://wordpress.dalenguyen.me/show-or-hide-content-for-logged-in-users/
 
 .. code-block:: php
 

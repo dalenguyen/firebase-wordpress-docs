@@ -1,4 +1,4 @@
-How to Save Data from WordPress to Firebase (Realtime + Firestore)
+Save Data from WordPress to Firebase (Realtime + Firestore)
 =============
 
 In this guide, I will show you how to add new data to Realtime database Firestore. In this example, I use `Contact Form 7 <https://wordpress.org/plugins/contact-form-7/>`_, but you feel free to design your own form or use other plugin. 

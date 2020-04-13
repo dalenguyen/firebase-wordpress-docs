@@ -3,6 +3,12 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.14.0 ] - 12-04-2020
+----------------------------------
+
+- Removed custom claims when empty
+- Added shortcodes for displaying realtime & firestore collection
+
 ## [ 0.13.0 ] - 11-04-2020
 ----------------------------------
 
