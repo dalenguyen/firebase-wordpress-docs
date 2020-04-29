@@ -3,6 +3,22 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.17.0 ] - 27-04-2020
+----------------------------------
+
+- Applied security rules when saving data to firebase
+- Only sync public post to firebase
+
+## [ 0.16.0 ] - 26-04-2020
+----------------------------------
+
+- Added BuddyPress extension
+
+## [ 0.15.0 ] - 18-04-2020
+----------------------------------
+
+- Added Maps extension
+
 ## [ 0.14.0 ] - 12-04-2020
 ----------------------------------
 

@@ -16,15 +16,7 @@ If you decide to create your own custom form, remember to add "if-create-data-fo
 Prerequisite
 ----------------------------------
 
-Before saving data to the Firebase, we need to add the public collections to the Firebase environment. Without this step, your data won't be saved.
-
-In order to add the public collections, you can open the terminal and run this 
-
-.. code-block:: bash
-
-    firebase functions:config:set public.collections="users" --project project-id
-
-**__NOTE__**: This will allow WordPress public frontend to write data to **users** collection. Remeber that it's case sensitive. It should only be used for public collection such as **Contact**. Please don't use this approach for private or secured collection. If you don't want public to write data to this collection. You can set the post as private and add new data after you log in to WordPress.
+Since **v0.17.0**, you only need to update security rules on your database (realtime / firestore), so any can write to your database or they have to log in before saving. It totally depends on the firebase security rules.
 
 Example of creating new form and writing data to Firestore
 ----------------------------------
