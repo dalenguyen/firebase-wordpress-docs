@@ -1,3 +1,7 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
 WordPress User Integration
 =============
 
@@ -12,7 +16,9 @@ At this stage, it helps to authenticate to WordPress dashboard with a subscriber
 Login to WP Dashboard with Firebase Users
 ----------------------------------
 
-**Important:** Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with **admin** rights). 
+.. role:: red
+
+**Important:** :red:`Before doing this, you should keep a dashboard open for yourself, and open another private window in order to login with an email from Firebase, then assign the Admin right to that user before you log out of current window - to make sure that you can log in again with your Firebase user (with **admin** rights)`. 
 
 In case of logging out without assign another user with admin rights, you can rename the plugin folder, and login as usual.
 

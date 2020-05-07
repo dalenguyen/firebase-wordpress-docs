@@ -1,5 +1,13 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
 How to integrate Firebase to WordPress
 =============
+
+.. role:: red
+
+:red:`Please deactivate and remove the Free plugin before installing the Integrate Firebase PRO version.`
 
 I’m not sure why you want to integrate Firebase and WordPress together because they are two seperate system. The authentication is different too. But somehow, you end up here and want to combine Firebase and WordPress together. And yes, we can do it.
 
