@@ -44,6 +44,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 + [hidden databaseType "firestore"] -> data will be saved in firestore.
 + [hidden arrayType "hobbies,food"] -> array data should be added to arrayType field. This field is optional.
 + [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
++ [hidden mapTypes "contact"] -> will save a map (object) type 
 
 .. code-block:: bash
 
@@ -52,6 +53,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
     [hidden databaseType "firestore"]
     [hidden arrayType "hobbies,food"]
     [hidden dateType "dateOfBirth"]
+    [hidden mapTypes "contact"]
 
     [text* firstName placeholder "First Name"]
     [text* lastName placeholder "Last Name"]
@@ -63,6 +65,12 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 
     <label for="dateOfBirth">Date of Birth</label>
     [date* dateOfBirth id:dateOfBirth]
+
+    [text* contact__firstName placeholder "Contact First Name"]
+    [text* contact__lastName placeholder "Contact Last Name"]
+
+    <label for="contact__sex">Contact Sex</label>
+    [select* contact__sex id:contact__sex "Male" "Female" "Other"]
 
     <label for="hobbies">Hobbies</label>
     [select* hobbies id:hobbies multiple "Archery" "Slap Dance" "Rock Climbing"]

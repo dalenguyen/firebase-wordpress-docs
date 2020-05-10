@@ -54,7 +54,7 @@ Content
 Realtime Database & Firestore
 ----------------------------------
 
-**Realime collection**
+**Realime collection as table**
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
 
@@ -63,6 +63,15 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
     // show realtime collection data basing on collection name & display fields
     [realtime_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
+**Realime collection as blocks**
+
+Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
+
+.. code-block:: php
+
+    // show realtime collection data basing on collection name & display fields
+    [realtime_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
+
 **Realime Document**
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
@@ -70,9 +79,9 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
 .. code-block:: php
 
     // show realtime document data basing on collection name & document id
-    [realtime class='your-class-name' collection_name='string' document_name='string']
+    [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid']
 
-**Firestore collection**
+**Firestore collection as table**
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
 
@@ -81,6 +90,15 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
     // show firestore collection data basing on collection name & display fields
     [firestore_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
+**Firestore collection as blocks**
+
+Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
+
+.. code-block:: php
+
+    // show firestore collection data basing on collection name & display fields
+    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
+
 **Firestore Document**
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
@@ -88,7 +106,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 .. code-block:: php
 
     // show firestore data basing on collection name & document id
-    [firestore class='your-class-name' collection_name='string' document_name='string']
+    [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid']
 
 Custom Claims (User's roles)
 ----------------------------------

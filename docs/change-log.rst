@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.18.0 ] - 09-05-2020
+----------------------------------
+
+- Showed deep level object when searching for database
+- Added ability to download Users table
+- Redirect to defined page after login
+- Enable login through apple
+- Added map type when saving data to firebase
+- Added display types for realtime / firestore document
+- Displayed data from firestore / realtime as blocks
+
 ## [ 0.17.0 ] - 27-04-2020
 ----------------------------------
 

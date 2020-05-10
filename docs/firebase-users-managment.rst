@@ -41,7 +41,7 @@ If the process is successfull, you will be notified with a message that contains
 
     Firebase user is added
 
-If you want to read, modify or delete a user, you can press on "Click to load users". You can find the information about Firebase users where you can update the display name, email, phone number, and even user custom claims. 
+If you want to read, modify or delete a user, you can press on "Click to load users". You can find the information about Firebase users where you can update the display name, email, phone number, and even user custom claims. There is an option that you can download entire list of Firebase user to a CSV file.
 
 .. figure:: images/users/load-firebase-users.png
     :scale: 70%
@@ -57,5 +57,4 @@ When you delete a user, there will a prompt to confirm if you want to delete it 
 
     Delete a Firebase User
 
-**Note**: the limit was 1000 users. Since version 0.13.0, you can retrieve all users.
 
