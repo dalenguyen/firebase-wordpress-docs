@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.19.0 ] - 17-05-2020
+----------------------------------
+
+- Separated registration & Login form
+- Allow login to WordPress through social media platforms
+- Added images support for Realtime / Firestore Document
+- Fixed access array offset notice error
+
 ## [ 0.18.0 ] - 09-05-2020
 ----------------------------------
 

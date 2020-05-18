@@ -18,6 +18,13 @@ If you are a developer who knows PHP, you can use it anywhere you want.
 Authentication
 ----------------------------------
 
+Demo: https://wordpress.dalenguyen.me/register-login-form/
+
+.. code-block:: php
+
+    // Add this shortcode in order show error message to the front end
+    [firebase_error class='your-class-name'][/firebase_error]
+
 .. code-block:: php
 
     // Login, Register through FirebaseUI Web
@@ -25,13 +32,18 @@ Authentication
 
 .. code-block:: php
 
-    // Greetings Logged in User
-    [firebase_greetings][/firebase_greetings]
+    // After logging in, you will be redirect to the homepage. The redirect is optional.
+    [firebase_login redirect='/']
 
 .. code-block:: php
 
-    // Show Firebase Error
-    [firebase_error class='your-class-name'][/firebase_error]
+    // Registration wilh extra fields: first name, last name and phone number. The redirect, extra fields and requried fields are optional. Without those, it will only show email and password fields.
+    [firebase_register required_fields='firstName,lastName,phoneNumber' extra_fields='firstName,lastName,phoneNumber' redirect='/']
+
+.. code-block:: php
+
+    // Greetings Logged in User
+    [firebase_greetings][/firebase_greetings]
 
 .. code-block:: php
 
@@ -79,7 +91,8 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
 .. code-block:: php
 
     // show realtime document data basing on collection name & document id
-    [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid']
+    // Collection & Document will be come path of the Realtime database --> /users/123456
+    [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 **Firestore collection as table**
 
@@ -106,7 +119,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 .. code-block:: php
 
     // show firestore data basing on collection name & document id
-    [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid']
+    [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 Custom Claims (User's roles)
 ----------------------------------
