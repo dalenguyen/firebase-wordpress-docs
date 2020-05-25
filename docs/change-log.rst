@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 0.20.0 ] - 24-05-2020
+----------------------------------
+
+- Added wp logout link to Logout button
+- Allowed to change log in text button
+- Added reset password link to login form
+- Display fields must be filled for display items for realtime/firstore
+- Allowed multi realtime/firestore shortcodes on one page
+- Dynamic show firestore/realtime data through query params
+
 ## [ 0.19.0 ] - 17-05-2020
 ----------------------------------
 

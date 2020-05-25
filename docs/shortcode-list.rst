@@ -6,6 +6,7 @@ Shortcodes are mostly used on WordPress frontend, when you create a page or a po
 .. code-block:: php
 
     // Page or Post
+
     [firebaseui_web][/firebaseui_web]
 
 If you are a developer who knows PHP, you can use it anywhere you want. 
@@ -13,6 +14,7 @@ If you are a developer who knows PHP, you can use it anywhere you want.
 .. code-block:: php
 
     // php files
+
     echo do_shortcode("[firebaseui_web][/firebaseui_web]");
 
 Authentication
@@ -23,31 +25,37 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 .. code-block:: php
 
     // Add this shortcode in order show error message to the front end
+
     [firebase_error class='your-class-name'][/firebase_error]
 
 .. code-block:: php
 
     // Login, Register through FirebaseUI Web
+
     [firebaseui_web][/firebaseui_web]
 
 .. code-block:: php
 
-    // After logging in, you will be redirect to the homepage. The redirect is optional.
-    [firebase_login redirect='/']
+    // After logging in, you will be redirect to the homepage. The redirect is optional. Default button text is "Login"
+
+    [firebase_login button_text='Signin' redirect='/']
 
 .. code-block:: php
 
     // Registration wilh extra fields: first name, last name and phone number. The redirect, extra fields and requried fields are optional. Without those, it will only show email and password fields.
+
     [firebase_register required_fields='firstName,lastName,phoneNumber' extra_fields='firstName,lastName,phoneNumber' redirect='/']
 
 .. code-block:: php
 
     // Greetings Logged in User
+
     [firebase_greetings][/firebase_greetings]
 
 .. code-block:: php
 
     // Logout Button
+
     [firebase_logout][/firebase_logout]
 
 Content
@@ -56,15 +64,23 @@ Content
 .. code-block:: php
 
     // Show custom message for NOT Logged in Users
+
     [firebase_show_not_login class='your-class-name']YOUR HTML CODE[/firebase_show_not_login]
 
 .. code-block:: php
 
     // Show custom message for Logged in Users
+
     [firebase_show class='your-class-name']YOUR HTML CODE[/firebase_show]
 
 Realtime Database & Firestore
 ----------------------------------
+
+**Note**: You can add html string to the field in the database in order to have an interactive field when displaying on WordPress.
+
+Dynamically dispaly data from document:
+https://wordpress.dalenguyen.me/display-realtime-document-dynamically/
+https://wordpress.dalenguyen.me/display-firestore-document-dynamically/
 
 **Realime collection as table**
 
@@ -73,6 +89,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
 .. code-block:: php
 
     // show realtime collection data basing on collection name & display fields
+
     [realtime_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Realime collection as blocks**
@@ -82,17 +99,33 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
 .. code-block:: php
 
     // show realtime collection data basing on collection name & display fields
+    // display fields or images is required
+
     [realtime_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
-**Realime Document**
+**Realime Document as table**
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
 
 .. code-block:: php
 
-    // show realtime document data basing on collection name & document id
+    // show realtime document data basing on collection name & document id as table
     // Collection & Document will be come path of the Realtime database --> /users/123456
+    // display fields or images is required
+
     [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
+
+**Realime Document as blocks**
+
+Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
+
+.. code-block:: php
+
+    // show realtime document data basing on collection name & document id as blocks
+    // Collection & Document will be come path of the Realtime database --> /users/123456
+    // display fields or images is required
+
+    [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
 **Firestore collection as table**
 
@@ -101,6 +134,8 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
 .. code-block:: php
 
     // show firestore collection data basing on collection name & display fields
+    // display fields or images is required
+
     [firestore_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Firestore collection as blocks**
@@ -110,16 +145,31 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
 .. code-block:: php
 
     // show firestore collection data basing on collection name & display fields
+    // display fields or images is required
+
     [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
-**Firestore Document**
+**Firestore Document as table**
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 
 .. code-block:: php
 
     // show firestore data basing on collection name & document id
+    // display fields or images is required
+
     [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
+
+**Firestore Document as blocks**
+
+Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
+
+.. code-block:: php
+
+    // show firestore data basing on collection name & document id
+    // display fields or images is required
+
+    [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
 Custom Claims (User's roles)
 ----------------------------------
@@ -130,4 +180,5 @@ Demo: https://wordpress.dalenguyen.me/show-or-hide-content-for-logged-in-users/
 
     // only user with admin claim will see the content
     // otherwise they will see a Custom message
+
     [firebase_show_with_claims class='your-class-name' claims='admin' message='Custom message' ] HTML Data With Tags [/firebase_show_with_claims]
