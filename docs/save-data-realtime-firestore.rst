@@ -18,6 +18,21 @@ Prerequisite
 
 Since **v0.17.0**, you only need to update security rules on your database (realtime / firestore), so any can write to your database or they have to log in before saving. It totally depends on the firebase security rules.
 
+
+Getting Firebase UID value
+----------------------------------
+
+If you want to get the Firebase UID to any inputs as a value. You can add a special class `getFirebaseUid` to the input fields.
+
+.. code-block:: html 
+
+    // Sample contact 7 input
+    [hidden documentId class:getFirebaseUid "INVALID"]
+
+    // Sample html input 
+    <input type="text" name="documentId" value="will-be-generated" class="getFirebaseUid">
+
+
 Example of creating new form and writing data to Firestore
 ----------------------------------
 

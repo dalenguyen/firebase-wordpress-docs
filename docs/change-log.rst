@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.0.0 ] - 30-05-2020
+----------------------------------
+
+- Autofill firebase UID to input form
+- Added account management shortcode
+- Added phone number authentication
+- Added language support for FirebaseUI Web
+- Localization the plugin
+
 ## [ 0.20.0 ] - 24-05-2020
 ----------------------------------
 
