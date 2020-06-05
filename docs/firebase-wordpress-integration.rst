@@ -9,7 +9,15 @@ How to integrate Firebase to WordPress
 
 :red:`Please deactivate and remove the Free plugin before installing the Integrate Firebase PRO version.`
 
-I’m not sure why you want to integrate Firebase and WordPress together because they are two seperate system. The authentication is different too. But somehow, you end up here and want to combine Firebase and WordPress together. And yes, we can do it.
+Are you looking for 
+
+- Logging to WordPress with Firebase Credentials? 
+- Displaying data from Firebase to WordPress? 
+- Saving data from WordPress to Firebase?
+- Manage Firebase User / Account on WordPress?
+- ...
+
+You are in the right place.
 
 Download the Integrate Firebase PRO plugin
 ----------------------------------
@@ -66,6 +74,13 @@ Firebase Cloud Functions Deployment (PRO version only)
 
 If you are using PRO version, there is another folder named **firebase-wordpress-functions**. If you want to manage database, Firebase users and custom functions, you should deploy the functions together with the plugin. Make sure that you have Nodejs installed on your machine. 
 
+The cloud functions is only Admin Dashboard tasks, you don't have to deploy the cloud functions for frontend interactions such as login, display or retrieve data.
+
+If you want a hands-on guide, you can watch this tutorial: `How to Deploy Cloud Functions <https://www.youtube.com/watch?v=D-xvzJ9K8jw>`_
+
+Prerequisite
+`````````````
+
 In order to deploy cloud functions, you need to have `Nodejs <https://nodejs.org/en/>`_ installed on your machine. 
 
 Then install `firebase-tools <https://firebase.google.com/docs/cli>`_ packaged
@@ -95,6 +110,36 @@ Since version 0.6.0, before deploying any functions, you should create two token
 
     // Check your api token
     firebase functions:config:get api --project project-id
+
+Change Cloud Functions Regions
+`````````````
+
+Default functions will be deployed to `us-central1`. If you don't want to change the regions, please skip this part.
+
+In case you want to change the deploy regions to `asia-east2`, you can set a regions configuration for the firebase.
+
+.. code-block:: bash
+
+    // Set deploy regions for `asia-east2`
+    firebase functions:config:set regions.0=asia-east2 --project project-id
+
+    // Set deploy regions for `asia-east2` and `us-central1`
+    firebase functions:config:set regions.0=asia-east2 regions.1=us-central1 --project project-id
+
+After configuration, please check your environment to make sure that you have the region in the functions config.
+
+.. code-block:: bash
+
+    firebase functions:config:get regions --project project-id
+
+    // The result should looks like this for two regions (asia-east2 & us-central1)
+    [
+        "asia-east2",
+        "us-central1"
+    ]
+
+Install Packages & Deploy Cloud Functions
+`````````````
 
 Install packages and build functions. I'm using Yarn, you can use npm if you want.
 
@@ -141,3 +186,11 @@ After that, you should update your Firebase setting with the dashboad token and 
     :align: center
 
     Firebase setting
+
+Just to verify that everything works, you can find three cloud functions in your firebase console after the deployment. 
+
+.. figure:: images/firebase-cloud-functions.png
+    :scale: 70%
+    :align: center
+
+    Firebase cloud functions

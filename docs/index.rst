@@ -1,11 +1,13 @@
-Complete Guide to Firebase WordPress Integration (v1.0.0)
+Complete Guide to Firebase WordPress Integration (v1.1.0)
 ==========================================================
 
-Last updated: May 31, 2020
+Last updated: June 5, 2020
 
 This is a guilde to `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_, a plugin that helps to integrate Firebase to WordPress.
 
 Demo site: https://wordpress.dalenguyen.me 
+
+Video Tutorials: `Youtube Playlist - Firebase WordPress Integration <https://www.youtube.com/playlist?list=PLchk3ZdnnL-bngknCj7dMQQ6JmAfSdxd8>`_
 
 If you are interested in the development progress, please check the `Road map <https://firebase-wordpress-docs.readthedocs.io/en/latest/roadmap.html>`_.
 

@@ -3,6 +3,11 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.1.0 ] - 08-06-2020
+----------------------------------
+
+- Added ability to deploy cloud functions to different regions
+
 ## [ 1.0.0 ] - 30-05-2020
 ----------------------------------
 
