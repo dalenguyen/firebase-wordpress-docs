@@ -83,6 +83,7 @@ https://wordpress.dalenguyen.me/display-realtime-document-dynamically/
 https://wordpress.dalenguyen.me/display-firestore-document-dynamically/
 
 **Realime collection as table**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
 
@@ -93,6 +94,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
     [realtime_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Realime collection as blocks**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
 
@@ -104,6 +106,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
     [realtime_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
 **Realime Document as table**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
 
@@ -116,6 +119,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
     [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 **Realime Document as blocks**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
 
@@ -128,6 +132,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
     [realtime class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
 **Firestore collection as table**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
 
@@ -139,6 +144,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
     [firestore_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Firestore collection as blocks**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
 
@@ -149,7 +155,40 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
 
     [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
+**Firestore collection through queries**
+`````````````
+
+Demo: https://wordpress.dalenguyen.me/display-firestore-with-queries/
+
+In some cases, you have to open your console log and create an index for your queries.
+
+.. code-block:: php
+
+    // Operation list
+
+    eq: '==',
+    gt: '>',
+    ge: '>=',
+    lt: '<',
+    le: '<=',
+    in: 'in',
+    ac: 'array-contains',
+    aca: 'array-contains-any',
+
+Sample Queries 
+
+.. code-block:: php
+
+    // Query 'users' collection
+    // email == dale@dalenguyen.me
+    // age > 20
+    // display fields: email,firstName,lastName,age,gender
+    // display as 'blocks' | 'table'
+
+    [firestore_search class='your-class-name' search_fields='email|age' search_operators='eq|gt' search_conditions='dale@dalenguyen.me|20' collection_name='users' display_fields='email,firstName,lastName,age,gender' display_type='blocks']
+
 **Firestore Document as table**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 
@@ -161,6 +200,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
     [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 **Firestore Document as blocks**
+`````````````
 
 Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 

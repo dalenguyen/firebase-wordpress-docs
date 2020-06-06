@@ -3,10 +3,27 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
-## [ 1.1.0 ] - 08-06-2020
+## [ 1.1.0 ] - 06-06-2020
 ----------------------------------
 
-- Added ability to deploy cloud functions to different regions
+#### - :boom: [Breaking Change]
+
+- Optimized scripts loaded for Firestore / Realtime
+
+#### - :bug: [Bug Fix]
+
+- Sanitized string before displaying on the frontend
+
+#### - :rocket: [New Feature]
+
+- Retrieved data dynamically with firebase uid as document id
+- Added search shortcode for Firestore
+- Added options to deploy cloud functions to different regions
+
+#### - :nail_care: [Polish]
+
+- Updated FirebaseUI Web version to v4.5.1
+- Updated Firebase scripts to v7.15.0
 
 ## [ 1.0.0 ] - 30-05-2020
 ----------------------------------

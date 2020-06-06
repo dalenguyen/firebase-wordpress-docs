@@ -31,6 +31,7 @@ If you are interested in the development progress, please check the `Road map <h
    usecases
    extensions-google-maps
    extensions-buddypress
+   performance
    troubleshooting
    roadmap
    change-log

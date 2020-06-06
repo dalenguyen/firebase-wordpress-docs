@@ -69,6 +69,17 @@ After you activate the plugin, you need to enter the Firebase credentials in the
 
 After that, you can create login form, show data, show logout button… on WordPress frontend.
 
+Select Firebase Services - Optimization
+----------------------------------
+
+With the new update since v1.1.0 you have to pick the services (General Tab) for optimization purposes. I have choose either Realtime / Firestore or both of them in order to interact with Firebase Database on the frontend.
+
+.. figure:: images/general/firebase-optimization.png
+    :scale: 70%
+    :align: center
+
+    Firebase Optimization
+
 Firebase Cloud Functions Deployment (PRO version only)
 ----------------------------------
 
