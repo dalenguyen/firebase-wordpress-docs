@@ -79,8 +79,11 @@ Realtime Database & Firestore
 **Note**: You can add html string to the field in the database in order to have an interactive field when displaying on WordPress.
 
 Dynamically dispaly data from document:
-https://wordpress.dalenguyen.me/display-realtime-document-dynamically/
-https://wordpress.dalenguyen.me/display-firestore-document-dynamically/
+
+- https://wordpress.dalenguyen.me/display-realtime-document-dynamically/
+- https://wordpress.dalenguyen.me/display-firestore-document-dynamically/
+
+In order to get Data that relates to User Id, you can replace `document_name='some-string'` by  `document_name='getFirebaseUid'`. After user logs in, `getFirebaseUid` will be replaced by their user id.
 
 **Realime collection as table**
 `````````````
@@ -186,6 +189,8 @@ Sample Queries
     // display as 'blocks' | 'table'
 
     [firestore_search class='your-class-name' search_fields='email|age' search_operators='eq|gt' search_conditions='dale@dalenguyen.me|20' collection_name='users' display_fields='email,firstName,lastName,age,gender' display_type='blocks']
+
+In `search_conditions`, if you added getFirebaseUid, it will be replaced by Firebase UID after user logs in. 
 
 **Firestore Document as table**
 `````````````

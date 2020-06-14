@@ -6,6 +6,7 @@ Since version 0.9.0, I added some event triggers for syncing data from WordPress
 
 + For posts, they locate under **wpPosts** collection name. 
 + For pages, they locate under **wpPages** collection name.
++ For custom post types, they will local under **wpTypeNames** collection name.
 
 1. Setting Up
 ----------------------------------
@@ -38,5 +39,13 @@ After you save, the post will be added to Firestore. The document id of the post
     :align: center
 
     New post in firestore
+
+For taxonomies, will be saved under a node name `taxonomies`.
+
+.. figure:: images/sync/sync-post-type-taxonomies.png
+    :scale: 70%
+    :align: center
+
+    Taxonomies node
 
 When you update the current post, it will override the data in the firestore to make sure that it always updated.

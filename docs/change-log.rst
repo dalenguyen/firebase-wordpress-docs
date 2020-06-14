@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.2.0 ] - 15-06-2020
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- Added dynamic User UID when searching for Firestore data
+- Added custom post types support when syncing data to Firebase
+- Added taxonomies when saving data to Firebase
+
 ## [ 1.1.0 ] - 06-06-2020
 ----------------------------------
 
