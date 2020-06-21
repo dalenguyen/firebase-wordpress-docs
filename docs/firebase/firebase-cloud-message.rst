@@ -9,7 +9,7 @@ After that, you can go to WordPress dashboard > **Settings > Firebase > Message*
 
 There is a sample notification in the Message tab, that will send a notification to "toptic-name" topic. You will have to modify it basing on your needs.
 
-.. figure:: images/message/sample-message.png
+.. figure:: /images/message/sample-message.png
     :scale: 70%
     :align: center
 
@@ -43,7 +43,7 @@ You also can send notification together with data.
 
 If the message is sent successfully, you will see a messge.
 
-.. figure:: images/message/successfully-send-a-message.png
+.. figure:: /images/message/successfully-send-a-message.png
     :scale: 70%
     :align: center
 
@@ -51,7 +51,7 @@ If the message is sent successfully, you will see a messge.
 
 If you send a notification to a topic, and website is in the background, this is what user will see.
 
-.. figure:: images/message/background-notification.png
+.. figure:: /images/message/background-notification.png
     :scale: 70%
     :align: center
 

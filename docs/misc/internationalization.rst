@@ -3,7 +3,7 @@ Internationalization
 
 The plugin does support many languages. For logging in with FirebaseUI Web, there is a list of languages that it can support. You can find a list of support languages from FirebaseUI Web.
 
-.. figure:: images/internationalization/FirebaseUI-Web-translation.png
+.. figure:: /images/internationalization/FirebaseUI-Web-translation.png
     :scale: 70%
     :align: center
 

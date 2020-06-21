@@ -23,7 +23,7 @@ Remember to set the security rule that only allows user to update their own data
 
 Sample Firebase User Profile structure in Firestore
 
-.. figure:: images/account/firebase-user-profile.png
+.. figure:: /images/account/firebase-user-profile.png
     :scale: 70%
     :align: center
 

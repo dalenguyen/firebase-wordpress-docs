@@ -17,7 +17,7 @@ The plugin support getting one document and display on the frontend as a table w
     // Get document id '1' from 'users' collection from firestore
     [firestore class='your-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid']
 
-.. figure:: images/database/show-database-from-shortcode.png
+.. figure:: /images/database/show-database-from-shortcode.png
     :scale: 70%
     :align: center
 
@@ -43,13 +43,13 @@ You can do this by edit functions.php in your current theme
 
 Add the shortcode on a page or post
 
-.. figure:: images/firestore/custom-firebase-shortcode.png
+.. figure:: /images/firestore/custom-firebase-shortcode.png
     :scale: 70%
     :align: center
 
     Custom Firebase Shortcode
 
-.. figure:: images/firestore/custom-firebase-shortcode-frontend.png
+.. figure:: /images/firestore/custom-firebase-shortcode-frontend.png
     :scale: 70%
     :align: center
 
@@ -73,7 +73,7 @@ Again, you can do this by editing your functions.php
 
 Your custom-firebase.js will be under js/ folder
 
-.. figure:: images/firestore/custom-firebase-structure.png
+.. figure:: /images/firestore/custom-firebase-structure.png
     :scale: 70%
     :align: center
 
@@ -81,7 +81,7 @@ Your custom-firebase.js will be under js/ folder
 
 Verify it on the front-end. You have access to firebase now.
 
-.. figure:: images/firestore/verity-custom-firebase.png
+.. figure:: /images/firestore/verity-custom-firebase.png
     :scale: 70%
     :align: center
 
@@ -142,7 +142,7 @@ Now, it’s all about JavaScript. You can customize, modify and do whatever you 
 
 Check the code on the WordPress post.
 
-.. figure:: images/firestore/firestore-on-frontend.png
+.. figure:: /images/firestore/firestore-on-frontend.png
     :scale: 70%
     :align: center
 

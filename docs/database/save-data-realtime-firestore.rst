@@ -7,7 +7,7 @@ The reason that I use Contact Form 7 is because it's the most popular form in Wo
 
 If you decide to create your own custom form, remember to add "if-create-data-form" as an ID to your form, together with the hidden fields below.
 
-.. figure:: images/database/custom-form.png
+.. figure:: /images/database/custom-form.png
     :scale: 70%
     :align: center
 
@@ -104,7 +104,7 @@ The shortcode will be added to the WordPress page or post. With the  id: "if-cre
 
     [contact-form-7 id="11" html_id="if-create-data-form" title="Contact form 1"]
 
-.. figure:: images/database/create-form.png
+.. figure:: /images/database/create-form.png
     :scale: 70%
     :align: center
 
@@ -112,7 +112,7 @@ The shortcode will be added to the WordPress page or post. With the  id: "if-cre
 
 After submitting, data will be saved to Firestore
 
-.. figure:: images/database/saved-to-firestore.png
+.. figure:: /images/database/saved-to-firestore.png
     :scale: 70%
     :align: center
 
@@ -129,7 +129,7 @@ If you want to save data to Realtime database, the only thing that you need to c
 
 If there form is valid, the data will be saved to realtime database
 
-.. figure:: images/database/saved-to-realtime.png
+.. figure:: /images/database/saved-to-realtime.png
     :scale: 70%
     :align: center
 

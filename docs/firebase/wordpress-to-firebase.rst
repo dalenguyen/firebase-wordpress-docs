@@ -13,20 +13,20 @@ Since version 0.9.0, I added some event triggers for syncing data from WordPress
 
 Make sure the version of the plugin is at least: v0.9.0. Then you can choose which type of data to sync to Firebase. 
 
-.. figure:: images/sync/sync-configuration-post.png
+.. figure:: /images/sync/sync-configuration-post.png
     :scale: 70%
     :align: center
 
     Synchronization configuration
 
-In this example, it will choose Firetore as the database, and every new or update posts will be synced to Firestore. You can choose both Post & Page type.
+In this example, it will choose Firetore as the database, and every new or update posts will be synced to Firestore. You can choose both Post & Page type. If you created custom post types, you can enter them to Custom Post Types field.
 
 2. Create a Sample Post
 ----------------------------------
 
 After that, you can create a new post or update an existing one.
 
-.. figure:: images/sync/new-post-in-wordpress.png
+.. figure:: /images/sync/new-post-in-wordpress.png
     :scale: 70%
     :align: center
 
@@ -34,7 +34,7 @@ After that, you can create a new post or update an existing one.
 
 After you save, the post will be added to Firestore. The document id of the post is also the post id for query purpose.
 
-.. figure:: images/sync/post-in-firestore.png
+.. figure:: /images/sync/post-in-firestore.png
     :scale: 70%
     :align: center
 
@@ -42,7 +42,7 @@ After you save, the post will be added to Firestore. The document id of the post
 
 For taxonomies, will be saved under a node name `taxonomies`.
 
-.. figure:: images/sync/sync-post-type-taxonomies.png
+.. figure:: /images/sync/sync-post-type-taxonomies.png
     :scale: 70%
     :align: center
 

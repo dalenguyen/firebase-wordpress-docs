@@ -1,4 +1,4 @@
-Use Cases for Integrate Firebase PRO
+WordPress CMS for Mobile Apps
 =============
 
 This part contains a list of use cases that can be achieved with the plugin:

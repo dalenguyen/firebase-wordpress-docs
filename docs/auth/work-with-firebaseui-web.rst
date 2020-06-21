@@ -2,7 +2,7 @@
 
     <style> .red {color:red} </style>
 
-How To Enable FirebaseUI Web (User Authentication)
+Enable FirebaseUI Web
 =============
 
 .. role:: red
@@ -11,7 +11,7 @@ This feature will help to you register, login and logout on WordPress with your 
 
 Before showing the `FirebaseUI Web <https://github.com/firebase/firebaseui-web>`_ on your WordPress, you need to enable sign-in options in *Firebase > Authentication*
 
-.. figure:: images/auth/enable-sign-in-options.png
+.. figure:: /images/auth/enable-sign-in-options.png
     :scale: 70%
     :align: center
 
@@ -26,7 +26,7 @@ Since version 0.5.5, all the authentication methods will be handled through Fire
 
 You need to update the Auth settings in Firebase, in order to enable this feature.
 
-.. figure:: images/auth/firebaseui-web-settings.png
+.. figure:: /images/auth/firebaseui-web-settings.png
     :scale: 70%
     :align: center
 
@@ -34,7 +34,7 @@ You need to update the Auth settings in Firebase, in order to enable this featur
 
 Then you well the login feature on the frontend.
 
-.. figure:: images/auth/firebaseui-web-frontend.png
+.. figure:: /images/auth/firebaseui-web-frontend.png
     :scale: 70%
     :align: center
 

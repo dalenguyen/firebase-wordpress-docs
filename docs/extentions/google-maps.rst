@@ -1,4 +1,4 @@
-Extensions: Realtime Google Maps
+Realtime Google Maps
 =============
 
 This is an extension for the main Integrate Firebase PRO plugin and still under development. You can check the demo on: https://wordpress.dalenguyen.me/google-maps-integration/

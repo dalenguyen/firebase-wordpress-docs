@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.3.0 ] - 21-06-2020
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- Added one-tap signup feature (Google)
+- Added popup for social login
+- Allowed login via email link
+
 ## [ 1.2.0 ] - 15-06-2020
 ----------------------------------
 

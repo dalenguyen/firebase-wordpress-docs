@@ -24,7 +24,7 @@ In case of logging out without assign another user with admin rights, you can re
 
 This flow will utilize FirebaseUI Web workflow in order to authenticate users. In order to that, you have to log in to WordPress Dashboard, then **Dashboard > Firebase > Auth**.
 
-.. figure:: images/auth/wp-login-with-firebase.png
+.. figure:: /images/auth/wp-login-with-firebase.png
     :scale: 70%
     :align: center
 
@@ -39,7 +39,7 @@ This page will contain the shortcode for logging in.
     // Login, Register through FirebaseUI Web
     [firebaseui_web][/firebaseui_web]
 
-.. figure:: images/auth/wp-new-login-url.png
+.. figure:: /images/auth/wp-new-login-url.png
     :scale: 70%
     :align: center
 
