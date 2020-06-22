@@ -18,6 +18,18 @@ One-tap Sign-up
 
 This is a feature from `Google <https://developers.google.com/identity/one-tap/web/>`_. Sign up new users with just one tap, without interrupting them with a sign-up screen. Users get a secure, token-based, passwordless account on your site, protected by their Google Account.
 
+.. figure:: /images/auth/get-google-client-id.png
+    :scale: 70%
+    :align: center
+
+    Get Google Client ID  
+
+.. figure:: /images/auth/allow-sign-up-one-tap.png
+    :scale: 70%
+    :align: center
+
+    Apply Google Client ID
+
 .. figure:: /images/auth/one-tap-sign-up.png
     :scale: 70%
     :align: center
@@ -28,6 +40,18 @@ Sigin In Via Email Link
 ```````````````````
 
 This is straight forward. Users enter their email, and they will get a sign-in link in their inbox. They click on the the link and sign in to WordPress and Firebase at the same time.
+
+.. figure:: /images/auth/allow-firebase-email-link.png
+    :scale: 70%
+    :align: center
+
+    Allow email link in Firebase
+
+.. figure:: /images/auth/allow-signin-via-email-link.png
+    :scale: 70%
+    :align: center
+
+    Allow sign in via email link
 
 .. figure:: /images/auth/signin-via-email-link.png
     :scale: 70%
