@@ -3,6 +3,27 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.4.0 ] - 28-06-2020
+----------------------------------
+
+#### - :bug: [Bug Fix]
+
+- Edited the broken docs link
+
+#### - :rocket: [New Feature]
+
+- Allow phone user to login to WordPress
+- Improved security for logging to WordPress
+- WordPress username is default to Firebase UID
+
+## [ 1.3.1 ] - 21-06-2020
+----------------------------------
+
+#### - :bug: [Bug Fix]
+
+- Fixed PHP Notices
+
+
 ## [ 1.3.0 ] - 21-06-2020
 ----------------------------------
 
