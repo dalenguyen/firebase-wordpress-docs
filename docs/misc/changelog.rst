@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.5.0 ] - 05-07-2020
+----------------------------------
+
+**If your Contact7 is >= v.5.2, please use update this plugin to the latest version (>= v1.5.0).**
+
+#### - :rocket: [New Feature]
+
+- Support newline when display from textarea
+- Collection name is generated from post_type plural label
+
+#### - :bug: [Bug Fix]
+
+- Fixed sending error in Contact Form 7 v5.2
+
 ## [ 1.4.0 ] - 28-06-2020
 ----------------------------------
 

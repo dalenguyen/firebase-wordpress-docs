@@ -21,6 +21,7 @@ Make sure the version of the plugin is at least: v0.9.0. Then you can choose whi
 
 In this example, it will choose Firetore as the database, and every new or update posts will be synced to Firestore. You can choose both Post & Page type. If you created custom post types, you can enter them to Custom Post Types field.
 
+
 2. Create a Sample Post
 ----------------------------------
 
@@ -33,6 +34,15 @@ After that, you can create a new post or update an existing one.
     Create a new post
 
 After you save, the post will be added to Firestore. The document id of the post is also the post id for query purpose.
+
+The collection name in Firebase is generated from the plural version fo the post type in WordPress. For example. 
+
+.. code-block:: php
+
+    Posts       -> wpPosts
+    Fancy Cars  -> wpFancyCars
+    Fancy_Cars  -> wpFancyCars
+    Fancy-Cars  -> wpFancyCars 
 
 .. figure:: /images/sync/post-in-firestore.png
     :scale: 70%

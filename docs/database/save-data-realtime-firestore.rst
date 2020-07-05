@@ -1,6 +1,8 @@
 Save Data from WordPress to Firebase (Realtime + Firestore)
 =============
 
+**If your Contact7 is >= v.5.2, please use update this plugin to the latest version (>= v1.5.0).**
+
 In this guide, I will show you how to add new data to Realtime database Firestore. In this example, I use `Contact Form 7 <https://wordpress.org/plugins/contact-form-7/>`_, but you feel free to design your own form or use other plugin. 
 
 The reason that I use Contact Form 7 is because it's the most popular form in WordPress plugin. It is well supported and highly customisation. You don't have to worry about form validation or email handling after submitting a form.
