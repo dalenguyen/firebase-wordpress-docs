@@ -125,7 +125,7 @@ If you are a developer, there is no limit that you cannot extend the plugin base
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Extentions
+   :caption: Developers
 
    developer/retrieve-data
 
