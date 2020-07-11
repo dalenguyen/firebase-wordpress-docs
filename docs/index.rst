@@ -120,7 +120,7 @@ Developers
 
 If you are a developer, there is no limit that you cannot extend the plugin bases on you needs. Here are some examples.
 
-* :doc:`/database/retrieve-data`
+* :doc:`/developer/retrieve-data`
 
 .. toctree::
    :maxdepth: 2
