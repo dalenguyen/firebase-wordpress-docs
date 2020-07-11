@@ -108,6 +108,10 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
 
     [realtime_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
+    // In order to sort the data, you can add order_by, the order bases on orderByChild()
+
+    [realtime_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title']
+
 **Realime Document as table**
 `````````````
 
@@ -158,6 +162,10 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
 
     [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
+    // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='title|asc,description|desc'`
+
+    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC']
+
 **Firestore collection through queries**
 `````````````
 
@@ -189,6 +197,8 @@ Sample Queries
     // display as 'blocks' | 'table'
 
     [firestore_search class='your-class-name' search_fields='email|age' search_operators='eq|gt' search_conditions='dale@dalenguyen.me|20' collection_name='users' display_fields='email,firstName,lastName,age,gender' display_type='blocks']
+
+    // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='firstName|asc,lastName|desc'`
 
 In `search_conditions`, if you added getFirebaseUid, it will be replaced by Firebase UID after user logs in. 
 

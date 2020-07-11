@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.6.0 ] - 12-07-2020
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- Added support for custom fields when syncing post types
+- Supported orderby when displaying firestore data
+- Supported orderby when displaying realtime data (orderByChild)
+
+#### - :nail_care: [Polish]
+
+- Updated FirebaseUI Web version to v4.5.2
+- Updated development packages
+
 ## [ 1.5.0 ] - 05-07-2020
 ----------------------------------
 

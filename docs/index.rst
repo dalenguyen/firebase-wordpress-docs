@@ -1,10 +1,10 @@
-Complete Guide to Firebase WordPress Integration (v1.5.0)
+Complete Guide to Firebase WordPress Integration (v1.6.0)
 ==========================================================
 
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: July 7, 2020
+Last updated: July 11, 2020
 
 .. raw:: html
 
@@ -114,6 +114,20 @@ Firebase Features
 
    /firebase/wordpress-to-firebase
    /firebase/firebase-cloud-message
+
+Developers
+-----------
+
+If you are a developer, there is no limit that you cannot extend the plugin bases on you needs. Here are some examples.
+
+* :doc:`/database/retrieve-data`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Extentions
+
+   developer/retrieve-data
 
 Extentions
 -----------
