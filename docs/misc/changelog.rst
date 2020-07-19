@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.7.0 ] - 19-07-2020
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- Added support for Storage bucket
+- Support WooCommerce Authentication
+
 ## [ 1.6.0 ] - 12-07-2020
 ----------------------------------
 

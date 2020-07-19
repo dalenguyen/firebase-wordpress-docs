@@ -1,10 +1,10 @@
-Complete Guide to Firebase WordPress Integration (v1.6.0)
+Complete Guide to Firebase WordPress Integration (v1.7.0)
 ==========================================================
 
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: July 11, 2020
+Last updated: July 19, 2020
 
 .. raw:: html
 
@@ -101,6 +101,20 @@ From WordPress, users can retrive or write data from Firbase Realtime / Firestor
    /database/save-data-realtime-firestore
    /database/work-with-firebase-custom-claims
 
+Cloud Storage
+-----------
+
+Cloud Storage is built for app developers who need to store and serve user-generated content, such as photos or videos.
+
+* :doc:`/storage/cloud-storage-integration`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Cloud Storage
+
+   /storage/cloud-storage-integration
+
 Firebase Features
 -----------
 
@@ -134,18 +148,18 @@ Extentions
 
 List of plugins that can integrate with **Integrate Firebase PRO**
 
+* :doc:`/extentions/woocommerce`
 * :doc:`/extentions/google-maps`
 * :doc:`/extentions/buddypress`
-* :doc:`/extentions/woocommerce`
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Extentions
 
+   extentions/woocommerce
    extentions/google-maps
    extentions/buddypress
-   extentions/woocommerce
 
 Usecases
 -----------
