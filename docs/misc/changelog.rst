@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.8.0 ] - 20-07-2020
+
+#### - :rocket: [New Feature]
+
+- Added support for file upload (Contact 7 Form)
+
+#### - :bug: [Bug Fix]
+
+- Fixed error when initialize Storage Bucket
+
 ## [ 1.7.0 ] - 19-07-2020
 ----------------------------------
 
