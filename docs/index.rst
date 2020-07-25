@@ -1,10 +1,10 @@
-Complete Guide to Firebase WordPress Integration (v1.8.0)
+Complete Guide to Firebase WordPress Integration (v1.9.0)
 ==========================================================
 
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: July 21, 2020
+Last updated: July 25, 2020
 
 .. raw:: html
 
@@ -50,6 +50,7 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
 * :doc:`/intro/ifp-plugin-configuration`
 * :doc:`/intro/cloud-functions-deployment`
 * :doc:`/intro/shortcode-list`
+* :doc:`/intro/update-plugin`
 
 .. toctree::
    :maxdepth: 2
@@ -60,6 +61,7 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
    /intro/ifp-plugin-configuration
    /intro/cloud-functions-deployment
    /intro/shortcode-list
+   /intro/update-plugin
 
 Authentication
 -----------
@@ -114,6 +116,20 @@ Cloud Storage is built for app developers who need to store and serve user-gener
    :caption: Cloud Storage
 
    /storage/cloud-storage-integration
+
+Analytics
+-----------
+
+At the heart of Firebase is Google Analytics, a free and unlimited analytics solution.
+
+* :doc:`/analytics/configure-analytics`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Analytics
+
+   /analytics/configure-analytics
 
 Firebase Features
 -----------

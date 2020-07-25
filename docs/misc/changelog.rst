@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.9.0 ] - 25-07-2020
+
+#### - :rocket: [New Feature]
+
+- Added Firebase Analytics script
+- Added author info when syncing post data to Firebase
+- Updated firebase scripts to v7.17.1
+
 ## [ 1.8.0 ] - 20-07-2020
 
 #### - :rocket: [New Feature]
