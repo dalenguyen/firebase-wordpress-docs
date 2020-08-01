@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.10.0 ] - 01-08-2020
+
+#### - :rocket: [New Feature]
+
+- Added authentication support for multisite
+
+#### - :nail_care: [Polish]
+
+- Updated firebaseui web to v4.6.1
+- Improved performance by putting scripts in body
+
 ## [ 1.9.0 ] - 25-07-2020
 
 #### - :rocket: [New Feature]

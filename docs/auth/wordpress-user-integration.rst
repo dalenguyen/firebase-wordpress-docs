@@ -9,7 +9,7 @@ This feature is available since **v0.7.0**. There are a lots of tasks that needs
 
 This feature solves the authentication problem. This is an example from one of my potential clients. The client has a mobile app (Firebase users), and they want those users to login to a separate WordPress website without registering again. 
 
-And this plugin can help you to achieve just that.
+And this plugin can help you to achieve just that. Authentication also work for WordPress multisite.
 
 At this stage, it helps to authenticate to WordPress dashboard with a **subscriber** or **customer** role (WooCommerce). And the password will be dominated by Firebase Users. User cannot change password when logging into WordPress dashboard. They have to use *forgot password* feature in Firebase in order to create a new password. And if the password is different in both systems, the next time user logs in through FirebaseUI Web shortcode, it will change the password in WordPress automatically.
 
