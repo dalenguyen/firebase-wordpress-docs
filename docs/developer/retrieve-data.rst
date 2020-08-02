@@ -45,7 +45,7 @@ Again, you can do this by editing your functions.php
     // Custom JavaScript for Firebase
     function custom_firebase_scripts_function()
     {
-    wp_enqueue_script('custom_firebaes', get_template_directory_uri() . '/js/custom-firebase.js', array('firebase_app', 'firebase_auth', 'firebase_database', 'firebase_firestore', 'firebase'));
+    wp_enqueue_script('custom_firebase', get_template_directory_uri() . '/js/custom-firebase.js', array('firebase_app', 'firebase_auth', 'firebase_database', 'firebase_firestore', 'firebase'));
     }
     add_action('wp_enqueue_scripts', 'custom_firebase_scripts_function');
 
