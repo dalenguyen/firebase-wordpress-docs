@@ -55,8 +55,9 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 .. code-block:: php
 
     // Logout Button
+    // redirect after logging out is optional
 
-    [firebase_logout][/firebase_logout]
+    [firebase_logout redirect='/'][/firebase_logout]
 
 Content
 ----------------------------------

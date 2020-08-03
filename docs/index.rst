@@ -1,4 +1,4 @@
-Complete Guide to Firebase WordPress Integration (v1.10.0)
+Complete Guide to Firebase WordPress Integration (v1.11.0)
 ==========================================================
 
 .. meta::
@@ -69,6 +69,7 @@ Authentication
 Even though the plugin allows Firebase users to log in to WordPress at the same time, best scenario is to use WordPress as backend for Firebase without allowing users to login to WordPress.
 
 * :doc:`/auth/work-with-firebaseui-web`
+* :doc:`/auth/register-login-form`
 * :doc:`/auth/onetap-email-signin`
 * :doc:`/auth/wordpress-user-integration`
 * :doc:`/auth/firebase-user-profile`
@@ -80,6 +81,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
    :caption: Authentication
 
    /auth/work-with-firebaseui-web
+   /auth/register-login-form
    /auth/onetap-email-signin
    /auth/wordpress-user-integration
    /auth/firebase-user-profile

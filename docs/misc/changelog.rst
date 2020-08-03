@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.11.0 ] - 03-08-2020
+
+#### - :rocket: [New Feature]
+
+- Added redirect after logging out
+- Added send confirmation email in [firebase_register] shortcode
+
+#### - :nail_care: [Polish]
+
+- Reorganized scripts for W3 Cache performance
+
 ## [ 1.10.0 ] - 01-08-2020
 
 #### - :rocket: [New Feature]
