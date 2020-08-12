@@ -33,41 +33,7 @@ Add the shortcode on a page or post
 
     Custom Firebase Shortcode Frontend
 
-Step 2: Add custom javascript file
-----------------------------------
-
-Again, you can do this by editing your functions.php
-
-.. code-block:: php
-
-    // functions.php
-
-    // Custom JavaScript for Firebase
-    function custom_firebase_scripts_function()
-    {
-    wp_enqueue_script('custom_firebase', get_template_directory_uri() . '/js/custom-firebase.js', array('firebase_app', 'firebase_auth', 'firebase_database', 'firebase_firestore', 'firebase'));
-    }
-    add_action('wp_enqueue_scripts', 'custom_firebase_scripts_function');
-
-Your custom-firebase.js will be under js/ folder
-
-.. figure:: /images/firestore/custom-firebase-structure.png
-    :scale: 70%
-    :align: center
-
-    Custom Firebase Location
-
-Verify it on the front-end. You have access to firebase now.
-
-.. figure:: /images/firestore/verity-custom-firebase.png
-    :scale: 70%
-    :align: center
-
-    Verify custom firebase on frontend
-
-Custom JS shows
-
-Step 3: Retrieve and display data from Firestore
+Step 2: Retrieve and display data from Firestore
 ----------------------------------
 
 Now, it’s all about JavaScript. You can customize, modify and do whatever you want.

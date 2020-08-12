@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration (v1.11.0)
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: August 3rd, 2020
+Last updated: August 12th, 2020
 
 .. raw:: html
 
@@ -152,6 +152,7 @@ Developers
 
 If you are a developer, there is no limit that you cannot extend the plugin bases on you needs. Here are some examples.
 
+* :doc:`/developer/add-custom-scripts`
 * :doc:`/developer/retrieve-data`
 
 .. toctree::
@@ -159,6 +160,7 @@ If you are a developer, there is no limit that you cannot extend the plugin base
    :hidden:
    :caption: Developers
 
+   developer/add-custom-scripts
    developer/retrieve-data
 
 Extentions
