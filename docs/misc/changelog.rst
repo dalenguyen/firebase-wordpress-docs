@@ -3,6 +3,12 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.12.0 ] - 15-08-2020
+
+#### - :bug: [Bug Fix]
+
+- Fixed Firebase Account does't save
+
 ## [ 1.11.0 ] - 03-08-2020
 
 #### - :rocket: [New Feature]
