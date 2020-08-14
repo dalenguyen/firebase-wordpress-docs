@@ -3,11 +3,13 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
-## [ 1.12.0 ] - 15-08-2020
+## [ 1.12.0 ] - 13-08-2020
 
 #### - :bug: [Bug Fix]
 
-- Fixed Firebase Account does't save
+- Fixed Firebase Account doesn't save
+- Fixed "missing the required permission_callback argument" (WordPress 5.5)
+- Fixed user cannot register to WordPress using [firebase_login] shortcode
 
 ## [ 1.11.0 ] - 03-08-2020
 
