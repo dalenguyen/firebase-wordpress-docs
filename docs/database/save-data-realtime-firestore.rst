@@ -57,20 +57,24 @@ Sample of data that I will use to update to Firestore
 From that you can create a sample form in Contact tab. The hidden fields are important. 
 
 + [hidden collectionName "users"]  -> collection name is users.
-+ [hidden documentId "1"] -> it will override the document id 1. This field is optional.
++ [hidden documentId "your-document-name"] -> it will override the document id 1. This field is optional.
 + [hidden databaseType "firestore"] -> data will be saved in firestore.
 + [hidden arrayType "hobbies,food"] -> array data should be added to arrayType field. This field is optional.
 + [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
-+ [hidden mapTypes "contact"] -> will save a map (object) type 
++ [hidden mapTypes "contact"] -> will save a map (object) type
++ [hidden formAction "UPDATE"] -> will update field instead of override it. Use with `[hidden documentId "your-document-name"]`
+
+* The **UPDATE** only applies to Cloud Firestore. If you want to create a new document everytime users submit the form, you can obmit the **[hidden formAction "UPDATE"]** option.
 
 .. code-block:: bash
 
     [hidden collectionName "users"]
-    [hidden documentId "1"]
+    [hidden documentId "your-document-name"]
     [hidden databaseType "firestore"]
     [hidden arrayType "hobbies,food"]
     [hidden dateType "dateOfBirth"]
     [hidden mapTypes "contact"]
+    [hidden formAction "UPDATE"]
 
     [text* firstName placeholder "First Name"]
     [text* lastName placeholder "Last Name"]

@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.13.0 ] - 22-08-2020
+
+#### - :rocket: [New Feature]
+
+- Added Created On and Signed In to the Users table
+- Added UPDATE option for Contact Form 7 (Firestore)
+
+#### - :nail_care: [Polish]
+
+- Added check for new version in WordPress dashboard
+- Added guide URL under Auth tab
+
 ## [ 1.12.0 ] - 13-08-2020
 
 #### - :bug: [Bug Fix]
