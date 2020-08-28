@@ -58,4 +58,12 @@ For taxonomies, will be saved under a node name `taxonomies`.
 
     Taxonomies node
 
+For author & custom fields, they will be saved under `author` and `custom_fields` node. Author also contains firebase uid and wordpress uid for futher usage.
+
+.. figure:: /images/sync/author-custom-fields.png
+    :scale: 70%
+    :align: center
+
+    Taxonomies node
+
 When you update the current post, it will override the data in the firestore to make sure that it always updated.
