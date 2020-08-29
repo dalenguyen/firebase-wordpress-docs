@@ -40,6 +40,19 @@ Since version 0.6.0, before deploying any functions, you should create two token
     // Check your api token
     firebase functions:config:get api --project project-id
 
+Change Your Plan to Blaze
+`````````````
+
+**Why will I need a billing account to use the Node.js 10 runtime for Cloud Functions for Firebase?**
+
+Because of updates to its underlying architecture planned for August 17, 2020, Cloud Functions for Firebase will rely on some additional paid Google services: Cloud Build, Container Registry, and Cloud Storage. These architecture updates will apply for functions deployed to the Node.js 10 runtime. `Usage of these services will be billed in addition to existing pricing <https://firebase.google.com/support/faq#pricing-blaze-free>`_.
+
+.. figure:: /images/intro/pay-as-you-go.png
+    :scale: 70%
+    :align: center
+
+    Firebase pricing plans
+
 Change Cloud Functions Regions
 `````````````
 
