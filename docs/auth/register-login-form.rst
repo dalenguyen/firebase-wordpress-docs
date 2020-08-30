@@ -31,6 +31,7 @@ With this form, you can customize the registration form that will save extra fie
     [firebase_register required_fields='firstName,lastName,phoneNumber' extra_fields='firstName,lastName,phoneNumber' redirect='/']
 
     If you want to send a verification email after user registers, you can add this option: send_email_confirmation=true
+    Remember that if user doesn't verify their email, they won't be allowed to login next time.
 
 Logout Option
 ----------------------------------

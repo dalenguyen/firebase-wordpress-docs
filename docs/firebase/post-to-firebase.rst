@@ -1,5 +1,5 @@
 
-Sync Data from WordPress to Firebase
+Sync Post Data from WordPress to Firebase
 =============
 
 Since version 0.9.0, I added some event triggers for syncing data from WordPress to Firebase. The plugin now supports syncing Post & Page from WordPress to Firebase. That means when you add or update a new Post or Page. The content will be updated automatically to Firebase (Realtime / Firestore). 

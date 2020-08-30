@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.14.0 ] - 30-08-2020
+
+#### - :rocket: [New Feature]
+
+- Updated display name if it exists in Firebase
+- Ability to sync Users to Firestore / Realtime Database
+
+**Notice:** You have to deploy cloud functions (v0.14.0) in order to sync user data
+
 ## [ 1.13.0 ] - 22-08-2020
 
 #### - :rocket: [New Feature]

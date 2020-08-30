@@ -15,6 +15,14 @@ At this stage, it helps to authenticate to WordPress dashboard with a **subscrib
 
 **Support**: Social Logins, Email and Phone Number.
 
+Firebase UID will be used as WordPress username. If they have display name from Firebase (e.g. Google login), it will update WordPress display name for a friendly user experience.
+
+.. figure:: /images/auth/user-display-name.png
+    :scale: 70%
+    :align: center
+
+    User Display Name in WooCommerce
+
 Login to WP Dashboard with Firebase Users
 ----------------------------------
 

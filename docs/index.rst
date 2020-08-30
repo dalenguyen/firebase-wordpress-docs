@@ -1,10 +1,10 @@
-Complete Guide to Firebase WordPress Integration (v1.13.0)
+Complete Guide to Firebase WordPress Integration (v1.14.0)
 ==========================================================
 
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: August 22th, 2020
+Last updated: August 30th, 2020
 
 .. raw:: html
 
@@ -136,7 +136,8 @@ At the heart of Firebase is Google Analytics, a free and unlimited analytics sol
 Firebase Features
 -----------
 
-* :doc:`/firebase/wordpress-to-firebase`
+* :doc:`/firebase/post-to-firebase`
+* :doc:`/firebase/users-to-firebase`
 * :doc:`/firebase/firebase-cloud-message`
 
 .. toctree::
@@ -144,7 +145,8 @@ Firebase Features
    :hidden:
    :caption: Firebase Features
 
-   /firebase/wordpress-to-firebase
+   /firebase/post-to-firebase
+   /firebase/users-to-firebase
    /firebase/firebase-cloud-message
 
 Developers
