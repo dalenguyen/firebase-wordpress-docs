@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.15.0 ] - 20-09-2020
+
+#### - :rocket: [New Feature]
+
+- Added not-in & not equal (!=) to filter Firestore
+- Added limit when getting Firestore data
+- Added dynamic link when displaying firestore data
+
+#### - :nail_care: [Polish]
+
+- Updated firebase scripts to 7.21.0
+
 ## [ 1.14.0 ] - 30-08-2020
 
 #### - :rocket: [New Feature]

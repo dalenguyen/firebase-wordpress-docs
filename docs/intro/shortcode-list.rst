@@ -164,8 +164,9 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
     [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
     // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='title|asc,description|desc'`
+    // You can also limit the data by adding a `limit` parameters (optional)
 
-    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC']
+    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC' limit=10]
 
 **Firestore collection through queries**
 `````````````
@@ -179,11 +180,13 @@ In some cases, you have to open your console log and create an index for your qu
     // Operation list
 
     eq: '==',
+    ne: '!=',
     gt: '>',
     ge: '>=',
     lt: '<',
     le: '<=',
     in: 'in',
+    ni: 'not-in',
     ac: 'array-contains',
     aca: 'array-contains-any',
 
