@@ -93,7 +93,7 @@ Database
 From WordPress, users can retrive or write data from Firbase Realtime / Firestore using shortcodes.
 
 * :doc:`/database/retrieve-data-from-firestore`
-* :doc:`/database/dynamicly-display-from-firestore`
+* :doc:`/database/dynamically-display-from-firestore`
 
 * :doc:`/database/save-data-realtime-firestore`
 * :doc:`/database/work-with-firebase-custom-claims`
@@ -104,7 +104,7 @@ From WordPress, users can retrive or write data from Firbase Realtime / Firestor
    :caption: Database
 
    /database/retrieve-data-from-firestore
-   /database/dynamicly-display-from-firestore
+   /database/dynamically-display-from-firestore
    /database/save-data-realtime-firestore
    /database/work-with-firebase-custom-claims
 

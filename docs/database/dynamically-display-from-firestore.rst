@@ -1,4 +1,4 @@
-Dynamicly Display Firestore Data on WordPress
+Dynamically Display Firestore Data on WordPress
 =============
 
 This tutorial will help to retrieve a list of documents from Firestore, then generate a link that leads to a child page. Just imagine this as an blog page and a post page. 
