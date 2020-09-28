@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [ 1.16.0 ] - 27-09-2020
+
+#### - :rocket: [New Feature]
+
+- Use phone number as display name for phone authentication
+- Added User to Firestore (No WordPress User flow)
+
+#### - :nail_care: [Polish]
+
+- Updated check version condition
+
 ## [ 1.15.0 ] - 20-09-2020
 
 #### - :rocket: [New Feature]
