@@ -57,7 +57,7 @@ This page will contain the shortcode for logging in.
 
 After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically. 
 
-**Notice**: :red:`the WordPress username defaults to Firebase UID (e.g. sQ6cwDm5zUe42Do5YnySASasdf) for security purpose. User can change their display name if they want. This is only affect since v1.4.0`
+**Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
 
 When users log out from dashboard, that means they will also be logged out to Firebase.
 
