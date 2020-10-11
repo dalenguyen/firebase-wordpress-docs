@@ -18,5 +18,5 @@ The current version of the plugin works best in the situation that you want to t
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 10%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zToMwKsAdwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0C2bowb8fN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
