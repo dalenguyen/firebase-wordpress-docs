@@ -5,8 +5,6 @@
 WordPress User Integration
 =============
 
-This feature is available since **v0.7.0**. There are a lots of tasks that needs to be done in order to make the integration much better for WordPress and Firebase Users because they are in two separate systems.
-
 This feature solves the authentication problem. This is an example from one of my potential clients. The client has a mobile app (Firebase users), and they want those users to login to a separate WordPress website without registering again. 
 
 And this plugin can help you to achieve just that. Authentication also work for WordPress multisite.
@@ -55,7 +53,7 @@ This page will contain the shortcode for logging in.
 
     New WP Login Page
 
-After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically. 
+After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically. In `PRO - v1.17.0`, while user logging in, there will be a loading state that prevents users from navigating to other pages until the login process is completed.
 
 **Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
 

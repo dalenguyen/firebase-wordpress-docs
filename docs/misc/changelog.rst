@@ -3,6 +3,13 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.0] (2020-10-11)
+
+#### :rocket: [New Feature]
+
+- `PRO - v1.17.0`
+    - Added loading state after logging in
+
 ## [ 1.16.0 ] - 27-09-2020
 
 #### - :rocket: [New Feature]
