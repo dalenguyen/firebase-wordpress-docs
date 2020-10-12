@@ -158,6 +158,20 @@ Firebase Features
    /firebase/users-to-firebase
    /firebase/firebase-cloud-message
 
+Hooks
+-----------
+
+Actions & Filters that help to communicate with Firebase.
+
+* :doc:`/hooks/filters`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Hooks
+
+   /hooks/filters
+
 Developers
 -----------
 

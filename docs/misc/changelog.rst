@@ -3,6 +3,13 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.1.0 (2020-10-12)
+
+#### :rocket: [New Feature]
+
+- `PRO - v1.18.0`
+    - Added Filter Hook to Save Data to Firebase
+
 ## [v1.0.0] (2020-10-11)
 
 #### :rocket: [New Feature]
