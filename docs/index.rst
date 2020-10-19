@@ -1,10 +1,10 @@
-Complete Guide to Firebase WordPress Integration (v1.1.0)
+Complete Guide to Firebase WordPress Integration (v1.2.0)
 ==========================================================
 
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Oct 12th, 2020
+Last updated: Oct 18th, 2020
 
 .. raw:: html
 
@@ -45,7 +45,7 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- Integrate Firebase PRO - `v1.18.0`
+- Integrate Firebase PRO - `v1.19.0`
 
 First steps
 -----------

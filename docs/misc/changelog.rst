@@ -3,14 +3,26 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
-## v1.1.0 (2020-10-12)
+## [v1.2.0] - (2020-10-18)
+
+#### :nail_care: [Polish]
+
+- `PRO - v1.19.0`
+    - Updated firebaseUI Web to 4.7.0
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v1.19.0`
+    - Fixed Beaver Builder conflict
+
+## [v1.1.0] - (2020-10-12)
 
 #### :rocket: [New Feature]
 
 - `PRO - v1.18.0`
     - Added Filter Hook to Save Data to Firebase
 
-## [v1.0.0] (2020-10-11)
+## [v1.0.0] - (2020-10-11)
 
 #### :rocket: [New Feature]
 
