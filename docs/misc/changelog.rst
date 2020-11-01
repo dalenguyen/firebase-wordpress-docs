@@ -3,7 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.0 (2020-11-01)
+----------------------------------
+#### :nail_care: [Polish]
+
+- `PRO - v1.20.0`
+    - Updated firebase scripts to v8.0.0
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v1.20.0`
+    - Check for firebase functions before syncing WordPress users
+
 ## [v1.2.0] - (2020-10-18)
+----------------------------------
 
 #### :nail_care: [Polish]
 
@@ -16,6 +29,7 @@ All notable changes to this project will be documented in this file.
     - Fixed Beaver Builder conflict
 
 ## [v1.1.0] - (2020-10-12)
+----------------------------------
 
 #### :rocket: [New Feature]
 
@@ -23,6 +37,7 @@ All notable changes to this project will be documented in this file.
     - Added Filter Hook to Save Data to Firebase
 
 ## [v1.0.0] - (2020-10-11)
+----------------------------------
 
 #### :rocket: [New Feature]
 
@@ -30,6 +45,7 @@ All notable changes to this project will be documented in this file.
     - Added loading state after logging in
 
 ## [ 1.16.0 ] - 27-09-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -41,6 +57,7 @@ All notable changes to this project will be documented in this file.
 - Updated check version condition
 
 ## [ 1.15.0 ] - 20-09-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -53,6 +70,7 @@ All notable changes to this project will be documented in this file.
 - Updated firebase scripts to 7.21.0
 
 ## [ 1.14.0 ] - 30-08-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -62,6 +80,7 @@ All notable changes to this project will be documented in this file.
 **Notice:** You have to deploy cloud functions (v0.14.0) in order to sync user data
 
 ## [ 1.13.0 ] - 22-08-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -74,6 +93,7 @@ All notable changes to this project will be documented in this file.
 - Added guide URL under Auth tab
 
 ## [ 1.12.0 ] - 13-08-2020
+----------------------------------
 
 #### - :bug: [Bug Fix]
 
@@ -82,6 +102,7 @@ All notable changes to this project will be documented in this file.
 - Fixed user cannot register to WordPress using [firebase_login] shortcode
 
 ## [ 1.11.0 ] - 03-08-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -93,6 +114,7 @@ All notable changes to this project will be documented in this file.
 - Reorganized scripts for W3 Cache performance
 
 ## [ 1.10.0 ] - 01-08-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -104,6 +126,7 @@ All notable changes to this project will be documented in this file.
 - Improved performance by putting scripts in body
 
 ## [ 1.9.0 ] - 25-07-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -112,6 +135,7 @@ All notable changes to this project will be documented in this file.
 - Updated firebase scripts to v7.17.1
 
 ## [ 1.8.0 ] - 20-07-2020
+----------------------------------
 
 #### - :rocket: [New Feature]
 
