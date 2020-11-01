@@ -49,7 +49,7 @@ Now, it’s all about JavaScript. You can customize, modify and do whatever you 
 
                 // You can get the collectionName and documentName from the shortcode attribute
                 const collectionName = 'users';
-                const documentName = ‘document-1'
+                const documentName = 'document-1'
 
                 if (collectionName && documentName) {
                     const docRef = db.collection(collectionName).doc(documentName);
