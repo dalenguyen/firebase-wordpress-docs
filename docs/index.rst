@@ -1,4 +1,4 @@
-Complete Guide to Firebase WordPress Integration (v1.2.0)
+Complete Guide to Firebase WordPress Integration
 ==========================================================
 
 .. meta::
