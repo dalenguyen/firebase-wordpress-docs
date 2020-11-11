@@ -3,8 +3,25 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.4.0 (2020-11-08)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.21.0`
+   - Added Filter Hook to Import Users to Firebase
+  - Added createdAt & SignedOn to the exported users in WP dashboard
+
+- `USERS - v1.0.0`
+   - Added import WP users to Firebase
+
+- `FUNCTIONS - v0.15.0`
+   - Added import users endpoint
+   - Allowed to signout with frontend token
+
 ## v1.3.0 (2020-11-01)
 ----------------------------------
+
 #### :nail_care: [Polish]
 
 - `PRO - v1.20.0`
