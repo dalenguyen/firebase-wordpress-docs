@@ -160,8 +160,9 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
 
     // show firestore collection data basing on collection name & display fields
     // display fields or images is required
+    // nested object key is also supported by using dot notation (e.g. author.fullName)
 
-    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,description,more' images='url']
+    [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,author.fullName,description,more' images='image.url']
 
     // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='title|asc,description|desc'`
     // You can also limit the data by adding a `limit` parameters (optional)

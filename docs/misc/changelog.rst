@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.5.0 (2020-11-14)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.22.0`
+   - Allowed getting firestore value from a deep level object key
+
+#### - :nail_care: [Polish]
+
+- `PRO - v1.22.0`
+  - Updated firebase scripts to v8.0.2
+  - Updated firebaseui web scripts to v4.7.1
+
 ## v1.4.0 (2020-11-08)
 ----------------------------------
 
