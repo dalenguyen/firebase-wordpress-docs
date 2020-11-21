@@ -3,6 +3,21 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.0 (2020-11-21)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.23.0`
+   - Converted timestamp to date format (firestore)
+   - Improved security for auto login
+
+#### - :nail_care: [Polish]
+
+- `FUNCTIONS - v0.16.0`
+  - Updated packages
+  - Required node 12 for cloud functions
+
 ## v1.5.0 (2020-11-14)
 ----------------------------------
 
