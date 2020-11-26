@@ -55,6 +55,14 @@ This page will contain the shortcode for logging in.
 
 After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically. In `PRO - v1.17.0`, while user logging in, there will be a loading state that prevents users from navigating to other pages until the login process is completed.
 
+One thing to notice that, after user logs in via the plugin shortcode, the firebase uid is saved in user metadata, and you can retrive it by using this example. 
+
+.. code-block:: php
+
+    // This will return an array with firebase uid
+    $user_data = get_user_meta( $user->ID , 'firebase_uid' );
+    error_log(print_r($user_data, true));
+
 **Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
 
 When users log out from dashboard, that means they will also be logged out to Firebase.

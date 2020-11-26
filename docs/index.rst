@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Nov 21, 2020
+Last updated: Nov 25, 2020
 
 .. raw:: html
 
@@ -47,7 +47,8 @@ Products
 
 - Integrate Firebase PRO - `v1.23.0`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v0.15.0` (bundle with PRO plugin)
-- `Integrate Firebase Users<https://firebase-wordpress-docs.readthedocs.io/en/latest/extentions/firebase-users.html>`_ - `v1.0.0` (Extention)
+- `Integrate Firebase Users<https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.0.0` (Extension)
+- `Integrate Firebase Template <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-template.html>`_ - `v1.0.0` (Extension)
 
 First steps
 -----------
@@ -190,25 +191,27 @@ If you are a developer, there is no limit that you cannot extend the plugin base
    developer/add-custom-scripts
    developer/retrieve-data
 
-Extentions
+Extensions
 -----------
 
 List of plugins that can integrate with **Integrate Firebase PRO**
 
-* :doc:`/extentions/firebase-users`
-* :doc:`/extentions/woocommerce`
-* :doc:`/extentions/google-maps`
-* :doc:`/extentions/buddypress`
+* :doc:`/extensions/firebase-template`
+* :doc:`/extensions/firebase-users`
+* :doc:`/extensions/woocommerce`
+* :doc:`/extensions/google-maps`
+* :doc:`/extensions/buddypress`
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Extentions
+   :caption: Extensions
 
-   extentions/firebase-users
-   extentions/woocommerce
-   extentions/google-maps
-   extentions/buddypress
+   extensions/firebase-template
+   extensions/firebase-users
+   extensions/woocommerce
+   extensions/google-maps
+   extensions/buddypress
 
 Usecases
 -----------
