@@ -60,8 +60,8 @@ One thing to notice that, after user logs in via the plugin shortcode, the fireb
 .. code-block:: php
 
     // This will return an array with firebase uid
-    $user_data = get_user_meta( $user->ID , 'firebase_uid' );
-    error_log(print_r($user_data, true));
+    $firebase_uid = get_user_meta( $user->ID , 'firebase_uid', true );
+    error_log($firebase_uid);
 
 **Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
 
