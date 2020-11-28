@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.7.0 (2020-11-28)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v1.24.0`
+   - Used update rather than create for syncing data to firebase
+
 ## v1.6.0 (2020-11-21)
 ----------------------------------
 
