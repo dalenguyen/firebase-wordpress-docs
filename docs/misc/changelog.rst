@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.8.0 (2020-12-05)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `WOO - v1.1.0`
+   - Sync order to firebase
+
 ## v1.7.0 (2020-11-28)
 ----------------------------------
 
