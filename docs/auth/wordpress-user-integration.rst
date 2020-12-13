@@ -45,7 +45,7 @@ This page will contain the shortcode for logging in.
 .. code-block:: php
 
     // Login, Register through FirebaseUI Web
-    [firebaseui_web][/firebaseui_web]
+    [firebaseui_web redirect='link-to-page'][/firebaseui_web]
 
 .. figure:: /images/auth/wp-new-login-url.png
     :scale: 70%

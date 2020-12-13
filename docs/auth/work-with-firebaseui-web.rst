@@ -40,8 +40,8 @@ Then you well the login feature on the frontend.
 
     FirebaseUI Web Frontend
 
-You can enable the login feature by adding this shorcode a post or a page.
+You can enable the login feature by adding this shorcode a post or a page. If you specify the `redirect` parameter in the shortcode, it will override the setting in WordPress in order to redirect to desired page after logging in.
 
 .. code-block:: php
 
-    [firebaseui_web][/firebaseui_web]
+    [firebaseui_web redirect="link-to-page"][/firebaseui_web]

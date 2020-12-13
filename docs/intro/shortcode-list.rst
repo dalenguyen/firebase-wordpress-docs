@@ -31,8 +31,9 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 .. code-block:: php
 
     // Login, Register through FirebaseUI Web
+    // redirect parameter is optional
 
-    [firebaseui_web][/firebaseui_web]
+    [firebaseui_web redirect="link-to-page"][/firebaseui_web]
 
 .. code-block:: php
 
