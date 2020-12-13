@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.9.0 (2020-12-13)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.25.0`
+   - Added custom redirect to firebaseui web
+
+- `WOO - v1.2.0`
+   - Added currency to synced order to firebase
+   - Enabled synced product to firebase
+
 ## v1.8.0 (2020-12-05)
 ----------------------------------
 

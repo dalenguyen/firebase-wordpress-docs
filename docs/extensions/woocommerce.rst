@@ -21,7 +21,7 @@ From now, if you use the plugin authentication shortcode, users will be created 
 Synchronization (Extension)
 ----------------------------------
 
-The first iteration of the extension is to sync order to firebase (realtime / firestore). After succesfully purchase, the order will be synced to firebase. 
+The first iteration of the extension is to sync order and product to firebase (realtime / firestore). After succesfully purchase, the order will be synced to firebase. 
 
 The configuration is straight forward, after installing the plugin, you will have to pick the right type of database and the name for the database in order to save the woocommerce's order.
 
@@ -31,6 +31,9 @@ The configuration is straight forward, after installing the plugin, you will hav
 
     Extension configuration
 
+Synced Order -> Firebase (Extension)
+----------------------------------
+
 After the purchase is success, the order will be saved to firebase. In this example, it will be saved to realtime database.
 
 .. figure:: /images/extensions/woocommerce/realtime-order-data.png
@@ -38,5 +41,16 @@ After the purchase is success, the order will be saved to firebase. In this exam
     :align: center
 
     Realtime order data
+
+Synced Product -> Firebase (Extension)
+----------------------------------
+
+If you enter the collection name for product in the settings, the WooCommerce product will be synced to Realtime / Firestore. This is the current schema for product in firebase. If you want to extend it, please create a ticket on Github or send email to support.
+
+.. figure:: /images/extensions/woocommerce/firestore-product-data.png
+    :scale: 70%
+    :align: center
+
+    Firestore product data
 
 This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.
