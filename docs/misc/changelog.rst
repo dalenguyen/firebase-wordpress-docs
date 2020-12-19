@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.10.0 (2020-12-19)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.26.0`
+   - Improved logged in session between WordPress & Firebase
+
 ## v1.9.0 (2020-12-13)
 ----------------------------------
 
