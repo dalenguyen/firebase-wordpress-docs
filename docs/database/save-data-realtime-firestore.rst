@@ -54,6 +54,8 @@ Sample of data that I will use to update to Firestore
         gender: string
     }
 
+The `createdAt` field will be added automatically for sorting purpose.
+
 From that you can create a sample form in Contact tab. The hidden fields are important. 
 
 + [hidden collectionName "users"]  -> collection name is users.
@@ -62,6 +64,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 + [hidden arrayType "hobbies,food"] -> array data should be added to arrayType field. This field is optional.
 + [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
 + [hidden mapTypes "contact"] -> will save a map (object) type
++ [hidden integerTypes "age,phone"] -> will save as integer type
 + [hidden formAction "UPDATE"] -> will update field instead of override it. Use with `[hidden documentId "your-document-name"]`
 
 * The **UPDATE** only applies to Cloud Firestore. If you want to create a new document everytime users submit the form, you can obmit the **[hidden formAction "UPDATE"]** option.
@@ -74,6 +77,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
     [hidden arrayType "hobbies,food"]
     [hidden dateType "dateOfBirth"]
     [hidden mapTypes "contact"]
+    [hidden integerTypes "age"]
     [hidden formAction "UPDATE"]
 
     [text* firstName placeholder "First Name"]

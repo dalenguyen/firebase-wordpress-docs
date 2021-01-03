@@ -3,6 +3,22 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.11.0 (2021-01-03)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.0.0`
+   - Updated synced user function when logging to WordPress is disabled
+   - Added createdAt field when saving data to firebase
+   - Added integer type when saving data to firebase
+   - Hided login & register page when login with WordPress is enabled
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.0.0`
+   - Updated firebase script to v8.2.1
+
 ## v1.10.0 (2020-12-19)
 ----------------------------------
 
