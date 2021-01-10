@@ -65,9 +65,9 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 + [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
 + [hidden mapTypes "contact"] -> will save a map (object) type
 + [hidden integerTypes "age,phone"] -> will save as integer type
-+ [hidden formAction "UPDATE"] -> will update field instead of override it. Use with `[hidden documentId "your-document-name"]`
++ [hidden formAction "UPDATE"] -> This option is DEPRECATED.
 
-* The **UPDATE** only applies to Cloud Firestore. If you want to create a new document everytime users submit the form, you can obmit the **[hidden formAction "UPDATE"]** option.
+The default option is to upsert data to firebase. If the node / id does not exist, it will create a new one; otherwise, it it update the existing data.
 
 .. code-block:: bash
 
@@ -78,7 +78,6 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
     [hidden dateType "dateOfBirth"]
     [hidden mapTypes "contact"]
     [hidden integerTypes "age"]
-    [hidden formAction "UPDATE"]
 
     [text* firstName placeholder "First Name"]
     [text* lastName placeholder "Last Name"]

@@ -3,6 +3,23 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.12.0 (2021-01-09)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.1.0`
+   - Added support for display data type Boolean & Number
+   - Added id to the display fields (firestore)
+   - Deprecated formAction when saving / updating data
+   - Data will be upsert to firebase
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.1.0`
+   - Hide logout link when login with Firebase is disabled
+   - Improved error mesages & security
+
 ## v1.11.0 (2021-01-03)
 ----------------------------------
 

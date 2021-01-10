@@ -85,7 +85,7 @@ Dynamically dispaly data from document:
 - https://wordpress.dalenguyen.me/display-realtime-document-dynamically/
 - https://wordpress.dalenguyen.me/display-firestore-document-dynamically/
 
-In order to get Data that relates to User Id, you can replace `document_name='some-string'` by  `document_name='getFirebaseUid'`. After user logs in, `getFirebaseUid` will be replaced by their user id.
+In order to get data that relates to Firebase User Id, you can replace `document_name='some-string'` by  `document_name='getFirebaseUid'`. After user logs in, `getFirebaseUid` will be replaced by their user id.
 
 **Realime collection as table**
 `````````````
@@ -149,6 +149,8 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
 
     // show firestore collection data basing on collection name & display fields
     // display fields or images is required
+    // if you want to display document id, add `id` to display_fields
+
 
     [firestore_col class='your-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
@@ -162,6 +164,9 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
     // show firestore collection data basing on collection name & display fields
     // display fields or images is required
     // nested object key is also supported by using dot notation (e.g. author.fullName)
+
+    // if you want to display document id, add `id` to display_fields
+
 
     [firestore_blocks class='your-class-name' collection_name='blog' display_fields='title,author.fullName,description,more' images='image.url']
 
@@ -217,6 +222,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 
     // show firestore data basing on collection name & document id
     // display fields or images is required
+    // if you want to display document id, add `id` to display_fields
 
     [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
@@ -229,6 +235,8 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
 
     // show firestore data basing on collection name & document id
     // display fields or images is required
+    // if you want to display document id, add `id` to display_fields
+
 
     [firestore class='your-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
