@@ -3,6 +3,23 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.13.0 (2021-01-17)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `WOO - v1.4.0`
+   - Added createdAt & updatedAt when syncing order
+   - Added phone number to billing when syncing order
+
+#### - :nail_care: [Polish]
+
+- `FUNCTIONS - v0.17.0`
+   - Update packages
+
+- `PRO - v2.1.0`
+   - Improved Login / Logout Styling
+
 ## v1.12.0 (2021-01-09)
 ----------------------------------
 
