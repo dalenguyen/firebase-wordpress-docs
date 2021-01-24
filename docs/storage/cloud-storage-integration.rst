@@ -39,7 +39,14 @@ First, we need to create a form with the help of Contact Form 7 or you can desig
 
 Please refer to the `Contact Form 7 <https://contactform7.com/file-uploading-and-attachment/>`_ for configuring your file input.
 
-After submiting the file, it will be uploaded to Cloud Storage under **wpImages/som-random-id** path. The image name will be prefixed with a timestamp.
+After submiting the file, it will be uploaded to Cloud Storage under **wpImages/som-random-id** path. The image name will be prefixed with a timestamp. For secuirty purpose, the image will be saved as a path. However, if you want to get the full readable URL, you can change the configuration. 
+
+
+.. code-block:: bash
+
+    // By adding `__public`, the file will be saved as full URL
+    
+    [hidden fileType "imageUrl__public"]
 
 .. figure:: /images/storage/storage-images-path.png
     :scale: 70%

@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Firebase WordPress Integration'
-copyright = '2020, Dale Nguyen'
+copyright = '2021, Dale Nguyen'
 author = u'Dale Nguyen'
 
 # The short X.Y version
-version = '1.12.0'
+version = '1.14.0'
 release = version
 
 # -- General configuration ---------------------------------------------------

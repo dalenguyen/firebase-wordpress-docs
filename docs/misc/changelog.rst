@@ -3,6 +3,27 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.14.0 (2021-01-23)
+----------------------------------
+
+#### - :boom: [Breaking Change]
+
+- `PRO - v2.3.0`
+   - Improved autologin security to WordPress (need cloud functions v.0.18.0)
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.3.0`
+   - Allowed getting full URL when uploading a file to Firebase Storage
+
+- `FUNCTIONS - v0.18.0`
+   - Added getUser endpoint (with fields params)
+
+#### - :bug: [Bug Fix]
+
+- `WOO - v1.5.0`
+   - Fixed typo when syncing Order to Firebase
+
 ## v1.13.0 (2021-01-17)
 ----------------------------------
 
