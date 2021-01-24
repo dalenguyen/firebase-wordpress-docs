@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.14.1 (2021-01-24)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.3.1`
+   - Only run security check when cloud functions are deployed
+
 ## v1.14.0 (2021-01-23)
 ----------------------------------
 
