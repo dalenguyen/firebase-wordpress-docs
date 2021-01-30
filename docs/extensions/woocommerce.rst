@@ -23,6 +23,8 @@ Synchronization (Extension)
 
 The first iteration of the extension is to sync order and product to firebase (realtime / firestore). After succesfully purchase, the order will be synced to firebase. 
 
+The purpose of syncing Orders & Products is to have the flexibility of assigning user roles / persmissions based on their purchases - this can be done via custom cloud functions.
+
 The configuration is straight forward, after installing the plugin, you will have to pick the right type of database and the name for the database in order to save the woocommerce's order.
 
 .. figure:: /images/extensions/woocommerce/woo-configuration.png
@@ -52,5 +54,13 @@ If you enter the collection name for product in the settings, the WooCommerce pr
     :align: center
 
     Firestore product data
+
+Since v1.6.0, you can sync products attributes to Firebase. 
+
+.. figure:: /images/extensions/woocommerce/product-attributes.png
+    :scale: 70%
+    :align: center
+
+    Products attributes
 
 This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.

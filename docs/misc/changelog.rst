@@ -3,6 +3,13 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.15.0 (2021-01-30)
+----------------------------------
+#### - :rocket: [New Feature]
+
+- `WOO - v1.6.0`
+   - Added attributes when syncing products
+
 ## v1.14.1 (2021-01-24)
 ----------------------------------
 
