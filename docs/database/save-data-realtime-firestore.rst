@@ -1,3 +1,7 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
 Save Data from WordPress to Firebase (Realtime + Firestore)
 =============
 
@@ -19,6 +23,10 @@ Prerequisite
 ----------------------------------
 
 Since **v0.17.0**, you only need to update security rules on your database (realtime / firestore), so any can write to your database or they have to log in before saving. It totally depends on the firebase security rules.
+
+.. role:: red
+
+:red:`Note: if you use 'Contact 7 Redirect' feature, it may not work properly because the redirect may interfere with the sync process.`
 
 
 Getting Firebase UID value

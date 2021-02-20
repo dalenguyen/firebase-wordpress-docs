@@ -3,8 +3,28 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.16.0 (2021-02-20)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.4.0`
+   - Added delete database hooks
+   - Removed delete post to firebase database
+
+- `FUNCTIONS - v0.19.0`
+   - Added delete document endpoint
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.4.0`
+   - Increased security check in time for autologin
+   - Improved login logic handler
+   - Updated firebase scripts version
+
 ## v1.15.0 (2021-01-30)
 ----------------------------------
+
 #### - :rocket: [New Feature]
 
 - `WOO - v1.6.0`

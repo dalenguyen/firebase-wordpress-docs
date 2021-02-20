@@ -67,3 +67,10 @@ For author & custom fields, they will be saved under `author` and `custom_fields
     Taxonomies node
 
 When you update the current post, it will override the data in the firestore to make sure that it always updated.
+
+3. Delete a Post
+----------------------------------
+
+In order to use this feature, you need to deploy cloud function (v0.19.0). 
+
+Once you delete a post, it will also delete the post from firebase. This is a permanent process. If you restore the post from the trash bin in WordPress, the post in Firebase is already deleted and cannot be restored. 
