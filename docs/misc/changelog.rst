@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.17.0 (2021-03-06)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.5.0`
+   - Added support for jwt token login
+   - Added updatedAt when updating data to Firebase
+
+#### :bug: [Bug Fix]
+
+- `PRO - v2.5.0`
+   - Fixed createdAt when updating data to Firebase
+
 ## v1.16.0 (2021-02-20)
 ----------------------------------
 
