@@ -214,6 +214,7 @@ List of plugins that can integrate with **Integrate Firebase PRO**
    extensions/firebase-template
    extensions/firebase-users
    extensions/woocommerce
+   extensions/jwt
    extensions/google-maps
    extensions/buddypress
 
