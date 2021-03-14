@@ -47,6 +47,9 @@ After submiting the file, it will be uploaded to Cloud Storage under **wpImages/
     // By adding `__public`, the file will be saved as full URL
     
     [hidden fileType "imageUrl__public"]
+    ...
+    ...
+    [file imageUrl limit:1mb filetypes:gif|png|jpg|jpeg]
 
 .. figure:: /images/storage/storage-images-path.png
     :scale: 70%

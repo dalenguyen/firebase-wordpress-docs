@@ -18,6 +18,14 @@ The authention process from Woocommerce can be overrided by the Integrate Fireba
 
 From now, if you use the plugin authentication shortcode, users will be created in WordPress & Firebase at the same time. You can try the process at the `Demo Shop <https://wordpress.dalenguyen.me/product/building-restful-web-apis-with-node-js-express-mongodb-and-typescript/>`_. You can follow to checkout page, the sample product is an abook that I wrote. You don't have to purchase it.
 
+Authentication (Extension)
+----------------------------------
+
+The Woocommerce extension supports replacing the default login / register from the `My Account` page with the FirebaseUI Web shortcode.
+
+Demo: https://wordpress.dalenguyen.me/my-account
+
+
 Synchronization (Extension)
 ----------------------------------
 
@@ -43,6 +51,14 @@ After the purchase is success, the order will be saved to firebase. In this exam
     :align: center
 
     Realtime order data
+
+Since v1.8.0, order can be edited directly from WooCommerce and it will be synced to Firebase with line items.
+
+    .. figure:: /images/extensions/woocommerce/line-items.png
+        :scale: 70%
+        :align: center
+    
+        Order line items
 
 Synced Product -> Firebase (Extension)
 ----------------------------------

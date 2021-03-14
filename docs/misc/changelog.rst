@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.18.0 (2021-03-14)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `WOO - v1.7.0 + v1.8.0`
+   - Added firebase login to My Account page
+   - Added line items when syncing to firebase
+   - Synced order by editing order
+
 ## v1.17.0 (2021-03-06)
 ----------------------------------
 
