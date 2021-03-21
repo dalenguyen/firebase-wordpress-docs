@@ -79,4 +79,15 @@ Since v1.6.0, you can sync products attributes to Firebase.
 
     Products attributes
 
+Synced Membership -> Firebase (Extension)
+----------------------------------
+
+First, you need to set the collections name for the `memberships` in Firebase. Then when an order is purchased or somebody edits the membership, it will be updated to firebase. 
+
+.. figure:: /images/extensions/woocommerce/membership.png
+    :scale: 70%
+    :align: center
+
+    Membership model
+
 This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.

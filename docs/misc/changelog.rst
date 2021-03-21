@@ -3,6 +3,22 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.19.0 (2021-03-21)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.6.0`
+   - Enabled email verification for FirebaseUI Web
+
+- `WOO - v1.9.0`
+   - Added support for syncing Membership to Firebase
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.6.0`
+   - Improve login check
+
 ## v1.18.0 (2021-03-14)
 ----------------------------------
 

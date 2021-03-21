@@ -21,6 +21,12 @@ Firebase UID will be used as WordPress username. If they have display name from 
 
     User Display Name in WooCommerce
 
+Prerequisite
+----------------------------------
+
+You need to `deploy the cloud functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ in order to use this feature properly. The cloud functions will help to secure the authentication process between WordPress & Firebase. 
+
+
 Login to WP Dashboard with Firebase Users
 ----------------------------------
 
