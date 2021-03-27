@@ -3,6 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.20.0 (2021-03-27)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.7.0`
+   - Added support for multi-files uploader to cloud storage
+
+#### :bug: [Bug Fix]
+
+- `PRO - v2.7.0`
+   - Fixed sendEmailVerification error (firebaseUI Web)
+
 ## v1.19.0 (2021-03-21)
 ----------------------------------
 
