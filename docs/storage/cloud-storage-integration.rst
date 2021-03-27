@@ -9,12 +9,12 @@ At this stage, cloud storage is added to the plugin. However, in order to use it
 
 .. role:: red
 
-    :red:`NOTE: Please don't implelement redirect on your form, it will interfere with file uploading process.`.
+:red:`NOTE: Please don't implelement redirect on your form, it will interfere with file uploading process.`
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 10%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=NR4EcPirr4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NR4EcPirr4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 Enable Cloud Storage
