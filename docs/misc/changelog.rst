@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v1.21.0 (2021-04-02)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.7.2`
+   - Change base domain name on the Settings tab
+
+- `FUNCTIONS - v0.20.0`
+   - Refactored firebase functions service
+   - Updated packages
+
 ## v1.20.0 (2021-03-27)
 ----------------------------------
 
