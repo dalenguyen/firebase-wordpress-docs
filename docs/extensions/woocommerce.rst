@@ -90,4 +90,9 @@ First, you need to set the collections name for the `memberships` in Firebase. T
 
     Membership model
 
+Synced Product Firebase -> WordPress (Extension)
+----------------------------------
+
+This abiblity is in beta, and if you want to test this one out. Please create a ticket or send and email to me for discussing.
+
 This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.

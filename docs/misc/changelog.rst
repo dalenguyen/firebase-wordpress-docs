@@ -3,6 +3,24 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2021-04-11)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.8.0`
+   - Hided single sign-on after log in
+   - Exposed custom text for Sign out button
+
+- `WOO - v2.0.0`
+   - Added flags to disable sync to firebase
+   - Added cloud functions for syncing products & categories from Firebase to WordPress
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.8.0`
+   - Removed warning for not supported post types
+
 ## v1.21.0 (2021-04-02)
 ----------------------------------
 
