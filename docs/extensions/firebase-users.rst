@@ -27,7 +27,9 @@ As you can see, there is 159 users in WordPress
 Import WordPress Users to Firebase
 ----------------------------------
 
-In order to import WordPress users to Firebase, you just need to press the button **Import WP Users to Firebase**, and the plugin will do its magic. If you have issue with importing more than 1000 users, please let me know.
+In order to import WordPress users to Firebase, you just need to press the button **Import WP Users to Firebase**, and the plugin will do its magic. If you have issue with importing more than 10,000 users, please let me know.
+
+The Firebase UID will be randomly generated (E.g. `02ZAGAEdfcbvYsdhKNGL9vaOXvz1`)
 
 .. role:: red
 

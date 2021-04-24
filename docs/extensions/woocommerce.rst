@@ -8,7 +8,7 @@ If you have any requests please create a `ticket <https://github.com/dalenguyen/
 Authentication (PRO)
 ----------------------------------
 
-The authention process from Woocommerce can be overrided by the Integrate Firebase PRO plugin. Below is the example configuration of **Woocommerce Account & Privacy.**
+The authentication process from Woocommerce can be overridden by the Integrate Firebase PRO plugin. Below is the example configuration of **Woocommerce Account & Privacy.**
 
 .. figure:: /images/extensions/woocommerce/woocommerce-account-configuration.png
     :scale: 70%
@@ -29,17 +29,19 @@ Demo: https://wordpress.dalenguyen.me/my-account
 Synchronization (Extension)
 ----------------------------------
 
-The first iteration of the extension is to sync order and product to firebase (realtime / firestore). After succesfully purchase, the order will be synced to firebase. 
+The first iteration of the extension is to sync order and product to firebase (realtime / firestore). After successfully purchase, the order will be synced to firebase. 
 
-The purpose of syncing Orders & Products is to have the flexibility of assigning user roles / persmissions based on their purchases - this can be done via custom cloud functions.
+The purpose of syncing Orders & Products is to have the flexibility of assigning user roles / permissions based on their purchases - this can be done via custom cloud functions.
 
-The configuration is straight forward, after installing the plugin, you will have to pick the right type of database and the name for the database in order to save the woocommerce's order.
+The configuration is straight forward, after installing the plugin, you will have to pick the right type of database and the name for the database in order to save the Woocommerce's order.
 
 .. figure:: /images/extensions/woocommerce/woo-configuration.png
     :scale: 70%
     :align: center
 
     Extension configuration
+
+Since v2.0.0, when you delete a product in WooCommerce, it will also delete in Firebase. Product data model will also base on WooCommerce Rest API structure. The existing product structure will be Deprecated in the next few releases - please modify your code in order to avoid breaking.
 
 Synced Order -> Firebase (Extension)
 ----------------------------------
@@ -93,6 +95,6 @@ First, you need to set the collections name for the `memberships` in Firebase. T
 Synced Product Firebase -> WordPress (Extension)
 ----------------------------------
 
-This abiblity is in beta, and if you want to test this one out. Please create a ticket or send and email to me for discussing.
+This ability is in beta, and if you want to test this one out. Please create a ticket or send and email to me for discussing.
 
 This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.

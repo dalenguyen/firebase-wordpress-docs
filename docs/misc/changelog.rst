@@ -3,6 +3,24 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.1.0 (2021-04-24)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `FUNCTIONS - v1.0.0`
+   - Updated import users from WordPress logic
+   - Used randomized string for UID when importing users
+
+- `USERS - v1.1.0`
+  - Updated get users function
+
+- `WOO - v2.0.0`
+   - Added flags to disable delete / sync to firebase
+   - Added cloud functions for syncing (CRUD) products & categories from Firebase to WordPress
+   - Product data structure will be synced based on WooCommerce API
+   - Delete product on WordPress will also delete product on Firebase
+
 ## v2.0.0 (2021-04-11)
 ----------------------------------
 
