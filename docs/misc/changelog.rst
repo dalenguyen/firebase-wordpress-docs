@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.2.0 (2021-05-01)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.9.0`
+
+   - Added product key settings for auto-update
+
 ## v2.1.0 (2021-04-24)
 ----------------------------------
 
