@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.3.0 (2021-05-16)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.10.0`
+   - supported syncing category to firebase
+   - updated firebase version to 8.6.1
+
 ## v2.2.0 (2021-05-01)
 ----------------------------------
 
