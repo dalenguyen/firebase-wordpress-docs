@@ -237,6 +237,7 @@ Use Cases for Integrate Firebase PRO
 Miscellaneous
 -----------
 
+* :doc:`/misc/plugin-incompatibility`
 * :doc:`/misc/troubleshooting`
 * :doc:`/misc/performance`
 * :doc:`/misc/internationalization`
