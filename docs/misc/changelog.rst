@@ -3,6 +3,23 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.4.0 (2021-05-22)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.11.0`
+  - Deleted category on firebase when deleting in WordPress
+  - Enabled Microsoft login
+
+- `WOO - v2.1.0`
+   - Changed product update hook when saving product to firebase
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.11.0`
+  - Removed product key warning
+
 ## v2.3.0 (2021-05-16)
 ----------------------------------
 

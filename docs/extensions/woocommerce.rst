@@ -1,3 +1,7 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
 Woocommerce
 =============
 
@@ -65,21 +69,11 @@ Since v1.8.0, order can be edited directly from WooCommerce and it will be synce
 Synced Product -> Firebase (Extension)
 ----------------------------------
 
-If you enter the collection name for product in the settings, the WooCommerce product will be synced to Realtime / Firestore. This is the current schema for product in firebase. If you want to extend it, please create a ticket on Github or send email to support.
+.. role:: red
 
-.. figure:: /images/extensions/woocommerce/firestore-product-data.png
-    :scale: 70%
-    :align: center
+Product data structure is based on `WooCommerce Product API <https://woocommerce.github.io/woocommerce-rest-api-docs/#products>`_. :red:`If you haven't updated your code to match with the new Product data structure, please do so. The existing structure will be deprecated in the next release`.
 
-    Firestore product data
-
-Since v1.6.0, you can sync products attributes to Firebase. 
-
-.. figure:: /images/extensions/woocommerce/product-attributes.png
-    :scale: 70%
-    :align: center
-
-    Products attributes
+If you enter the collection name for product in the settings, the WooCommerce product will be synced to Realtime / Firestore. This schema for product is based on WooCommerce Product API.
 
 Synced Membership -> Firebase (Extension)
 ----------------------------------
