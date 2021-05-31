@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.5.0 (2021-05-29)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.12.0`
+   - Added support for not default Realtime Database URL
+   - Updated styles for error components
+
+- `FUNCTIONS - v1.1.0`
+
+   - Added support for secondary Realtime database
+
+
 ## v2.4.0 (2021-05-22)
 ----------------------------------
 
