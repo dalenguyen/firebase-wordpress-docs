@@ -86,6 +86,14 @@ First, you need to set the collections name for the `memberships` in Firebase. T
 
     Membership model
 
+Synced Subscriptions -> Firebase (Extension - v2.2.0)
+----------------------------------
+
+Similar to Membership, this extension will sync `Woocommerce Subscriptions <https://woocommerce.com/products/woocommerce-subscriptions/>`_ to Firebase. 
+
+It happens after a Subscription status is saved / changed.
+
+
 Synced Product Firebase -> WordPress (Extension)
 ----------------------------------
 

@@ -3,6 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.6.0 (2021-06-20)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.13.0`
+   - Added get data from firebase filter hooks
+
+- `WOO - v2.2.0`
+
+   - Sync Subscription to Firebase
+
+
 ## v2.5.0 (2021-05-29)
 ----------------------------------
 
