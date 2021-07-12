@@ -3,6 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.6.0 (2021-07-12)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.14.0`
+   - Improved send email verification flow for firebaseUI Web
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.14.0`
+   - Updated firebase version to v8.7.1
+
 ## v2.6.0 (2021-06-20)
 ----------------------------------
 
@@ -14,7 +27,6 @@ All notable changes to this project will be documented in this file.
 - `WOO - v2.2.0`
 
    - Sync Subscription to Firebase
-
 
 ## v2.5.0 (2021-05-29)
 ----------------------------------
