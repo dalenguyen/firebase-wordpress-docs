@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: July 12, 2021
+Last updated: Aug 02, 2021
 
 .. raw:: html
 
@@ -49,7 +49,7 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ - `v2.14.0`
+- `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ - `v2.15.1`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v1.1.0` (bundle with PRO plugin)
 - `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.2.0` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.1.0` (Extension)
@@ -84,6 +84,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
 
 * :doc:`/auth/work-with-firebaseui-web`
 * :doc:`/auth/register-login-form`
+* :doc:`/auth/custom-registration-form`
 * :doc:`/auth/onetap-email-signin`
 * :doc:`/auth/wordpress-user-integration`
 * :doc:`/auth/firebase-user-profile`
@@ -96,6 +97,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
 
    /auth/work-with-firebaseui-web
    /auth/register-login-form
+   /auth/custom-registration-form
    /auth/onetap-email-signin
    /auth/wordpress-user-integration
    /auth/firebase-user-profile

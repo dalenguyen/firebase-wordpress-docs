@@ -3,7 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
-## v2.6.0 (2021-07-12)
+## v2.8.0 (2021-08-02)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.15.0`
+   - added custom registration form (Contact 7)
+   - added confirmation email check to Login form
+
+## v2.7.0 (2021-07-12)
 ----------------------------------
 
 #### - :rocket: [New Feature]
