@@ -29,7 +29,7 @@ Import WordPress Users to Firebase
 
 In order to import WordPress users to Firebase, you just need to press the button **Import WP Users to Firebase**, and the plugin will do its magic. If you have issue with importing more than 10,000 users, please let me know.
 
-The Firebase UID will be randomly generated (E.g. `02ZAGAEdfcbvYsdhKNGL9vaOXvz1`)
+The Firebase UID will be the WordPress **user_login**. It's because if uid is generated randomly, it will create another user with the same email. You can have a look the `Firebase Docs <https://firebase.google.com/docs/auth/admin/import-users#usage>`_ .
 
 .. role:: red
 

@@ -3,6 +3,29 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.10.0 (2021-08-26)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `FUNCTIONS - v1.2.0`
+   - Used user_login for uid when importing users
+   - 
+#### - :rocket: [New Feature]
+
+- `USERS - v1.2.0`
+   - Support for import more than 10,000 users
+
+## v2.9.0 (2021-08-08)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `WOO - v2.3.0`
+  - Use onWrite trigger for syncing products
+  - Use onWrite trigger for syncing categories
+  - Delete images when delete product
+
 ## v2.8.0 (2021-08-02)
 ----------------------------------
 
