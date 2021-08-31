@@ -69,6 +69,7 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 + [hidden collectionName "users"]  -> collection name is users.
 + [hidden documentId "your-document-name"] -> it will override the document id 1. This field is optional.
 + [hidden databaseType "firestore"] -> data will be saved in firestore.
++ [hidden keyId "YOUR-ID-KEY-NAME"] -> data will be saved in firestore together with the document id.
 + [hidden arrayType "hobbies,food"] -> array data should be added to arrayType field. This field is optional.
 + [hidden dateType "dateOfBirth"] -> will save as ISO string type. This field is optional.
 + [hidden mapTypes "contact"] -> will save a map (object) type

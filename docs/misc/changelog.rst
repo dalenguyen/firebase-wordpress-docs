@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.11.0 (2021-08-30)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.16.0`
+   - Added id key when saving data to firebase
+   - Check for users configuration before saving to firebase
+
+
 ## v2.10.0 (2021-08-26)
 ----------------------------------
 
