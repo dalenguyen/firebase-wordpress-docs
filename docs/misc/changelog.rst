@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.12.0 (2021-09-19)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v1.17.0`
+  - Allow extending user object when saving to firebase
+
+- `WOO - v2.5.0`
+  - Add filter hooks for subscriptions
+
 ## v2.11.0 (2021-08-30)
 ----------------------------------
 
