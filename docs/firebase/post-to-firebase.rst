@@ -8,6 +8,8 @@ Since version 0.9.0, I added some event triggers for syncing data from WordPress
 + For pages, they locate under **wpPages** collection name.
 + For custom post types, they will local under **wpTypeNames** collection name.
 
+Youtube Video Tutorial: https://youtu.be/4xQn47dtre8
+
 1. Setting Up
 ----------------------------------
 

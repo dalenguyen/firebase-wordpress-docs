@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.13.0 (2021-09-26)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.18.0`
+  - Allow extending post object when saving to firebase
+
 ## v2.12.0 (2021-09-19)
 ----------------------------------
 

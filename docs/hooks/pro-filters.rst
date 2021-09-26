@@ -23,6 +23,23 @@ This filter hook will help to get data from Firebase (Realtime or Firestore).
     // start saving data to firebase
     apply_filters('firebase_get_data_from_database', $database_type, $collection_name, $doc_id);
 
+Before Saving Post data to Firebase
+----------------------------------
+
+This filter hook will help to modify post data before saving to Firebase. This will also apply to custom post types. If you want to save user data manually, you can use `Save data to Firebase` filter hook.
+
+
+.. code-block:: php
+
+    add_filter('firebase_before_saving_post_to_database', 'edit_post_data_before_saving');
+
+    function edit_post_data_before_saving($post) {
+       // add custom data to post
+       $post->custom_data = 'custom data 123';
+       return $post;
+    }
+
+
 Before Saving User data to Firebase
 ----------------------------------
 
@@ -38,7 +55,6 @@ This filter hook will help to modify User data before saving to Firebase. It wil
        $user['custom_data'] = 'custom data 123';
        return $user;
     }
-
 
 Save data to Firebase
 ----------------------------------
