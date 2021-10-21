@@ -12,3 +12,11 @@ Two-Factor Authentication (Wordfence)
 ----------------------------------
 
 Two-factor authentication allows you to add an extra layer of security to your WordPress login. However, the login process is dominated by Firebase Authentication. At the moment, these plugins should not be used together. 
+
+JWT Auth
+----------------------------------
+
+
+The issue is  JWT Auth requires Authorization in the headers. You have to whitelist the endpoint `'/wp-json/firebase/v2/*'`
+
+Check this `Github Issue <https://github.com/dalenguyen/firebase-wordpress-plugin/issues/180>`_  for solution.
