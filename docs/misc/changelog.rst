@@ -52,7 +52,8 @@ All notable changes to this project will be documented in this file.
 
 - `FUNCTIONS - v1.2.0`
    - Used user_login for uid when importing users
-   - 
+
+
 #### - :rocket: [New Feature]
 
 - `USERS - v1.2.0`
@@ -430,7 +431,7 @@ All notable changes to this project will be documented in this file.
 
 - `PRO - v1.21.0`
    - Added Filter Hook to Import Users to Firebase
-  - Added createdAt & SignedOn to the exported users in WP dashboard
+   - Added createdAt & SignedOn to the exported users in WP dashboard
 
 - `USERS - v1.0.0`
    - Added import WP users to Firebase
