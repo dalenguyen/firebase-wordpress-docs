@@ -3,6 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.14.0 (2021-10-31)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v2.19.0`
+   - Check for null value before saving to firebase
+   - Deprecate user register API
+
+- `FUNCTIONS - v1.3.0`
+   - Update packages
+
+
 ## v2.13.0 (2021-09-26)
 ----------------------------------
 

@@ -72,19 +72,3 @@ One thing to notice that, after user logs in via the plugin shortcode, the fireb
 **Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
 
 When users log out from dashboard, that means they will also be logged out to Firebase.
-
-Create a new WordPress User through API
-----------------------------------
-
-The Integrate Firebase PRO has its own Restful API endpoints that help to create a new WordPress user.
-In this scenario, when you have a mobile app, and you want to duplicate user in WordPress, you can call the API to create a new User after user register on your app.
-
-.. code-block:: php
-
-    Endpoint: POST https://example.com/firebase/v2/users/register
-
-    Example payload: {
-        username: 'dale',
-        email: 'dale@dalenguyen.me',
-        password: 'the-password'
-    }
