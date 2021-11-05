@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Oct 31, 2021
+Last updated: Nov 05, 2021
 
 .. raw:: html
 
@@ -49,7 +49,7 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ - `v2.19.0`
+- `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ - `v2.19.1`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v1.3.0` (bundle with PRO plugin)
 - `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.5.0` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.2.0` (Extension)

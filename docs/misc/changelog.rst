@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.14.1 (2021-11-05)
+----------------------------------
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v2.19.1`
+   -  show default WooCommerce login when Firebase Auth is disabled
+
 ## v2.14.0 (2021-10-31)
 ----------------------------------
 
