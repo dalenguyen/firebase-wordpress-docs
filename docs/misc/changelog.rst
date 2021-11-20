@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.15.0 (2021-11-20)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.20.0`
+   -  add firebase uid to wordpress user after importing
+
 ## v2.14.1 (2021-11-05)
 ----------------------------------
 

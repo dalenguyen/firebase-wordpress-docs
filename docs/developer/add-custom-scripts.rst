@@ -3,6 +3,8 @@ Add Custom Scripts
 
 This guide will show you how to extend the plugin by adding custom scripts, such as JavaScript. The ability of the plugin doesn't limit in the plugin itself. You have totally control of the **`firebase`** object.
 
+If you want to a quick solution, you can try the `template plugin <https://github.com/dalenguyen/integrate-firebase-template>`_ that can help to add custom JavaScript & CSS to your project.
+
 Step 1: Create a custom JavaScript file 
 ----------------------------------
 
