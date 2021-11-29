@@ -37,7 +37,7 @@ Make sure that you have Firestore Database ready. Then apply this security rules
         allow read, write: if false;
     }
 
-If you are PRO users, you can visit `My Account <https://firebase.dalenguyen.me/shop/my-account>`_ page and download the trial version. 
+If you are PRO users, you can visit `My Account <https://techcater.com/shop/my-account>`_ page and download the trial version. 
 
 Then install the add-on as usual. The plugin should appear under Firebase tab. 
 

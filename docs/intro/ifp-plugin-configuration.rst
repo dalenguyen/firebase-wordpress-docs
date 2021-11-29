@@ -14,13 +14,13 @@ Download the Integrate Firebase PRO plugin
 
 There is a FREE version of this `Firebase WordPress integration plugin <https://wordpress.org/plugins/integrate-firebase/>`_ that you can find in WordPress plugin site. You can give it a try, however, the application is very limited. If you only want to interact with Firebase through WordPress frontend only, then the free version would be sufficient enough.
 
-So, if you want a more secured and advanced feature of the plugin, support the development of `Integrate Firebase PRO <https://firebase.dalenguyen.me>`_ version.
+So, if you want a more secured and advanced feature of the plugin, support the development of `Integrate Firebase PRO <https://techcater.com>`_ version.
 
 Prepare Firebase Credentials
 ----------------------------------
 Before using the plugin, we need have the credentials from Firebase Console. You can get it by logging into https://console.firebase.google.com. 
 
-After signning in, you can navigate to **Project Overview > Project Settings**.
+After signing in, you can navigate to **Project Overview > Project Settings**.
 
 .. figure:: /images/firebase-project-settings.png
     :scale: 70%

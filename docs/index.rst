@@ -35,12 +35,12 @@ Last updated: Nov 20, 2021
 
 Follow `Twitter <https://twitter.com/TechCater>`_  for updates.
 
-`Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ is a WordPress plugin that brings Firebase features to WordPress site. E.g. sign in to WordPress and Firebase with one tap / email link or read & write to Firbase from WordPress.
+`Integrate Firebase PRO <https://techcater.com/>`_ is a WordPress plugin that brings Firebase features to WordPress site. E.g. sign in to WordPress and Firebase with one tap / email link or read & write to Firbase from WordPress.
 
 
 Demo site: https://wordpress.dalenguyen.me 
 
-Download plugin: https://firebase.dalenguyen.me
+Download plugin: https://techcater.com
 
 Video Tutorials: `Youtube Playlist - Firebase WordPress Integration <https://www.youtube.com/playlist?list=PLchk3ZdnnL-bngknCj7dMQQ6JmAfSdxd8>`_
 
@@ -49,7 +49,7 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- `Integrate Firebase PRO <https://firebase.dalenguyen.me/>`_ - `v2.20.0`
+- `Integrate Firebase PRO <https://techcater.com/>`_ - `v2.20.0`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v1.3.0` (bundle with PRO plugin)
 - `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.5.0` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.2.0` (Extension)

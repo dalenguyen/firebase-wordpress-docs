@@ -1,3 +1,3 @@
 # Firebase WordPress Plugin Guide
 
-Complete guide to [Integrate Firebase PRO](https://firebase.dalenguyen.me/) plugin for WordPress integration
+Complete guide to [Integrate Firebase PRO](https://techcater.com/) plugin for WordPress integration
