@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.16.0 (2021-12-31)
+
+#### - :rocket: [New Feature]
+----------------------------------
+
+- `PRO - v2.21.0`
+   - Add support for Firebase Cloud Messaging
+   - save phone number to database after registering via login form
+   - ease phone number validation when registering
+
 ## v2.15.0 (2021-11-20)
 ----------------------------------
 
