@@ -96,3 +96,21 @@ This filter hook will help to delete data from Firebase (Realtime or Firestore).
 
     // start delete data from firebase
     apply_filters('firebase_delete_data_from_database', $database_type, $collection_name, $doc_id);
+
+Update Custom Error Messages
+----------------------------------
+
+This filter hook will help to update error messages for the plugin. 
+
+Demo: https://youtu.be/JjeF7QY7M_0
+
+
+.. code-block:: php
+
+    add_filter('firebase_edit_public_translation_texts', 'edit_public_translation_texts');
+    
+    function edit_public_translation_texts($texts) {
+       $texts['auth']['emailPasswordMissing'] = 'Please enter email and password';
+       $texts['auth']['auth/user-not-found'] = 'User is not found. <a href="https://google.com">Click here</a> to register.';
+       return $texts;
+    }

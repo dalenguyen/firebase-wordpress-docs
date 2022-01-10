@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.17.0 (2022-01-09)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v2.23.0`
+   - add filter hook for editing custom messages
+   - update error messages for register flow
+
 ## v2.16.0 (2021-12-31)
 
 #### - :rocket: [New Feature]
