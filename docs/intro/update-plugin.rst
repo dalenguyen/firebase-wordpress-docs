@@ -15,8 +15,12 @@ Before updating, please check the **readme.txt** for instruction.
 
 The readme will let you know if you need to install the cloud functions or not. If it doesn't mention the plugin in the changelog, you can ignore the cloud functions folder.
 
+1. Auto Update Plugin
+----------------------------------
 
-1. Update the plugin via WordPress Dashboard 
+You have an option to auto-update the plugin by going to `My Account <https://techcater.com/shop/my-account>`_ and configure the product key in **Toggle auto update configuration** section. Then you can update the product key in **WordPress Firebase > Settings** dashboard.
+
+2. Update the plugin via WordPress Dashboard 
 ----------------------------------
 
 Since **WordPress 5.5**, you can upload the plugin zip file and update it directly using WordPress Dashboard.
@@ -29,12 +33,12 @@ Since **WordPress 5.5**, you can upload the plugin zip file and update it direct
 
 
 
-2. Update the plugin via Cpanel 
+3. Update the plugin via Cpanel 
 ----------------------------------
 
 You can login to your Cpanel and override the plugin folder with the newer version. 
 
-3. Update the plugin via a Ftp Client 
+4. Update the plugin via a Ftp Client 
 ----------------------------------
 
 You can use an Ftp client such as `FileZilla <https://filezilla-project.org/>`_ in order to connect to your hosting, and override the plugin folder with a newer version.

@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.18.0 (2022-01-16)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.0.0`
+  - override redirect url from query params
+  - upgrade firebase to v9, firebaseui to v6
+
+- `WOO - v2.7.0`
+  - redirect to checkout after logging in
+
 ## v2.17.0 (2022-01-09)
 ----------------------------------
 
