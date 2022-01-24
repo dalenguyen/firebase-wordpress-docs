@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.19.0 (2022-01-23)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.1.0`
+  - enable messenger id on the frontend
+
+- `USERS - v1.3.0`
+  - Only get users with an email
+
 ## v2.18.0 (2022-01-16)
 ----------------------------------
 
