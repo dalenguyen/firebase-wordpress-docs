@@ -60,6 +60,12 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 
     [firebase_logout redirect="/" button_text="Sign Out"][/firebase_logout]
 
+.. code-block:: php
+
+    // Forgot Password
+
+    [firebase_forgot_password]
+
 Content
 ----------------------------------
 

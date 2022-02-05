@@ -3,6 +3,24 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.20.0 (2022-02-05)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.2.0`
+   - Add forgot password component
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.2.0`
+   - retrieve email for Google Provider
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v3.2.0`
+   - fix retrieve user after registration error
+
 ## v2.19.0 (2022-01-23)
 ----------------------------------
 
