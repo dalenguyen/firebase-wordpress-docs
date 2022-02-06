@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.21.0 (2022-02-06)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.3.0`
+   - Lazy load main scripts in order to improve performance
+   - Enforce product key when using the plugin
+
 ## v2.20.0 (2022-02-05)
 ----------------------------------
 

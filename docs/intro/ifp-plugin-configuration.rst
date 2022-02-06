@@ -16,6 +16,16 @@ There is a FREE version of this `Firebase WordPress integration plugin <https://
 
 So, if you want a more secured and advanced feature of the plugin, support the development of `Integrate Firebase PRO <https://techcater.com>`_ version.
 
+.. role:: red
+
+:red:`Since version 3.3.0, you MUST add product key in order to load the plugin.`
+
+.. figure:: /images/firebase-product-key.png
+    :scale: 70%
+    :align: center
+
+    Product Key
+
 Prepare Firebase Credentials
 ----------------------------------
 Before using the plugin, we need have the credentials from Firebase Console. You can get it by logging into https://console.firebase.google.com. 
