@@ -80,7 +80,12 @@ Now, it’s all about JavaScript. You can customize, modify and do whatever you 
                 }
             }
 
-            showFirestoreDatabase()
+            const waitForFirebase = setInterval(() => {
+                if (typeof firebase !== 'undefined' && firebase.apps.length) {
+                    showFirestoreDatabase()
+                    clearInterval(waitForFirebase)
+                }
+            }, 1000)
         })
     })(jQuery)
 
