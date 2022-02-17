@@ -15,14 +15,19 @@ In your theme, you can create a JavaScript file named `custom-firebase.js`, you 
     // js/custom-firebase.js
 
     console.log(`Custom firebase...`)
-    console.log(firebase)
-
-    firebase.auth().onAuthStateChanged(user => {
-        if (user) {
-            // User logged in already or has just logged in.
-            console.log(user)
+    const waitForFirebase = setInterval(() => {
+        if (typeof firebase !== 'undefined' && firebase.apps.length) {
+            console.log(firebase)
+            firebase.auth().onAuthStateChanged(user => {
+                if (user) {
+                    // User logged in already or has just logged in.
+                    console.log(user)
+                }
+            })
+            clearInterval(waitForFirebase)
         }
-    })
+    }, 1000)
+    
 
 This is an example function that listens to firebase authentication event. If user is logged in, you can get the user information / session. 
 
@@ -45,7 +50,7 @@ After that, you need to add the script to your site. The script will be added in
 
     // Custom JavaScript for Firebase
     function custom_firebase_scripts_function() {
-        wp_enqueue_script('custom_firebase', get_template_directory_uri() . '/js/custom-firebase.js', array('firebase_app', 'firebase_auth', 'firebase'), false, true);
+        wp_enqueue_script('custom_firebase', get_template_directory_uri() . '/js/custom-firebase.js', array('firebase'), false, true);
     }
 
     add_action('wp_enqueue_scripts', 'custom_firebase_scripts_function');
