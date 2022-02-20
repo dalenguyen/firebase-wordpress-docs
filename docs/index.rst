@@ -82,6 +82,7 @@ Authentication
 
 Even though the plugin allows Firebase users to log in to WordPress at the same time, best scenario is to use WordPress as backend for Firebase without allowing users to login to WordPress.
 
+* :doc:`/auth/new-social-login`
 * :doc:`/auth/work-with-firebaseui-web`
 * :doc:`/auth/register-login-form`
 * :doc:`/auth/custom-registration-form`
@@ -95,6 +96,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
    :hidden:
    :caption: Authentication
 
+   /auth/new-social-login
    /auth/work-with-firebaseui-web
    /auth/register-login-form
    /auth/custom-registration-form
