@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.22.0 (2022-02-19)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.5.0`
+   - add new authentication UI
+   
+- `WOO - v2.8.0`
+   -  option to replace login in checkout
+
 ## v2.21.0 (2022-02-06)
 ----------------------------------
 
