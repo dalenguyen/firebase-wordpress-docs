@@ -3,6 +3,21 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.23.0 (2022-02-25)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.5.2`
+    - enforce email for Facebook login
+    - style social login
+    - improve user metadata update in WordPress
+    - update custom fields when syncing to Firebase
+    - support Discourse SSO authentication
+   
+- `WOO - v2.9.0`
+   - option to replace login in my account
+
 ## v2.22.0 (2022-02-19)
 ----------------------------------
 
