@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.24.0 (2022-03-12)
+----------------------------------
+#### - :rocket: [New Feature]
+
+- `PRO - v3.6.0`
+   - add support for separate forgot password page
+   - add verify token hook
+   - support HTML for custom error message
+
+- `JWT - v1.1..0`
+   - add jwt token for rest api
+
 ## v2.23.0 (2022-02-25)
 ----------------------------------
 

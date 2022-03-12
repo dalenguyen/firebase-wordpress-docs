@@ -64,7 +64,7 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 
     // Forgot Password
 
-    [firebase_forgot_password]
+    [firebase_forgot_password button_text="Forgot Password"]
 
 Content
 ----------------------------------
