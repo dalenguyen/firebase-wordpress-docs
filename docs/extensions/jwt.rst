@@ -5,10 +5,16 @@
 JWT - Restful API
 =============
 
-.. role:: red
-:red:`This is NOT available yet.`
 
-This add-on is still in beta. There is a POC (Proof of Concept), but I'm not promised if it is a good product and there's a need or it or not. We'll firgure it out.
+REST APIs JWT Authentication
+----------------------------------
+
+This feature allows you to send request to WordPress website using Firebase Id Token.
+
+Video Guide: https://www.youtube.com/watch?v=Kq9JZq1SiYU
+
+.. role:: red
+:red:`This the below feature is still in beta and not available yet.`
 
 Remote Authentication (via URL)
 ----------------------------------
