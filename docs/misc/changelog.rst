@@ -3,8 +3,22 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.25.0 (2022-03-19)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.7.0`
+   - improve Apple social login
+   - improve user name after signing in
+   - add timestamp when syncing to firebase
+   
+- `WOO - v2.10.0`
+   - add subscription variation when syncing to firebase
+
 ## v2.24.0 (2022-03-12)
 ----------------------------------
+
 #### - :rocket: [New Feature]
 
 - `PRO - v3.6.0`

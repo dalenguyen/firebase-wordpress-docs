@@ -93,6 +93,8 @@ Similar to Membership, this extension will sync `Woocommerce Subscriptions <http
 
 It happens after a Subscription status is saved / changed.
 
+Video: `Create & Save WooCommerce Subscriptions to Firebase <https://www.youtube.com/watch?v=CKJkWiWTdzQ&list=PLchk3ZdnnL-bngknCj7dMQQ6JmAfSdxd8&index=1&ab_channel=TechCater>`_
+
 
 Synced Product Firebase -> WordPress (Extension)
 ----------------------------------
