@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.26.0 (2022-04-02)
+----------------------------------
+
+### - :nail_care: [Polish]
+
+- `PRO - v3.8.0`
+   - add support for firebase cloud functions
+   - add guide for missing product key
+
 ## v2.25.0 (2022-03-19)
 ----------------------------------
 
