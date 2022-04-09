@@ -13,9 +13,6 @@ This feature allows you to send request to WordPress website using Firebase Id T
 
 Video Guide: https://www.youtube.com/watch?v=Kq9JZq1SiYU
 
-.. role:: red
-:red:`This the below feature is still in beta and not available yet.`
-
 Remote Authentication (via URL)
 ----------------------------------
 
@@ -42,8 +39,6 @@ Make sure that you have Firestore Database ready. Then apply this security rules
     match /jwtTokens/{token} {
         allow read, write: if false;
     }
-
-If you are PRO users, you can visit `My Account <https://techcater.com/shop/my-account>`_ page and download the trial version. 
 
 Then install the add-on as usual. The plugin should appear under Firebase tab. 
 

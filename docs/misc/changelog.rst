@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.27.0 (2022-04-09)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.9.0`
+   - sync avatar from WordPress to firebase
+   - improve authentication flow
+
+- `JWT - v1.2.0`
+   - enable remote autologin to WordPress / WooCommerce
+
 ## v2.26.0 (2022-04-02)
 ----------------------------------
 
