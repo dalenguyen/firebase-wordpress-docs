@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.28.0 (2022-04-17)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.9.1`
+   - fix update profile issue
+
+- `FUNCTIONS - v1.5.0`
+   - Update packages
+
 ## v2.27.0 (2022-04-09)
 ----------------------------------
 
