@@ -36,6 +36,8 @@ Login to WP Dashboard with Firebase Users
 
 In case of logging out without assign another user with admin rights, you can rename the plugin folder, and login as usual.
 
+**Note**: since v3.10.0, you can use https://your-website.com/wp-login.php?debug=true, then you can login back to your WordPress site.
+
 This flow will utilize FirebaseUI Web workflow in order to authenticate users. In order to that, you have to log in to WordPress Dashboard, then **Dashboard > Firebase > Auth**.
 
 .. figure:: /images/auth/wp-login-with-firebase.png
@@ -61,7 +63,7 @@ This page will contain the shortcode for logging in.
 
 After users log in, it will create a new user in WordPress if the user doesn't exist. Then authenticate it to WordPress dashboard automatically. In `PRO - v1.17.0`, while user logging in, there will be a loading state that prevents users from navigating to other pages until the login process is completed.
 
-One thing to notice that, after user logs in via the plugin shortcode, the firebase uid is saved in user metadata, and you can retrive it by using this example. 
+One thing to notice that, after user logs in via the plugin shortcode, the firebase uid is saved in user metadata, and you can retrieve it by using this example. 
 
 .. code-block:: php
 
@@ -70,5 +72,7 @@ One thing to notice that, after user logs in via the plugin shortcode, the fireb
     error_log($firebase_uid);
 
 **Notice**: :red:`the WordPress username defaults to Firebase UID, and their display name will be set as Firebase Display Name or Phone Number (via phone authentication). User can change their display name if they want. This is only affect since v1.4.0`
+
+**Notice**: :red:`Since v3.10.0, username is humanize, and it will be used as WordPress username.`
 
 When users log out from dashboard, that means they will also be logged out to Firebase.

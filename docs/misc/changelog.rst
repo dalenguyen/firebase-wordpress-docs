@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.29.0 (2022-04-30)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.10.0`
+   - support image type in Custom Fields when syncing to firebase
+   - enable debug mode for login
+   - humanize username
+
 ## v2.28.0 (2022-04-17)
 ----------------------------------
 
