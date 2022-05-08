@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.30.0 (2022-05-07)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.10.0`
+   - add support for Wordfence 2FA
+   - add support for JetEngine Custom Post Types
+
 ## v2.29.0 (2022-04-30)
 ----------------------------------
 
