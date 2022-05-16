@@ -3,6 +3,20 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.31.0 (2022-05-15)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `WOO - v2.11.0`
+   - add membership hook before saving to firebase
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.12.0`
+   - improve admin security
+   - improve authentication styling
+
 ## v2.30.0 (2022-05-07)
 ----------------------------------
 

@@ -52,3 +52,19 @@ This filter hook is called before saving subscription to firebase. This will cal
        $subscription['custom_data'] = 'custom data 123';
        return $subscription;
     }
+
+Membership - Before Saving Subscription to the Database (v2.11.0)
+----------------------------------
+
+This filter hook is called before saving membership to firebase.
+
+
+.. code-block:: php
+
+    add_filter('firebase_before_save_membership_to_firebase', 'edit_membership_data_before_saving');
+
+    function edit_membership_data_before_saving($subscription) {
+       // add custom data to user
+       $membership['custom_data'] = 'custom data 123';
+       return $membership;
+    }
