@@ -3,6 +3,23 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.32.0 (2022-05-22)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.12.1`
+   - add action for extensions initialization
+
+- `USERS - v1.3.1`
+   - add action for extensions initialization
+
+- `JWT - v1.2.1`
+   - add action for extensions initialization
+
+- `WOO - v2.11.1`
+   - add action for extensions initialization
+
 ## v2.31.0 (2022-05-15)
 ----------------------------------
 
