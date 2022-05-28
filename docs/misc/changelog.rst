@@ -3,6 +3,22 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.33.0 (2022-05-28)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.12.2`
+   - improve logging for authentication
+
+#### - :rocket: [New Feature]
+
+- `WOO - v2.12.0`
+   - option to send email verification on my account page
+
+- `MAPS - v0.1.0`
+  - Started showing realtime data on Google Maps
+
 ## v2.32.0 (2022-05-22)
 ----------------------------------
 
