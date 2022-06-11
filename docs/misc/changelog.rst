@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.34.0 (2022-06-11)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.13.0`
+   - improve send email verification
+   - add a warning for no javascript site
+
 ## v2.33.0 (2022-05-28)
 ----------------------------------
 
