@@ -12,10 +12,10 @@ The plugin support getting one document and display on the frontend as a table w
 .. code-block:: php
 
     // Get document id '1' from 'users' collection from realtime database
-    [realtime class='your-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid' ]
+    [realtime class='css-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid' ]
 
     // Get document id '1' from 'users' collection from firestore
-    [firestore class='your-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid']
+    [firestore class='css-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid']
 
 .. figure:: /images/database/show-database-from-shortcode.png
     :scale: 70%
