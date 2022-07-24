@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.35.0 (2022-07-24)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.14.0`
+   - Add support for email with + character
+   - Add product validation
+
+
 ## v2.34.0 (2022-06-11)
 ----------------------------------
 
