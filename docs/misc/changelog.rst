@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.36.0 (2022-08-06)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.14.0`
+   - improve multisite authentication process
+   - support draft status
+   - support dynamic firestore subcollection form
+
 ## v2.35.0 (2022-07-24)
 ----------------------------------
 

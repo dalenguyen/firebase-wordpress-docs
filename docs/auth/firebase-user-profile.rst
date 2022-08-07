@@ -38,7 +38,6 @@ Contact 7 form sample for user management
     [hidden databaseType "firestore"]
     [hidden collectionName "users"]
     [hidden documentId class:getFirebaseUid "INVALID"]
-    [hidden collectionName "users"]
     [hidden dateType "dateOfBirth"]
 
     [text* firstName placeholder "First Name"]

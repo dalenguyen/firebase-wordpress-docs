@@ -78,6 +78,10 @@ From that you can create a sample form in Contact tab. The hidden fields are imp
 
 The default option is to upsert data to firebase. If the node / id does not exist, it will create a new one; otherwise, it it update the existing data.
 
+Subcollection is also supported. If you want to save under subcollection, you just need to update the hidden field. For example `[hidden collectionName "users/test/products"]` will save data under `products` subcollection. The plugin also supports userId as the document name. For example, `[hidden collectionName "users/getFirebaseUid/products"]` will save data under firebase uid document.
+
+
+
 .. code-block:: bash
 
     [hidden collectionName "users"]
