@@ -23,6 +23,30 @@ This filter hook will help to get data from Firebase (Realtime or Firestore).
     // start saving data to firebase
     apply_filters('firebase_get_data_from_database', $database_type, $collection_name, $doc_id);
 
+
+Update Doc Id before saving to Firebase (v2.16.0)
+----------------------------------
+
+This filter hook will allow to modify document id before saving data to firebase. The use case is when you have multiple WordPress websites that utilize Firebase authentication. If you choose to sync data (posts or WooCommerce Subscriptions), the id of those data will overridden which causes issues for your users. It's better to utilize this filter hook to create a unique document id for each site before saving to firebase. 
+
+.. code-block:: php
+
+    add_filter('firebase_update_doc_id_before_saving_to_database', 'update_doc_id_before_saving_to_database', 10, 2);
+
+    function update_doc_id_before_saving_to_database($collection_name, $doc_id) {
+        // transform doc_id if collection name is subscriptions
+        if ($collection_name == 'subscriptions') {
+            // Remove http:// or https:// before returning new id
+            $new_doc_id = $doc_id . '-' . preg_replace('#^[^:/.]*[:/]+#i', '', get_site_url());
+            // example of new document id: 144-example.com
+            return $new_doc_id;
+        }
+
+        // return default doc_id if condition doesn't match
+        return $doc_id;
+    }
+
+
 Before Saving Post data to Firebase
 ----------------------------------
 

@@ -105,8 +105,6 @@ Start deploying firebase functions
 .. code-block:: bash
 
     cd functions
-    yarn deploy --project project-id
-    // OR 
     firebase deploy --only functions --project project-id
 
 The deployment result should look like this

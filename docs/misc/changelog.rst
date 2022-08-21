@@ -3,6 +3,19 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.37.0 (2022-08-21)
+----------------------------------
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.16.0`
+   - only save user if userId exists
+   - improve syncing WordPress data to firebase
+   - add ability to modify document id before saving to firebase database
+
+- `FUNCTIONS - v1.6.0`
+  - update packages 
+
 ## v2.36.0 (2022-08-06)
 ----------------------------------
 
