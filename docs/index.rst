@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Aug 21, 2022
+Last updated: Sep 02, 2022
 
 .. raw:: html
 
@@ -49,9 +49,9 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- `Integrate Firebase PRO <https://techcater.com/>`_ - `v3.16.0`
+- `Integrate Firebase PRO <https://techcater.com/>`_ - `v3.17.0`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v1.6.0` (bundle with PRO plugin)
-- `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.12.0` (Extension)
+- `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.12.2` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.3.1` (Extension)
 - `Firebase JWT <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/jwt.html>`_ - `v1.2.1` (Extension)
 - `Integrate Firebase Template <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-template.html>`_ - `v1.1.0` (Extension)
@@ -163,6 +163,7 @@ Firebase Features
 * :doc:`/firebase/post-to-firebase`
 * :doc:`/firebase/users-to-firebase`
 * :doc:`/firebase/firebase-cloud-message`
+* :doc:`/firebase/firebase-app-check`
 
 .. toctree::
    :maxdepth: 2
@@ -172,6 +173,7 @@ Firebase Features
    /firebase/post-to-firebase
    /firebase/users-to-firebase
    /firebase/firebase-cloud-message
+   /firebase/firebase-app-check
 
 Hooks
 -----------

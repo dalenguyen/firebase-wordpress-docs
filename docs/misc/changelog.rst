@@ -3,6 +3,24 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.38.0 (2022-09-03)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.17.0`
+   - add support for AppCheck
+
+#### - :nail_care: [Polish]
+
+- `PRO - v3.17.0`
+   - improve validation process
+
+- `WOO - v2.12.2`
+   - improve orders & subscriptions check
+   - reorganize WooCommerce General setting
+
+
 ## v2.37.0 (2022-08-21)
 ----------------------------------
 
