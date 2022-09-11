@@ -3,6 +3,17 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.39.0 (2022-09-10)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.18.0`
+   - add support for viewing / saving to subcollection
+
+- `WOO - v2.14.0`
+   - add support for manually create order & subscription
+
 ## v2.38.0 (2022-09-03)
 ----------------------------------
 
