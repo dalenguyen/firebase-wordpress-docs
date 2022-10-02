@@ -3,6 +3,18 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.40.0 (2022-09-19)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.19.0`
+   - support updating email from WordPress -> Firebase
+   - adding experiment features
+
+- `FUNCTIONS - v1.7.0`
+   - support changing user email
+
 ## v2.39.0 (2022-09-10)
 ----------------------------------
 
