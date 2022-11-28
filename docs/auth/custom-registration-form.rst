@@ -16,10 +16,13 @@ Here is a simple example of how to use the custom registration form.
 
 These hidden fields are optional.
 
+- If you want to set custom user role, you can add `user role as a hidden input <https://www.youtube.com/watch?v=7mSO4_AvaD4&ab_channel=TechCater>`_.
+
 .. code-block:: php
 
     [hidden sendEmailConfirmation1 "true"]
     [hidden redirect "/my-account"]
+    [hidden role "freemium"]
 
     <label> First Name
         [text* firstName]

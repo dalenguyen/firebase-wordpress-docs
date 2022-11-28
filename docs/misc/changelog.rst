@@ -3,6 +3,28 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.42.0 (2022-11-28)
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.22.0`
+   - support custom user role
+
+## v2.41.0 (2022-11-14)
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.21.0`
+   - add create user filter hook
+
+- `Woo - v2.15.0`
+   - Allow new users to be created at checkout (Beta)
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v3.21.0`
+   - fix Wordfence 2FA doesn't work after updating
+
 ## v2.40.0 (2022-09-19)
 ----------------------------------
 
