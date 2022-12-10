@@ -9,7 +9,7 @@ Integrate Firebase Users
 
 :red:`This is not a standalone product. In order to use this extension, you need to install at least Integrate Firebase PRO (v1.21.0) and Firebase WordPress functions (v0.15.0).`
 
-The sole purpose of this plugin is to help web masters to migrate WordPress users to Firebase. 
+The sole purpose of this plugin is to help web masters to migrate WordPress users to Firebase. **This should be done one in production to avoid users duplication!**
 
 Install the extension
 ----------------------------------
