@@ -3,7 +3,21 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.43.0 (2023-01-17)
+----------------------------------
+
+#### - :bug: [Bug Fix]
+
+- `PRO - v3.23.1`
+   - ix saving firebase uid to user account
+
+#### - :rocket: [New Feature]
+
+- `WOO - v2.16.0`
+   - Improve user creation flow for default WooCommerce Checkout
+
 ## v2.42.0 (2022-11-28)
+----------------------------------
 
 #### - :rocket: [New Feature]
 
@@ -11,6 +25,7 @@ All notable changes to this project will be documented in this file.
    - support custom user role
 
 ## v2.41.0 (2022-11-14)
+----------------------------------
 
 #### - :rocket: [New Feature]
 
