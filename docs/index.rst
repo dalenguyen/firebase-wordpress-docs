@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Jan 17, 2023
+Last updated: Mar 20, 2023
 
 .. raw:: html
 
@@ -92,6 +92,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
 * :doc:`/auth/firebase-user-profile`
 * :doc:`/auth/firebase-users-managment`
 * :doc:`/auth/2fa`
+* :doc:`/auth/custom-email-template`
 
 .. toctree::
    :maxdepth: 2
@@ -107,6 +108,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
    /auth/firebase-user-profile
    /auth/firebase-users-managment
    /auth/2fa
+   /auth/custom-email-template
 
 Database
 -----------

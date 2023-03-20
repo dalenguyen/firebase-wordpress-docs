@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.44.0 (2023-03-20)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.26.0`
+   - add providers after logging in
+   - add more firebase authentication error messages 
+   - allow skipping default email for custom email flow
+
 ## v2.43.0 (2023-01-17)
 ----------------------------------
 
