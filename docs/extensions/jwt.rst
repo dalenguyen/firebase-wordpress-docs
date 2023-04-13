@@ -57,7 +57,7 @@ Make sure that you are running Node v12. If you don't have Node on your machine,
     yarn OR npm install 
 
     // deploy functions 
-    npm run deploy --project your-project-id
+    firebase deploy --project your-project-id
 
 Create Auto-login page (WordPress)
 ----------------------------------
