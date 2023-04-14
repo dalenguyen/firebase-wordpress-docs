@@ -90,7 +90,7 @@ This example uses JavaScript. However you can implement it by using the same pri
 
     const generateToken = () => {
         // Get the token from firebase 
-        const token = firebase.functions().httpsCallable('api-token')
+        const token = firebase.functions().httpsCallable('users-getCustomToken')
         token().then((result) => {
             if (result.data.status) {
                 const url = wpLink + result.data.data.token
