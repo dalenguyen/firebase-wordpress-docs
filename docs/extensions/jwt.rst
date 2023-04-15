@@ -90,6 +90,13 @@ This example uses JavaScript. However you can implement it by using the same pri
 
     const generateToken = () => {
         // Get the token from firebase 
+        // In case you want to trigger functions for different region
+        // you can try this 
+        //
+        // const functions = firebase.app().functions('europe-west2')
+        // const token = functions.httpsCallable('users-getCustomToken')
+        // 
+        
         const token = firebase.functions().httpsCallable('users-getCustomToken')
         token().then((result) => {
             if (result.data.status) {
