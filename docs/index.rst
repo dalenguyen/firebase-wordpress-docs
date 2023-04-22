@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Mar 20, 2023
+Last updated: Apr 22, 2023
 
 .. raw:: html
 
@@ -116,8 +116,8 @@ Database
 From WordPress, users can retrieve or write data from Firebase Realtime / Firestore using shortcodes.
 
 * :doc:`/database/retrieve-data-from-firestore`
+* :doc:`/database/display-firestore-with-pagination`
 * :doc:`/database/dynamically-display-from-firestore`
-
 * :doc:`/database/save-data-realtime-firestore`
 * :doc:`/database/work-with-firebase-custom-claims`
 
@@ -127,6 +127,7 @@ From WordPress, users can retrieve or write data from Firebase Realtime / Firest
    :caption: Database
 
    /database/retrieve-data-from-firestore
+   /database/display-firestore-with-pagination
    /database/dynamically-display-from-firestore
    /database/save-data-realtime-firestore
    /database/work-with-firebase-custom-claims

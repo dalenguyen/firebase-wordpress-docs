@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.45.0 (2023-04-22)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.28.0`
+   - add translation for signup form
+   - add firestore pagination
+
 ## v2.44.0 (2023-03-20)
 ----------------------------------
 

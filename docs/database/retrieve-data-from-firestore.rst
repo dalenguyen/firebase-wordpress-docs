@@ -9,6 +9,8 @@ In this tutorial, I will show you how to retrieve the database from your Firesto
 
 The plugin support getting one document and display on the frontend as a table with the shortcode. 
 
+Demo: https://wordpress.dalenguyen.me/display-firestore-collection-with-pagination/
+
 .. code-block:: php
 
     // Get document id '1' from 'users' collection from realtime database
