@@ -9,9 +9,20 @@ Video: https://www.youtube.com/watch?v=j_2apwBk9Js
 
 What you need to do is add this shortcode to any page, then you will have a complete social login. 
 
+- redirect: redirect to a page after signing in or signing up 
+- send_email_confirmation: verify email after signing up 
+- skip_default_email: skip sending default email in case you want to implement your own email server
+- forgot_password_link: lead users to another page if they want to reset their password 
+- default_login_form: whether you want to show Sign In or Sign Up form first
+
 .. code-block:: php
 
-    [firebase_auth redirect="/" send_email_confirmation=true]
+   [firebase_auth 
+    redirect="/" 
+    send_email_confirmation=true 
+    skip_default_email=false 
+    forgot_password_link="/forgot-my-password" 
+    default_login_form=true]
 
 
 .. figure:: /images/auth/new-social-login.png

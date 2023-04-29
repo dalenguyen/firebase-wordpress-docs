@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.46.0 (2023-04-29)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.29.0`
+   - add option for default authentication form
+   - update translation for sign in form
+   - fix forgot password issue
+
 ## v2.45.0 (2023-04-22)
 ----------------------------------
 
