@@ -1,6 +1,6 @@
 .. raw:: html
 
-    <style> .red {color:red} </style>
+    <style> .red {color:red} .green {color: green} </style>
 
 Integrate Firebase Users
 =============
@@ -27,11 +27,16 @@ As you can see, there is 159 users in WordPress
 Import WordPress Users to Firebase
 ----------------------------------
 
-In order to import WordPress users to Firebase, you just need to press the button **Import WP Users to Firebase**, and the plugin will do its magic. If you have issue with importing more than 10,000 users, please let me know.
+In order to import WordPress users to Firebase, you just need to press the button **Import WP Users to Firebase**, and the plugin will do its magic.
+
+.. role:: note
+
+:green:`If you have more than 10,000 users, please try to increase max_execution_time & memory_limit in PHP. If it still doesn't work, please contact me for further support.`
+
 
 The Firebase UID will be the WordPress **user_login**. It's because if uid is generated randomly, it will create another user with the same email. You can have a look the `Firebase Docs <https://firebase.google.com/docs/auth/admin/import-users#usage>`_ .
 
-.. role:: red
+.. role:: note
 
 :red:`Please note that if users don't have an email, it will not be imported to Firebase.`
 
