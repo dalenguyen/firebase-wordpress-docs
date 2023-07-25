@@ -9,6 +9,8 @@ Instead of having email & password only, now you can have extra fields like name
 Demo: https://wordpress.dalenguyen.me/custom-registration-c7-form/
 Video: https://youtu.be/IzfS0Hok6mg
 
+You will need to use this plugin to enable password for Contact form 7: https://wordpress.org/plugins/cf7-add-password-field/
+
 Contact 7 Form Creation 
 ----------------------------------
 

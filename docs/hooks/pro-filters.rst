@@ -6,7 +6,7 @@ Here is the list of filter hooks that help to communicate with Firebase services
 Get data from Firebase (v2.3.0)
 ----------------------------------
 
-This filter hook will help to get data from Firebase (Realtime or Firestore).
+This filter hook will help to get document data from Firebase (Realtime or Firestore).
 
 
 .. code-block:: php
@@ -20,8 +20,27 @@ This filter hook will help to get data from Firebase (Realtime or Firestore).
     * @return data | false
     */
 
-    // start saving data to firebase
+    // start getting data to firebase
     apply_filters('firebase_get_data_from_database', $database_type, $collection_name, $doc_id);
+
+Get data from Firebase (v3.31.0)
+----------------------------------
+
+This filter hook will help to get collection data from Firebase (Firestore).
+
+
+.. code-block:: php
+
+    /**
+    * Get Data from Firebase Database
+    *
+    * @param [type] $database_type firestore
+    * @param [type] $collection_name
+    * @return data | false
+    */
+
+    // start getting data to firebase
+    apply_filters('firebase_get_collection_from_database', 'firestore', '$collection_name);
 
 
 Update Doc Id before saving to Firebase (v2.16.0)
