@@ -18,7 +18,7 @@ Prerequisite
 
 In order to deploy cloud functions, you need to have `Nodejs v12 <https://nodejs.org/dist/latest-v12.x/>`_ installed on your machine. 
 
-On Google Cloud Platform, go to your project and make sure Cloud Buid API and Cloud Functions are enabled. And the account that you use to deploy has `Service Account User` Role in order to deploy cloud functions to Firebase.
+On Google Cloud Platform, go to your project and make sure Cloud Buid API and Cloud Functions are enabled. And the account that you use to deploy has `Service Account User` and `Cloud Functions Admin` Role in order to deploy cloud functions to Firebase.
 
 Then install `firebase-tools <https://firebase.google.com/docs/cli>`_ packaged
 
