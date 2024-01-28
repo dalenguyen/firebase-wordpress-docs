@@ -3,6 +3,14 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.47.0 (2024-01-27)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.33.0`
+   - improve performance by only load auth scripts where it's needed
+
 ## v2.46.0 (2023-04-29)
 ----------------------------------
 

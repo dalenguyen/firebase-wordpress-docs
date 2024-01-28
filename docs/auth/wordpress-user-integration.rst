@@ -76,3 +76,25 @@ One thing to notice that, after user logs in via the plugin shortcode, the fireb
 **Notice**: :red:`Since v3.10.0, username is humanize, and it will be used as WordPress username.`
 
 When users log out from dashboard, that means they will also be logged out to Firebase.
+
+Improve Website Performance
+----------------------------------
+In version 3.33.0, we made an improvement that helps to improve performance of your website. You can find it under the Auth tab in the plugin configuration.
+
+.. figure:: /images/auth/auth-pages.png
+    :scale: 70%
+    :align: center
+
+    Auth Pages Option
+
+By default, the authenticate scripts will load in all pages. If you want to load the authenticate scripts only for some specific pages, then you can add the list of the pages to the `auth-pages` field. 
+
+Each page will be separated by a new line. Here is an example:
+
+.. code-block:: php
+
+    /
+    /login/
+    /register/
+
+This configuration will load the script on the homepage, login page and register page. Remember that the `/` is mandatory. 
