@@ -3,6 +3,16 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.48.0 (2024-02-25)
+----------------------------------
+
+#### - :rocket: [New Feature]
+
+- `PRO - v3.34.0`
+   - Update firebaseui_web to v6.1.0
+   - Add email sign in link shortcode
+   - add after successful signed in action hook
+
 ## v2.47.0 (2024-01-27)
 ----------------------------------
 
