@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Feb 25, 2024
+Last updated: Mar 14, 2024
 
 .. raw:: html
 
@@ -50,7 +50,7 @@ Products
 -----------
 
 - `Integrate Firebase PRO <https://techcater.com/>`_ - `v3.34.0`
-- `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v1.8.0` (bundle with PRO plugin)
+- `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v2.0.0` (bundle with PRO plugin)
 - `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.16.0` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.3.2` (Extension)
 - `Firebase JWT <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/jwt.html>`_ - `v1.2.1` (Extension)
@@ -64,6 +64,7 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
 * :doc:`/intro/introduction`
 * :doc:`/intro/ifp-plugin-configuration`
 * :doc:`/intro/cloud-functions-deployment`
+* :doc:`/intro/cloud-functions-deployment-v2`
 * :doc:`/intro/shortcode-list`
 * :doc:`/intro/update-plugin`
 
@@ -75,6 +76,7 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
    /intro/introduction
    /intro/ifp-plugin-configuration
    /intro/cloud-functions-deployment
+   /intro/cloud-functions-deployment-v2
    /intro/shortcode-list
    /intro/update-plugin
 

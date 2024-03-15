@@ -1,5 +1,13 @@
-Firebase Cloud Functions Deployment
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
+Firebase Cloud Functions Deployment (v2)
 =============
+
+.. role:: red
+
+:red:`Since v2.0.0, if you already installed the cloud functions before v2, you have to delete those functions before deploying the new one.`
 
 If you are using PRO version, there is another folder named **firebase-wordpress-functions**. If you want to manage database, Firebase users and custom functions, you should deploy the functions together with the plugin. Make sure that you have Nodejs installed on your machine. 
 
@@ -32,21 +40,17 @@ SignIn and test firebase cli
 
     firebase login
 
-Since version 0.6.0, before deploying any functions, you should create two tokens for security purpose. One for Wordpress dashboard usage, the other is for Wordress frontend.
+Since version 0.6.0, before deploying any functions, you should create two tokens for security purpose. One for Wordpress dashboard usage, the other is for WordPress frontend.
 
 .. code-block:: bash
 
-    // Generate random token
+    // Generate two random tokens - save in notepad, you will need them later
+
+    // DASHBOARD_TOKEN
     node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
 
-    // Set your token to firebase configuration (dashboard token)
-    firebase functions:config:set api.dashboard_token=your-secret-key --project project-id
-
-    // Set your token to firebase configuration (frontend token)
-    firebase functions:config:set api.frontend_token=your-secret-key --project project-id
-
-    // Check your api token
-    firebase functions:config:get api --project project-id
+    // FRONTEND_TOKEN
+    node -e "console.log(require('crypto').randomBytes(20).toString('hex'))"
 
 Change Your Plan to Blaze
 `````````````
@@ -64,29 +68,23 @@ Because of updates to its underlying architecture planned for August 17, 2020, C
 Change Cloud Functions Regions
 `````````````
 
-Default functions will be deployed to `us-central1`. If you don't want to change the regions, please skip this part.
-
-In case you want to change the deploy regions to `asia-east2`, you can set a regions configuration for the firebase.
+You can type the name of the region that you want to deploy the cloud functions at deploy time. 
 
 .. code-block:: bash
 
-    // Set deploy regions for `asia-east2`
-    firebase functions:config:set regions.0=asia-east2 --project project-id
+    ? Enter a string value for FRONTEND_TOKEN: YOUR_SECRET_TOKEN
+    ? Enter a string value for DASHBOARD_TOKEN: YOUR_SECRET_TOKEN
+    ? Enter a string value for REGIONS: us-central1
+    ? Enter an integer value for USER_API_MININSTANCES: 0
 
-    // Set deploy regions for `asia-east2` and `us-central1`
-    firebase functions:config:set regions.0=asia-east2 regions.1=us-central1 --project project-id
-
-After configuration, please check your environment to make sure that you have the region in the functions config.
+After configuration, those information will be saved to an environment file in your folder:
 
 .. code-block:: bash
 
-    firebase functions:config:get regions --project project-id
+    i  functions: Created new local file .env.YOUR_PROJECT_ID to store param values. We suggest explicitly adding or excluding this file from version control.
 
-    // The result should looks like this for two regions (asia-east2 & us-central1)
-    [
-        "asia-east2",
-        "us-central1"
-    ]
+
+If you want to change the region of the cloud function, you can update the file and redeploy the cloud functions.
 
 Install Packages & Deploy Cloud Functions
 `````````````
