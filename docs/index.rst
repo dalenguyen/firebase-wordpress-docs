@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Mar 14, 2024
+Last updated: July 7, 2024
 
 .. raw:: html
 
@@ -64,7 +64,6 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
 * :doc:`/intro/introduction`
 * :doc:`/intro/ifp-plugin-configuration`
 * :doc:`/intro/cloud-functions-deployment`
-* :doc:`/intro/cloud-functions-deployment-v2`
 * :doc:`/intro/shortcode-list`
 * :doc:`/intro/update-plugin`
 
@@ -76,7 +75,6 @@ This guide is mostly for the PRO version, if you are using the FREE version, ple
    /intro/introduction
    /intro/ifp-plugin-configuration
    /intro/cloud-functions-deployment
-   /intro/cloud-functions-deployment-v2
    /intro/shortcode-list
    /intro/update-plugin
 
