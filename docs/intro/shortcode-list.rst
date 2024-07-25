@@ -37,9 +37,12 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 
 .. code-block:: php
 
-    // After logging in, you will be redirect to the homepage. The redirect is optional. Default button text is "Login"
+    // After logging in, you will be redirect to the homepage. 
+    // The redirect is optional. 
+    // Default button text is "Login"
+    // enable_placeholder is optional to hide the label and display placeholder
 
-    [firebase_login button_text='Signin' redirect='/']
+    [firebase_login button_text='Signin' redirect='/' enable_placeholder=true]
 
 .. code-block:: php
 

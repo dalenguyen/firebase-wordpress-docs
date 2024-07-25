@@ -49,34 +49,13 @@ Change Your Plan to Blaze
 
 **Why will I need a billing account to use the Node.js 10 runtime for Cloud Functions for Firebase?**
 
-Because of updates to its underlying architecture planned for August 17, 2020, Cloud Functions for Firebase will rely on some additional paid Google services: Cloud Build, Container Registry, and Cloud Storage. These architecture updates will apply for functions deployed to the Node.js 10 runtime. `Usage of these services will be billed in addition to existing pricing <https://firebase.google.com/support/faq#pricing-blaze-free>`_.
+Because of updates to its underlying architecture planned for August 17, 2020, Cloud Functions for Firebase will rely on some additional paid Google services: Cloud Build, Container Registry, and Cloud Storage. These architecture updates will apply for functions deployed to the Node.js 18 runtime. `Usage of these services will be billed in addition to existing pricing <https://firebase.google.com/support/faq#pricing-blaze-free>`_.
 
 .. figure:: /images/intro/pay-as-you-go.png
     :scale: 70%
     :align: center
 
     Firebase pricing plans
-
-Change Cloud Functions Regions
-`````````````
-
-You can type the name of the region that you want to deploy the cloud functions at deploy time. 
-
-.. code-block:: bash
-
-    ? Enter a string value for FRONTEND_TOKEN: YOUR_SECRET_TOKEN
-    ? Enter a string value for DASHBOARD_TOKEN: YOUR_SECRET_TOKEN
-    ? Enter a string value for REGIONS: us-central1
-    ? Enter an integer value for USER_API_MININSTANCES: 0
-
-After configuration, those information will be saved to an environment file in your folder:
-
-.. code-block:: bash
-
-    i  functions: Created new local file .env.YOUR_PROJECT_ID to store param values. We suggest explicitly adding or excluding this file from version control.
-
-
-If you want to change the region of the cloud function, you can update the file and redeploy the cloud functions.
 
 Install Packages & Deploy Cloud Functions
 `````````````
@@ -96,6 +75,23 @@ Start deploying firebase functions
 
     cd functions
     firebase deploy --only functions --project project-id
+
+During the deployment process, you will need to enter the information that created from previous step:
+
+.. code-block:: bash
+
+    ? Enter a string value for FRONTEND_TOKEN: YOUR_SECRET_TOKEN
+    ? Enter a string value for DASHBOARD_TOKEN: YOUR_SECRET_TOKEN
+    ? Enter a string value for REGIONS: us-central1
+    ? Enter an integer value for USER_API_MININSTANCES: 0
+
+After configuration, those information will be saved to an environment file in your folder:
+
+.. code-block:: bash
+
+    i  functions: Created new local file .env.YOUR_PROJECT_ID to store param values. We suggest explicitly adding or excluding this file from version control.
+
+If you want to change the region of the cloud function, you can update the environment file and redeploy the cloud functions.
 
 The deployment result should look like this
 

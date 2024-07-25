@@ -67,6 +67,8 @@ After you activate the plugin, you need to enter the Firebase credentials in the
 
     General configuration
 
+Please note that, if you can't find the Database URL, here is the default format: `https://<PROJECT_ID>.firebaseio.com`
+
 After that, you can create login form, show data, show logout button… on WordPress frontend.
 
 Select Firebase Services - Optimization

@@ -8,14 +8,17 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 Login Form
 ----------------------------------
 
-This form only support log in though email, and you can style it freely.
+This form only support log in though email, and you can style it freely. If you want to hide the label and display placeholder to display email password, you can add a flag name `enable_placeholder` to the shortcode 
 
 .. code-block:: php
 
     // After logging in, you will be redirect to the homepage. 
-    // The redirect is optional. Default button text is "Login"
+    //
+    // `redirect` is optional. 
+    // `button_text` is optional. Default button text is "Login"
+    // `enable_placeholder` is optional 
 
-    [firebase_login button_text='Signin' redirect='/']
+    [firebase_login button_text='Signin' redirect='/' enable_placeholder=true]
 
 Registration Form
 ----------------------------------
