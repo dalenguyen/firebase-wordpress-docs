@@ -22,7 +22,7 @@ These hidden fields are optional.
 
 .. code-block:: php
 
-    [hidden sendEmailConfirmation1 "true"]
+    [hidden sendEmailConfirmation "true"]
     [hidden redirect "/my-account"]
     [hidden role "freemium"]
 
