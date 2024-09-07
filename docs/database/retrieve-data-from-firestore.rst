@@ -14,10 +14,10 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-with-paginati
 .. code-block:: php
 
     // Get document id '1' from 'users' collection from realtime database
-    [realtime class='css-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid' ]
+    [realtime class='optional-your-CSS-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid' ]
 
     // Get document id '1' from 'users' collection from firestore
-    [firestore class='css-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid']
+    [firestore class='optional-your-CSS-class-name' collection_name='users' document_name='1' display_fields='email,displayName,role,uid']
 
 .. figure:: /images/database/show-database-from-shortcode.png
     :scale: 70%

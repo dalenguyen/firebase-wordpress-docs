@@ -23,7 +23,7 @@ After you create a new WordPress page, use this shortcode to retrieve data from 
 .. code-block:: php
 
     // show firestore data basing on collection name as blocks
-    [firestore_blocks class='css-class-name' collection_name='blog' display_fields='title,description,more' images='url']
+    [firestore_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
     // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='title|asc,description|desc'`
 
@@ -31,10 +31,10 @@ After you create a new WordPress page, use this shortcode to retrieve data from 
 
     // Generate a link to a child page by adding "child_page" & "child_page_target_field"
 
-    [firestore_blocks class='css-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC' limit=10 child_page='https://wordpress.dalenguyen.me/dynamic-display-firestore-data-from-blocks' child_page_target_field='title']
+    [firestore_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC' limit=10 child_page='https://wordpress.dalenguyen.me/dynamic-display-firestore-data-from-blocks' child_page_target_field='title']
 
     I suggest that you also add this shortcode to show any error when retriving data:
-    [firebase_error class='css-class-name'][/firebase_error]
+    [firebase_error class='optional-your-CSS-class-name'][/firebase_error]
 
 
 Create the Child Page
@@ -51,6 +51,6 @@ Demo: https://wordpress.dalenguyen.me/dynamic-display-firestore-data-from-blocks
 
     // E.g. https://wordpress.dalenguyen.me/dynamic-display-firestore-data-from-blocks/?docId=1prQPhET2etbBRkrF3f8
 
-    [firestore class='css-class-name' collection_name='blog' document_name='from-queries' display_fields='title,description' images='url' display_type='blocks']
+    [firestore class='optional-your-CSS-class-name' collection_name='blog' document_name='from-queries' display_fields='title,description' images='url' display_type='blocks']
 
 After creating two pages, you have a system that can retrieve information from Firestore and display it dynamicly on WordPress. 

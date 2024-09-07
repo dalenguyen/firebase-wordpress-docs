@@ -26,7 +26,7 @@ Demo: https://wordpress.dalenguyen.me/register-login-form/
 
     // Add this shortcode in order show error message to the front end
 
-    [firebase_error class='css-class-name'][/firebase_error]
+    [firebase_error class='optional-your-CSS-class-name'][/firebase_error]
 
 .. code-block:: php
 
@@ -76,13 +76,13 @@ Content
 
     // Show custom message for NOT Logged in Users
 
-    [firebase_show_not_login class='css-class-name']YOUR HTML CODE[/firebase_show_not_login]
+    [firebase_show_not_login class='optional-your-CSS-class-name']YOUR HTML CODE[/firebase_show_not_login]
 
 .. code-block:: php
 
     // Show custom message for Logged in Users
 
-    [firebase_show class='css-class-name']YOUR HTML CODE[/firebase_show]
+    [firebase_show class='optional-your-CSS-class-name']YOUR HTML CODE[/firebase_show]
 
 Realtime Database & Firestore
 ----------------------------------
@@ -105,7 +105,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-data/
 
     // show realtime collection data basing on collection name & display fields
 
-    [realtime_col class='css-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
+    [realtime_col class='optional-your-CSS-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Realime collection as blocks**
 `````````````
@@ -117,11 +117,11 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-collection-as-bocks/
     // show realtime collection data basing on collection name & display fields
     // display fields or images is required
 
-    [realtime_blocks class='css-class-name' collection_name='blog' display_fields='title,description,more' images='url']
+    [realtime_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,description,more' images='url']
 
     // In order to sort the data, you can add order_by, the order bases on orderByChild()
 
-    [realtime_blocks class='css-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title']
+    [realtime_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title']
 
 **Realime Document as table**
 `````````````
@@ -134,7 +134,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
     // Collection & Document will be come path of the Realtime database --> /users/123456
     // display fields or images is required
 
-    [realtime class='css-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
+    [realtime class='optional-your-CSS-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 **Realime Document as blocks**
 `````````````
@@ -147,7 +147,7 @@ Demo: https://wordpress.dalenguyen.me/display-realtime-document-data/
     // Collection & Document will be come path of the Realtime database --> /users/123456
     // display fields or images is required
 
-    [realtime class='css-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
+    [realtime class='optional-your-CSS-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
 **Firestore collection as table**
 `````````````
@@ -161,7 +161,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-data/
     // if you want to display document id, add `id` to display_fields
 
 
-    [firestore_col class='css-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
+    [firestore_col class='optional-your-CSS-class-name' collection_name='users' display_fields='email,firstName,gender,food,hobbies,phone']
 
 **Firestore collection as blocks**
 `````````````
@@ -177,12 +177,12 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-collection-as-bocks/
     // if you want to display document id, add `id` to display_fields
 
 
-    [firestore_blocks class='css-class-name' collection_name='blog' display_fields='title,author.fullName,description,more' images='image.url']
+    [firestore_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,author.fullName,description,more' images='image.url']
 
     // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='title|asc,description|desc'`
     // You can also limit the data by adding a `limit` parameters (optional)
 
-    [firestore_blocks class='css-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC' limit=10]
+    [firestore_blocks class='optional-your-CSS-class-name' collection_name='blog' display_fields='title,description,more' images='url' order_by='title|DESC' limit=10]
 
 **Firestore collection through queries**
 `````````````
@@ -216,7 +216,7 @@ Sample Queries
     // display fields: email,firstName,lastName,age,gender
     // display as 'blocks' | 'table'
 
-    [firestore_search class='css-class-name' search_fields='email|age' search_operators='eq|gt' search_conditions='dale@dalenguyen.me|20' collection_name='users' display_fields='email,firstName,lastName,age,gender' display_type='blocks']
+    [firestore_search class='optional-your-CSS-class-name' search_fields='email|age' search_operators='eq|gt' search_conditions='dale@dalenguyen.me|20' collection_name='users' display_fields='email,firstName,lastName,age,gender' display_type='blocks']
 
     // In order to sort the data, you can add order_by. For example, this will order by title - descendant. You can also combine the orders: `order_by='firstName|asc,lastName|desc'`
 
@@ -233,7 +233,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
     // display fields or images is required
     // if you want to display document id, add `id` to display_fields
 
-    [firestore class='css-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
+    [firestore class='optional-your-CSS-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl']
 
 **Firestore Document as blocks**
 `````````````
@@ -247,7 +247,7 @@ Demo: https://wordpress.dalenguyen.me/display-firestore-document-data/
     // if you want to display document id, add `id` to display_fields
 
 
-    [firestore class='css-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
+    [firestore class='optional-your-CSS-class-name' collection_name='string' document_name='string' display_fields='email,displayName,role,uid' images='imageUrl' display_type='blocks']
 
 Custom Claims (User's roles)
 ----------------------------------
@@ -259,4 +259,4 @@ Demo: https://wordpress.dalenguyen.me/show-or-hide-content-for-logged-in-users/
     // only user with admin claim will see the content
     // otherwise they will see a Custom message
 
-    [firebase_show_with_claims class='css-class-name' claims='admin' message='Custom message' ] HTML Data With Tags [/firebase_show_with_claims]
+    [firebase_show_with_claims class='optional-your-CSS-class-name' claims='admin' message='Custom message' ] HTML Data With Tags [/firebase_show_with_claims]
