@@ -57,7 +57,7 @@ Make sure that you are running Node v12. If you don't have Node on your machine,
     yarn OR npm install 
 
     // deploy functions 
-    firebase deploy --project your-project-id
+    firebase deploy --only functions --project your-project-id
 
 Create Auto-login page (WordPress)
 ----------------------------------
@@ -68,6 +68,7 @@ Create a WordPress page with the follow shortcode.
 
     // you can specify the redirect page after the auto-login process
     // default is home page
+    // redirect is optional
 
     [firebase_autologin redirect="redirect-link"]
 
@@ -100,6 +101,9 @@ This example uses JavaScript. However you can implement it by using the same pri
         const token = firebase.functions().httpsCallable('users-getCustomToken')
         token().then((result) => {
             if (result.data.status) {
+                // if you want to redirect user after signing, please add `redirect` param to the url
+                // the final url looks like: 'https://example.com?jwt=...&redirect=...'
+                // so in case you want redirect user dynamicly after signing in, use the `redirect` and build your own URL.
                 const url = wpLink + result.data.data.token
 
                 // Open auto-login link for WP

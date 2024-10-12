@@ -11,11 +11,17 @@ The flag `skip_default_email` and some global functions are added in order to su
 
 .. code-block:: php
 
+    - send_email_confirmation (Optional) - make sure that email is verified before signing in to the website
+    - skip_default_email (Optional) - skip email handling, and you must implement the email handling yourself 
+    - forgot_password_link (Optional) - this will not show the forgot password form, it will lead to the forgot password page that you create 
+    - forgot_password_landing_page (Optional) - after user changes password, this will redirect to page that you decide
+
     [firebase_auth 
         redirect="/" 
         send_email_confirmation="true" 
         skip_default_email="true" 
         forgot_password_link="/forgot-my-password"
+        forgot_password_landing_page="/login"
     ]
 
 The `skip_default_email` will not send default email template from Firebase, and you must apply your custom solution otherwise users will not receive anything. So, make you that you test it throughout before use it on production.
