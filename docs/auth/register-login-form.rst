@@ -36,6 +36,8 @@ With this form, you can customize the registration form that will save extra fie
     If you want to send a verification email after user registers, you can add this option: send_email_confirmation=true
     Remember that if user doesn't verify their email, they won't be allowed to login next time.
 
+    If you want to send user to a custom page after they register, you can add this option: email_verify_landing_page='/verify-email'. This option must be used with send_email_confirmation=true.
+
 Logout Option
 ----------------------------------
 

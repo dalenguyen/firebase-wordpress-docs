@@ -4,7 +4,7 @@ Complete Guide to Firebase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase to WordPress.
 
-Last updated: Oct 12, 2024
+Last updated: Dec 29, 2024
 
 .. raw:: html
 
@@ -49,7 +49,7 @@ If you are interested in the development progress, please check the `Road map <h
 Products
 -----------
 
-- `Integrate Firebase PRO <https://techcater.com/>`_ - `v3.38.0`
+- `Integrate Firebase PRO <https://techcater.com/>`_ - `v3.41.0`
 - `Firebase WordPress Functions <https://firebase-wordpress-docs.readthedocs.io/en/latest/intro/cloud-functions-deployment.html>`_ - `v2.0.0` (bundle with PRO plugin)
 - `Integrate Firebase Woocommerce <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/woocommerce.html>`_ - `v2.16.0` (Extension)
 - `Integrate Firebase Users <https://firebase-wordpress-docs.readthedocs.io/en/latest/extensions/firebase-users.html>`_ - `v1.3.2` (Extension)
@@ -92,7 +92,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
 * :doc:`/auth/firebase-user-profile`
 * :doc:`/auth/firebase-users-managment`
 * :doc:`/auth/2fa`
-* :doc:`/auth/custom-email-template`
+* :doc:`/auth/custom-authentication-flow`
 
 .. toctree::
    :maxdepth: 2
@@ -108,7 +108,7 @@ Even though the plugin allows Firebase users to log in to WordPress at the same 
    /auth/firebase-user-profile
    /auth/firebase-users-managment
    /auth/2fa
-   /auth/custom-email-template
+   /auth/custom-authentication-flow
 
 Database
 -----------

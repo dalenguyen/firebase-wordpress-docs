@@ -11,6 +11,7 @@ What you need to do is add this shortcode to any page, then you will have a comp
 
 - redirect (optional): redirect to a page after signing in or signing up 
 - send_email_confirmation (optional): verify email after signing up 
+- email_verify_landing_page (optional): redirect to a page after registering. Must use with send_email_confirmation flag
 - skip_default_email (optional): skip sending default email in case you want to implement your own email server
 - forgot_password_link (optional): lead users to another page if they want to reset their password 
 - default_login_form (optional): whether you want to show Sign In or Sign Up form first
@@ -22,6 +23,7 @@ What you need to do is add this shortcode to any page, then you will have a comp
    [firebase_auth 
         redirect="/" 
         send_email_confirmation="true"
+        email_verify_landing_page="/verify-email"
         skip_default_email="false" 
         forgot_password_link="/forgot-my-password" 
         forgot_password_landing_page="/login"
