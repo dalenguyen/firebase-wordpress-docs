@@ -2,6 +2,7 @@ Custom Authentication Flow
 =============
 
 ## Custom email templates - `* Added in PRO v3.26.0`
+----------------------------------
 
 The Firebase Authentication comes with default email template for Email Verification, Forgot Password... And they are not "branded" to your business identity. 
 
@@ -41,6 +42,7 @@ The next step is that you need implement those global functions in order to trig
 
 
 ## Custom email verification process - `* Added in PRO v3.41.0`
+----------------------------------
 
 The Firebase Authentication comes with a default email verification process, and it is not customizable. However, with the PRO v3.41.0 update, you can now implement a custom email verification process.
 
