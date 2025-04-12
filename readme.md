@@ -1,3 +1,3 @@
-# Firebase WordPress Plugin Guide
+# Firebase & Supabase WordPress Plugin Guide
 
-Complete guide to [Integrate Firebase PRO](https://techcater.com/) plugin for WordPress integration
+Complete guide to [Firebase & Supabase](https://techcater.com/) plugins for WordPress integration

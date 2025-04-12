@@ -17,8 +17,8 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = u"Firebase WordPress Integration"
-copyright = "2021, Dale Nguyen"
+project = u"Firebase & Supabase WordPress Integration"
+copyright = "2025, Dale Nguyen"
 author = u"Dale Nguyen"
 
 # The short X.Y version
