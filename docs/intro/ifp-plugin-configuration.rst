@@ -57,7 +57,7 @@ After creating a web app for you project, you can save your credentials for late
 Installation Process
 ----------------------------------
 
-After you have downloaded the plugin, uncompress the zip file in order to install the plugin file (**integrate-firebase-PRO.zip**). You can use default installation process in order to install the plugin. Otherwise, you can always manually upload the plugin to your plugin folder through FTP client.
+After you have downloaded the plugin, you can use default installation process in order to install the plugin. Otherwise, you can always manually upload the plugin to your plugin folder through FTP client.
 
 After you activate the plugin, you need to enter the Firebase credentials in the **Dashboard > Firebase**.
 

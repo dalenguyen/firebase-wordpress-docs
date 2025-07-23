@@ -1,7 +1,12 @@
 Firebase Cloud Functions Deployment
 =============
 
-If you are using PRO version, there is another folder named **firebase-wordpress-functions**. If you want to manage database, Firebase users and custom functions, you should deploy the functions together with the plugin. Make sure that you have Nodejs installed on your machine. 
+Requirements
+----------------------------------
+- Node.js v20 is required to deploy and use the cloud functions with the PRO plugin.
+- The cloud functions are now located in the `functions` folder under the `integrate-firebase-PRO` directory. There is no longer a folder named **firebase-wordpress-functions**.
+
+If you are using the PRO version, the cloud functions are located in the `functions` folder under the `integrate-firebase-PRO` directory. If you want to manage the database, Firebase users, and custom functions, you should deploy the functions together with the plugin. Make sure that you have Node.js v20 installed on your machine.
 
 The cloud functions is only Admin Dashboard tasks, you don't have to deploy the cloud functions for frontend interactions such as login, display or retrieve data.
 
@@ -16,7 +21,7 @@ If you want a hands-on guide, you can watch this tutorial: `How to Deploy Cloud 
 Prerequisite
 `````````````
 
-In order to deploy cloud functions, you need to have `Nodejs v18 <https://nodejs.org/dist/latest-v18.x/>`_ installed on your machine. 
+In order to deploy cloud functions, you need to have `Nodejs v20 <https://nodejs.org/dist/latest-v20.x/>`_ installed on your machine. 
 
 On Google Cloud Platform, go to your project and make sure Cloud Build API and Cloud Functions are enabled. And the account that you use to deploy has `Service Account User` and `Cloud Functions Admin` Role in order to deploy cloud functions to Firebase.
 
