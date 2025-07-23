@@ -140,6 +140,55 @@ This filter hook will help to delete data from Firebase (Realtime or Firestore).
     // start delete data from firebase
     apply_filters('firebase_delete_data_from_database', $database_type, $collection_name, $doc_id);
 
+Create New User in Firebase (v3.21.0)
+----------------------------------
+
+This filter hook allows you to create a new user in Firebase when a WordPress user is registered. This is useful when you want to automatically create Firebase users for new WordPress registrations.
+
+.. code-block:: php
+
+    /**
+    * Create New User in Firebase
+    *
+    * @param int $user_id WordPress user ID
+    * @param array $user_data User data array containing email, first_name, last_name, password
+    * @return void
+    */
+
+    public static function user_register_event($user_id, $user) {
+        // Example user data structure:
+        // [29-Oct-2022 08:54:29 UTC] Array
+        // (
+        //     [first_name] => Test
+        //     [last_name] => 500
+        //     [user_login] => test500
+        //     [user_pass] => xxx
+        //     [user_email] => test500@dalenguyen.me
+        //     [role] => customer
+        // )
+
+        $firebase_uid = get_user_meta($user_id, 'firebase_uid', true);
+
+        // Normal flow only has email & password in the $user
+        // Consider using wp_insert_user to have custom data in the fields which 
+        // will help in case of passing meta data (firebase_uid...)
+        if (empty($firebase_uid) && isset($user['first_name'])) {
+            // Prepare user data for Firebase
+            $user_data = array(
+                'uid' => uniqid('wp_', true), // OPTIONAL:Generate custom Firebase UID or fallback
+                'email' => $user['user_email'],
+                'displayName' => trim($user->first_name . ' ' . $user->last_name),
+                'password' => $user['user_pass'],
+            );
+
+            // Create user in Firebase
+            apply_filters('firebase_create_new_user', $user_id, $user_data);
+        }
+    }
+
+    // Hook into WordPress user registration
+    add_action('user_register', 'user_register_event', 10, 2);
+
 Update Custom Error Messages
 ----------------------------------
 

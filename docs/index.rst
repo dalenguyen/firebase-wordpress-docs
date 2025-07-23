@@ -4,7 +4,7 @@ Complete Guide to Firebase & Supabase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase & Supabase to WordPress.
 
-Last updated: April 12, 2025
+Last updated: July 23, 2025
 
 
 Follow `Twitter <https://twitter.com/TechCater>`_  for updates.
