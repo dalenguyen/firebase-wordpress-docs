@@ -95,6 +95,36 @@ It happens after a Subscription status is saved / changed.
 
 Video: `Create & Save WooCommerce Subscriptions to Firebase <https://www.youtube.com/watch?v=CKJkWiWTdzQ&list=PLchk3ZdnnL-bngknCj7dMQQ6JmAfSdxd8&index=1&ab_channel=TechCater>`_
 
+Create Firebase User after Checkout (Extension - v2.17.0)
+----------------------------------
+
+This feature allows users to have their users synced to Firebase after checkout process. 
+
+First, you need to enable the feature in the WooCommerce settings.
+
+.. figure:: /images/extensions/woocommerce/woo-send-password-setting.png
+    :scale: 70%
+    :align: center
+
+    Enable send password setup link in WooCommerce settings
+
+After that, update Firebase Woocommerce settings.
+
+.. figure:: /images/extensions/woocommerce/woo-new-account-password.png
+    :scale: 70%
+    :align: center
+
+    Firebase Woocommerce New Account Password settings
+
+After that, when a user resets their password by clicking the link in the email, the user will be created in Firebase.
+
+.. figure:: /images/extensions/woocommerce/woo-set-new-password-email.png
+    :scale: 70%
+    :align: center
+
+    Set new password email
+
+Then users can login with their email and password in either Firebase or WordPress.
 
 Synced Product Firebase -> WordPress (Extension)
 ----------------------------------

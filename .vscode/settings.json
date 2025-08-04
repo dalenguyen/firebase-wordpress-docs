@@ -1,6 +1,26 @@
 {
-    "esbonio.server.enabled": true,
-    "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
-    "esbonio.sphinx.buildDir" : "${workspaceFolder}/_build/html",
-    "esbonio.sphinx.srcDir"   : "${workspaceFolder}/docs"
+  // Esbonio configuration for preview functionality
+  "esbonio.server.enabled": true,
+  "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
+  "esbonio.sphinx.buildDir": "${workspaceFolder}/_build/html",
+  "esbonio.sphinx.srcDir": "${workspaceFolder}/docs",
+  "esbonio.server.logLevel": "info",
+
+  // reStructuredText extension configuration (no preview - handled by Esbonio)
+  "restructuredtext.confPath": "${workspaceFolder}/docs/conf.py",
+  "restructuredtext.buildPath": "${workspaceFolder}/_build/html",
+  "restructuredtext.makefilePath": "${workspaceFolder}/docs/Makefile",
+
+  // Editor settings for better RST experience
+  "files.associations": {
+    "*.rst": "restructuredtext"
+  },
+
+  // Auto-save and build settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Linter settings
+  "restructuredtext.linter.run": "onType",
+  "restructuredtext.linter.extraArgs": []
 }
