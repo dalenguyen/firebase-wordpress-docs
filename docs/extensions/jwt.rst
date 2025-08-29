@@ -54,7 +54,7 @@ Make sure that you are running Node v12. If you don't have Node on your machine,
     cd functions 
 
     // install the package - you can run yarn or npm (pick one only)
-    yarn OR npm install 
+    npm install 
 
     // deploy functions 
     firebase deploy --only functions --project your-project-id

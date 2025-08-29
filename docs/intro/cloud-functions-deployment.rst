@@ -70,7 +70,7 @@ Install packages and build functions. I'm using Yarn, you can use npm if you wan
 .. code-block:: bash
 
     cd functions/
-    yarn OR npm install
+    npm install
 
 The code will go to *functions* folder, then installs packages with yarn / npm.
 
@@ -78,7 +78,6 @@ Start deploying firebase functions
 
 .. code-block:: bash
 
-    cd functions
     firebase deploy --only functions --project project-id
 
 During the deployment process, you will need to enter the information that created from previous step:
@@ -133,3 +132,9 @@ Just to verify that everything works, you can find three cloud functions in your
     :align: center
 
     Firebase cloud functions
+
+Troubleshooting
+`````````````
+
+- Make sure that your cloud run services has public access.
+- Make sure cloud run service account has `Firebase Admin` permission.
