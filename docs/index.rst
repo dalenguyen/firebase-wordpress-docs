@@ -4,14 +4,14 @@ Complete Guide to Firebase & Supabase WordPress Integration
 .. meta::
    :description lang=en: Guide on how to integrate Firebase & Supabase to WordPress.
 
-Last updated: August 4, 2025
+Last updated: Feb 20, 2026
 
 
 Follow `Twitter <https://twitter.com/TechCater>`_  for updates.
 `Firebase & Supabase WordPress Integration <https://techcater.com/>`_ is a WordPress plugin that brings Firebase & Supabase features to WordPress site. E.g. sign in to WordPress and Firebase with one tap / email link or read & write to Firebase from WordPress.
 
 
-Demo site: https://wordpress.dalenguyen.me 
+Demo site: https://wordpress.dalenguyen.me
 
 Download plugin: https://techcater.com
 
