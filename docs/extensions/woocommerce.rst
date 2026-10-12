@@ -170,7 +170,7 @@ The functions are in the ``functions/`` folder of the extension plugin.
 - After a sync, the function saves ``id``, ``is_synced_to_wordpress`` and ``synced_to_wordpress_at`` on the document.
 
 Upgrade from v2.17.0 or older
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 **Who must do this:** only sites that deployed the sync functions (Firebase -> WordPress). If you did not deploy them, do step 1 only.
 
