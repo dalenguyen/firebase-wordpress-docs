@@ -3,6 +3,15 @@ CHANGELOG
 
 All notable changes to this project will be documented in this file.
 
+## v2.49.0 (2026-10-12)
+----------------------------------
+
+#### - :boom: [Breaking Change]
+
+- `WOO - v2.18.0`
+   - Cloud Functions: move from `functions.config()` to `.env` params and Secret Manager
+   - Cloud Functions: upgrade to 2nd gen and Node.js 22. Delete the old 1st gen functions before you deploy. See WooCommerce > Synced Product Firebase -> WordPress
+
 ## v2.48.0 (2024-02-25)
 ----------------------------------
 

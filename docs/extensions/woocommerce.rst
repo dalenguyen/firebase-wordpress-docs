@@ -129,6 +129,101 @@ Then users can login with their email and password in either Firebase or WordPre
 Synced Product Firebase -> WordPress (Extension)
 ----------------------------------
 
-This ability is in beta, and if you want to test this one out. Please create a ticket or send and email to me for discussing.
+This feature is in beta. Cloud Functions watch your Firestore collections and create, update or delete the matching products and categories in WooCommerce.
 
-This is not the end, the extension will continue to grow. So please add your feature request on `Github <https://github.com/dalenguyen/firebase-wordpress-plugin>`_.
+The functions are in the ``functions/`` folder of the extension plugin.
+
+.. note::
+
+    Since **v2.18.0**, the functions are 2nd gen (Node.js 22) and do not use ``functions.config()``. Google stops deploys that use ``functions.config()`` after **March 31, 2027**. If you deployed an older version, follow `Upgrade from v2.17.0 or older`_.
+
+**Configuration**
+
+1. Copy ``functions/.env.example`` to ``functions/.env`` and set the values:
+
+   .. code-block:: bash
+
+       ENVIRONMENT=production
+       WC_PRODUCTS_COLLECTION=products
+       WC_CATEGORIES_COLLECTION=categories
+       WC_API_URL=https://your-store.example.com
+
+2. Store the WooCommerce REST API keys in Secret Manager:
+
+   .. code-block:: bash
+
+       firebase functions:secrets:set WC_CONSUMER_KEY --project project-id
+       firebase functions:secrets:set WC_CONSUMER_SECRET --project project-id
+
+3. Deploy:
+
+   .. code-block:: bash
+
+       cd functions
+       npm install
+       npm run build
+       firebase deploy --only functions:products,functions:categories --project project-id
+
+**Sync rules**
+
+- Create and update in Firestore always sync to WooCommerce.
+- Delete syncs only when the document has ``delete_on_wordpress: true``.
+- After a sync, the function saves ``id``, ``is_synced_to_wordpress`` and ``synced_to_wordpress_at`` on the document.
+
+Upgrade from v2.17.0 or older
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The old functions read ``functions.config()``. Move each value to its new place:
+
+.. list-table::
+    :header-rows: 1
+
+    * - Old ``functions.config()`` key
+      - New name
+      - Where
+    * - ``environment``
+      - ``ENVIRONMENT``
+      - ``.env``
+    * - ``woocommerce.products_collection_name``
+      - ``WC_PRODUCTS_COLLECTION``
+      - ``.env``
+    * - ``woocommerce.categories_collection_name``
+      - ``WC_CATEGORIES_COLLECTION``
+      - ``.env``
+    * - ``woocommerce.api.url``
+      - ``WC_API_URL``
+      - ``.env``
+    * - ``woocommerce.api.consumer_key``
+      - ``WC_CONSUMER_KEY``
+      - Secret Manager
+    * - ``woocommerce.api.consumer_secret``
+      - ``WC_CONSUMER_SECRET``
+      - Secret Manager
+
+To see your old values, run ``firebase functions:config:get --project project-id``.
+
+Firebase cannot upgrade a 1st gen function to 2nd gen in place. Do these steps one time:
+
+1. Check the deploy first. This builds and validates, but does not deploy:
+
+   .. code-block:: bash
+
+       firebase deploy --only functions:products,functions:categories --project project-id --dry-run
+
+2. Delete the old functions, then deploy:
+
+   .. code-block:: bash
+
+       firebase functions:delete products-onWrite categories-onWrite --project project-id
+       firebase deploy --only functions:products,functions:categories --project project-id
+
+3. Write a test product in Firestore and make sure it shows in WooCommerce.
+4. Remove the old config:
+
+   .. code-block:: bash
+
+       firebase functions:config:unset woocommerce environment --project project-id
+
+.. warning::
+
+    Sync stops between the delete and the end of the deploy. You cannot roll back to the old functions, because they target Node.js 14 and Google no longer accepts Node.js 14 deploys. Do not skip the dry run.
