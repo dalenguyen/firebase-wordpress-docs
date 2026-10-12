@@ -135,7 +135,7 @@ The functions are in the ``functions/`` folder of the extension plugin.
 
 .. note::
 
-    Since **v2.18.0**, the functions are 2nd gen (Node.js 22) and do not use ``functions.config()``. Google stops deploys that use ``functions.config()`` after **March 31, 2027**. If you deployed an older version, follow `Upgrade from v2.17.0 or older`_.
+    Since **v2.18.0**, the functions are 2nd gen (Node.js 22) and do not use ``functions.config()``. Google stops deploys that use ``functions.config()`` after **March 31, 2027**. If you deployed an older version, follow `Upgrade from v2.17.0 or older (Beta)`_.
 
 **Configuration**
 
@@ -169,8 +169,10 @@ The functions are in the ``functions/`` folder of the extension plugin.
 - Delete syncs only when the document has ``delete_on_wordpress: true``.
 - After a sync, the function saves ``id``, ``is_synced_to_wordpress`` and ``synced_to_wordpress_at`` on the document.
 
-Upgrade from v2.17.0 or older
-----------------------------------
+.. _upgrade-from-v2-17-0-or-older:
+
+Upgrade from v2.17.0 or older (Beta)
+----------------------------------------
 
 **Who must do this:** only sites that deployed the sync functions (Firebase -> WordPress). If you did not deploy them, do step 1 only.
 
