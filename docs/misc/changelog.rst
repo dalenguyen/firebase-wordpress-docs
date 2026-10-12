@@ -12,6 +12,12 @@ All notable changes to this project will be documented in this file.
    - Cloud Functions: move from `functions.config()` to `.env` params and Secret Manager
    - Cloud Functions: upgrade to 2nd gen and Node.js 22. Delete the old 1st gen functions before you deploy. See WooCommerce > Synced Product Firebase -> WordPress
 
+#### - :bug: [Bug Fix]
+
+- `WOO - v2.18.1`
+   - Order sync works with HPOS: trash and delete remove the order from Firebase, and orders paid offline (e.g. cash on delivery) sync
+   - Order sync sends the final billing and status in one write
+
 ## v2.48.0 (2024-02-25)
 ----------------------------------
 

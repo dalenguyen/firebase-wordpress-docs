@@ -178,7 +178,7 @@ Upgrade from v2.17.0 or older
 
 **Time:** about 20 minutes. Product sync stops for 2 to 5 minutes during step 6.
 
-1. Update the plugin to v2.18.0.
+1. Update the plugin to v2.18.1 or newer.
 
    a. Download the new zip from your account at https://techcater.com/shop/my-account.
    b. In WordPress, go to **Plugins -> Add Plugin -> Upload Plugin** and upload the zip.
