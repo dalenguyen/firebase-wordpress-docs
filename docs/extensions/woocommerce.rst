@@ -181,10 +181,10 @@ Upgrade from v2.17.0 or older
 1. Update the plugin to v2.18.0.
 
    a. Download the new zip from your account at https://techcater.com/shop/my-account.
-   b. In WordPress, go to **Plugins -> Add New Plugin -> Upload Plugin** and upload the zip.
+   b. In WordPress, go to **Plugins -> Add Plugin -> Upload Plugin** and upload the zip.
    c. Click **Replace current with uploaded**. Your plugin settings stay the same.
 
-2. Get the ``functions/`` folder of the new version on your computer. It is in ``wp-content/plugins/integrate-firebase-woocommerce/functions``, or in the zip from step 1. Open a terminal in that folder and run:
+2. Unzip the zip from step 1 on your computer. Use the whole ``integrate-firebase-woocommerce/`` folder, not only ``functions/``, because ``firebase.json`` is in the plugin folder. Open a terminal in ``integrate-firebase-woocommerce/functions`` and run:
 
    .. code-block:: bash
 
@@ -245,7 +245,9 @@ Upgrade from v2.17.0 or older
 
    .. code-block:: bash
 
-       firebase deploy --only functions:products,functions:categories --project project-id --dry-run
+       firebase deploy --dry-run \
+         --only functions:products,functions:categories \
+         --project project-id
 
 6. Delete the old functions, then deploy the new ones. Firebase cannot upgrade a 1st gen function to 2nd gen in place, so the delete is necessary:
 
