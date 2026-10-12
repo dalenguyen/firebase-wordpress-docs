@@ -172,52 +172,95 @@ The functions are in the ``functions/`` folder of the extension plugin.
 Upgrade from v2.17.0 or older
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The old functions read ``functions.config()``. Move each value to its new place:
+**Who must do this:** only sites that deployed the sync functions (Firebase -> WordPress). If you did not deploy them, do step 1 only.
 
-.. list-table::
-    :header-rows: 1
+**What you need:** the `Firebase CLI <https://firebase.google.com/docs/cli>`_ (``npm install -g firebase-tools``), signed in with ``firebase login``, and Node.js 22 on your computer. Replace ``project-id`` with your Firebase project ID in all commands.
 
-    * - Old ``functions.config()`` key
-      - New name
-      - Where
-    * - ``environment``
-      - ``ENVIRONMENT``
-      - ``.env``
-    * - ``woocommerce.products_collection_name``
-      - ``WC_PRODUCTS_COLLECTION``
-      - ``.env``
-    * - ``woocommerce.categories_collection_name``
-      - ``WC_CATEGORIES_COLLECTION``
-      - ``.env``
-    * - ``woocommerce.api.url``
-      - ``WC_API_URL``
-      - ``.env``
-    * - ``woocommerce.api.consumer_key``
-      - ``WC_CONSUMER_KEY``
-      - Secret Manager
-    * - ``woocommerce.api.consumer_secret``
-      - ``WC_CONSUMER_SECRET``
-      - Secret Manager
+**Time:** about 20 minutes. Product sync stops for 2 to 5 minutes during step 6.
 
-To see your old values, run ``firebase functions:config:get --project project-id``.
+1. Update the plugin to v2.18.0.
 
-Firebase cannot upgrade a 1st gen function to 2nd gen in place. Do these steps one time:
+   a. Download the new zip from your account at https://techcater.com/shop/my-account.
+   b. In WordPress, go to **Plugins -> Add New Plugin -> Upload Plugin** and upload the zip.
+   c. Click **Replace current with uploaded**. Your plugin settings stay the same.
 
-1. Check the deploy first. This builds and validates, but does not deploy:
+2. Get the ``functions/`` folder of the new version on your computer. It is in ``wp-content/plugins/integrate-firebase-woocommerce/functions``, or in the zip from step 1. Open a terminal in that folder and run:
+
+   .. code-block:: bash
+
+       npm install
+
+3. Show your old values:
+
+   .. code-block:: bash
+
+       firebase functions:config:get --project project-id
+
+   Each old key has a new name and a new place:
+
+   .. list-table::
+       :header-rows: 1
+
+       * - Old ``functions.config()`` key
+         - New name
+         - Where
+       * - ``environment``
+         - ``ENVIRONMENT``
+         - ``.env``
+       * - ``woocommerce.products_collection_name``
+         - ``WC_PRODUCTS_COLLECTION``
+         - ``.env``
+       * - ``woocommerce.categories_collection_name``
+         - ``WC_CATEGORIES_COLLECTION``
+         - ``.env``
+       * - ``woocommerce.api.url``
+         - ``WC_API_URL``
+         - ``.env``
+       * - ``woocommerce.api.consumer_key``
+         - ``WC_CONSUMER_KEY``
+         - Secret Manager
+       * - ``woocommerce.api.consumer_secret``
+         - ``WC_CONSUMER_SECRET``
+         - Secret Manager
+
+4. Set the new values.
+
+   a. Copy ``.env.example`` to ``.env`` and put in your old values:
+
+      .. code-block:: bash
+
+          ENVIRONMENT=production
+          WC_PRODUCTS_COLLECTION=products
+          WC_CATEGORIES_COLLECTION=categories
+          WC_API_URL=https://your-store.example.com
+
+   b. Store the API keys. Each command asks you to paste the value:
+
+      .. code-block:: bash
+
+          firebase functions:secrets:set WC_CONSUMER_KEY --project project-id
+          firebase functions:secrets:set WC_CONSUMER_SECRET --project project-id
+
+5. Check the deploy. This builds and validates, but does not deploy. Fix all errors before you continue:
 
    .. code-block:: bash
 
        firebase deploy --only functions:products,functions:categories --project project-id --dry-run
 
-2. Delete the old functions, then deploy:
+6. Delete the old functions, then deploy the new ones. Firebase cannot upgrade a 1st gen function to 2nd gen in place, so the delete is necessary:
 
    .. code-block:: bash
 
        firebase functions:delete products-onWrite categories-onWrite --project project-id
        firebase deploy --only functions:products,functions:categories --project project-id
 
-3. Write a test product in Firestore and make sure it shows in WooCommerce.
-4. Remove the old config:
+7. Test: add or edit a product in your Firestore products collection. Make sure the change shows in WooCommerce within 1 minute. If it does not, read the logs:
+
+   .. code-block:: bash
+
+       firebase functions:log --only products-onWrite --project project-id
+
+8. Remove the old config:
 
    .. code-block:: bash
 
@@ -225,4 +268,4 @@ Firebase cannot upgrade a 1st gen function to 2nd gen in place. Do these steps o
 
 .. warning::
 
-    Sync stops between the delete and the end of the deploy. You cannot roll back to the old functions, because they target Node.js 14 and Google no longer accepts Node.js 14 deploys. Do not skip the dry run.
+    You cannot roll back to the old functions. They target Node.js 14, and Google no longer accepts Node.js 14 deploys. Do not skip the dry run in step 5.
