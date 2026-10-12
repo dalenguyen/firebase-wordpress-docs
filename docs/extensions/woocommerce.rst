@@ -161,7 +161,6 @@ The functions are in the ``functions/`` folder of the extension plugin.
 
        cd functions
        npm install
-       npm run build
        firebase deploy --only functions:products,functions:categories --project project-id
 
 **Sync rules**
